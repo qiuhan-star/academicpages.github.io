@@ -9,9 +9,9 @@ redirect_from:
 
 My name is Han Qiu (Rachel, 邱涵).
 
-I am a rigorously trained Master’s student in Public Administration at the [School of Public Affairs](https://spa.xmu.edu.cn/), Xiamen University. My supervisor is Professor [Wenxuan Yu](https://spa.xmu.edu.cn/info/1237/3095.htm).
+I am a rigorously trained Master’s student in Public Administration at the [School of Public Affairs](https://spa.xmu.edu.cn/), Xiamen University. My supervisor is [Professor Wenxuan Yu](https://spa.xmu.edu.cn/info/1237/3095.htm).
 
-I received B.S. degree in Public Service & Public Policy from ASU (2022) and B.A. degree in Public Administration from Hainan University (2022). My supervisor is Professor [Haiying Lin](https://haitc.hainanu.edu.cn/cslm/jzyg/szdw/xzgl.htm). 
+I received B.S. degree in Public Service & Public Policy from ASU (2022) and B.A. degree in Public Administration from Hainan University (2022). My supervisor is [Professor Haiying Lin](https://haitc.hainanu.edu.cn/cslm/jzyg/szdw/xzgl.htm). 
 
 I passionate about promoting social justice and advancing public interest and welfare.
 
