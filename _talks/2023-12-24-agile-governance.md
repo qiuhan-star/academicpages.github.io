@@ -7,3 +7,4 @@ venue: "Chengzhi Building 108, School of Public Affairs/Institute of Public Poli
 date: 2023-12-23
 location: "Fujian, China"
 ---
+[College News Report](https://mp.weixin.qq.com/s/dn-2_kHyLDbNC0hQ042xEw)
