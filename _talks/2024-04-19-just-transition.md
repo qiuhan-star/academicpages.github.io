@@ -3,7 +3,7 @@ title: "Towards a Just Transition Future: A Quantitative Comparative Analysis of
 collection: talks
 type: "Presenter at the International Conference on Comparative Public Policy"
 permalink: /talks/2024-04-19-just-transition
-venue: "Tsinghua University, "
+venue: "Tsinghua University"
 date: 2024-04-19
 location: "Beijing, China"
 ---
