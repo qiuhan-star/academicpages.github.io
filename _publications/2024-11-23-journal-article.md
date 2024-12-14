@@ -1,7 +1,7 @@
 ---
 title: "Surging currents: a systematic review of the literature on dynamic stakeholder engagements in higher education in the generative artificial intelligence era"
 collection: publications
-category: Journal Article
+category: manuscripts
 permalink: /publication/2024-11-23-journal-article
 #excerpt: 'This paper is about fixing template issue #693.'
 date: 2024-11-23
