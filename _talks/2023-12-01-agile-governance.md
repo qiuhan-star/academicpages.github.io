@@ -17,5 +17,5 @@ location: "Hong Kong, China"
 
 [Photo](Talk-2023-12-01.PNG)
 
-[Photo]("Talk-2023-12-01.PNG")
+[Photo]"Talk-2023-12-01.PNG"
 
