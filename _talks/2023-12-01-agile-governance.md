@@ -3,7 +3,7 @@ title: "Embracing Agile Governance: Cultivating Innovation and Addressing the Ch
 collection: talks
 type: "Presenter at Journal of Asian Public Policy Special Issue Authors' Workshop"
 permalink: /talks/2023-12-01-agile-governance
-venue: "The Hong Kong University of Science and Technology(HKUST)"
+venue: "The Hong Kong University of Science and Technology (HKUST)"
 date: 2023-12-01
 location: "Hong Kong, China"
 ---
