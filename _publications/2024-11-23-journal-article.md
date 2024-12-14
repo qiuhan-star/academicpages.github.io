@@ -3,7 +3,7 @@ title: "Surging currents: a systematic review of the literature on dynamic stake
 collection: publications
 category: manuscripts
 permalink: /publication/2024-11-23-journal-article
-excerpt: 'Are you ready to delve into how artificial intelligence is reshaping the role and potential in the field of education? We invite you to give it a read. It highlights key roles for educators, students, admins, tech firms, and governments. We'd love to hear your thoughts.'
+excerpt: 'How artificial intelligence is reshaping the role and potential in the field of education? This paper highlights key roles for educators, students, admins, tech firms, and governments.'
 date: 2024-11-23
 venue: 'Journal of Asian Public Policy'
 slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
