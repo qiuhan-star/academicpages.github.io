@@ -19,8 +19,6 @@ My research interests are broadly lie in the areas of public finance, public and
 
 I am actively seeking interesting research opportunities and PhD positions for Fall 2025. If you are looking for a dedicated and self-motivated candidate, please DO contact me at rachel.hanqiu@gmail.com!
 
-hello/helo
-
 Research Interest:
 ======
 Undergraduate
