@@ -3,7 +3,7 @@ title: "Surging currents: a systematic review of the literature on dynamic stake
 collection: publications
 category: manuscripts
 permalink: /publication/2024-11-23-journal-article
-#excerpt: 'This paper is about fixing template issue #693.'
+excerpt: 'This paper is about fixing template issue #693.'
 date: 2024-11-23
 venue: 'Journal of Asian Public Policy'
 slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
