@@ -44,8 +44,9 @@ The college is proud to announce the publication of a collaborative paper by 202
 
 * Show more
 
+
+
 For more info
 ------
 [CV](/assets/Resume_Han (Rachel) QIU.pdf)
-
 [My Wechat](/images/wechat.PNG)
