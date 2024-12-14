@@ -34,5 +34,5 @@ Master
 
 For more info
 ------
-You can access Rachel's latest C.V. [here](/assets/Resume_Han (Rachel) QIU.pdf).
+You can access Rachel's latest C.V. [here](/assets/Resume_Han (Rachel) QIU.pdf). 
 
