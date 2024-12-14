@@ -48,4 +48,4 @@ For more info
 ------
 [CV](/assets/Resume_Han (Rachel) QIU.pdf)
 
-My Wechat
+[My Wechat](images/wechat.PNG)
