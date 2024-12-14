@@ -75,9 +75,9 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
-  submitted:
+  paper under review:
     title: 'Paper Under Review'   
-  paper:
+  working paper:
     title: 'Working Paper' 
 
 # Site Settings
