@@ -75,7 +75,7 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
-  paper under review:
+  paper_under_review:
     title: 'Paper Under Review'   
   working paper:
     title: 'Working Paper' 
