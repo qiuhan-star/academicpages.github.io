@@ -6,6 +6,7 @@ permalink: /talks/2023-12-01-agile-governance
 venue: "Journal of Asian Public Policy Special Issue Authors’ Workshop, The Hong Kong University of Science and Technology(HKUST)"
 date: 2023-12-01
 location: "Hong Kong, China"
-link: "https://github.com/academicpages/academicpages.github.io"
+Photo: [Photo](/images/Talk-2023-12-01.PNG)
 ---
 This is a description of your conference proceedings talk, note the different field in type. You can put anything in this field.
+link: "https://github.com/academicpages/academicpages.github.io"
