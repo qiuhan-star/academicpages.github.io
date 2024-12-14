@@ -6,8 +6,8 @@ permalink: /talks/2023-12-01-agile-governance
 venue: "The Hong Kong University of Science and Technology(HKUST)"
 date: 2023-12-01
 location: "Hong Kong, China"
-link: "https://github.com/academicpages/academicpages.github.io"
 ---
 This is a description of your conference proceedings talk, note the different field in type. You can put anything in this field.
 
 [Photo](/images/Talk-2023-12-01.PNG)
+[News Report](https://mp.weixin.qq.com/s/EuHTxNFZpdGGEOrvOj-RPg)
