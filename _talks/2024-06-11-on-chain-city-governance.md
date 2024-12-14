@@ -8,4 +8,5 @@ date: 2024-06-11
 location: "Taiwan, China"
 ---
 
-note: "Paper revised for proceedings; invitation accepted, unable to attend due to travel restrictions."
+note: Paper revised for proceedings; invitation accepted, unable to attend due to travel restrictions.
+
