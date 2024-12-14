@@ -6,3 +6,5 @@ permalink: /publication/2024-Agile-Governance-HE
 date: 2023-12-01
 citation: 'Qiu, Han, and Wenxuan Yu*. Embracing Agile Governance: Nurturing Innovation and Addressing Challenges of Generative Artificial Intelligence in Higher Education Governance.'
 ---
+
+
