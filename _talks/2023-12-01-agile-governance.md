@@ -7,6 +7,5 @@ venue: "The Hong Kong University of Science and Technology (HKUST)"
 date: 2023-12-01
 location: "Hong Kong, China"
 ---
-[Photo](https://github.com/qiuhan-star/hanrachelqiu.github.io/images/Talk-2023-12-01.PNG)
-
+[Photo](https://github.com/qiuhan-star/hanrachelqiu.github.io/blob/master/images/Talk-2023-12-01.PNG)
 [News Report](https://mp.weixin.qq.com/s/EuHTxNFZpdGGEOrvOj-RPg)
