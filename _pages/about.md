@@ -6,7 +6,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
 My name is Han Qiu (Rachel, 邱涵).
 
 I am a rigorously trained Master’s student in Public Administration at the [School of Public Affairs](https://spa.xmu.edu.cn/), Xiamen University. My supervisor is [Professor Wenxuan Yu](https://spa.xmu.edu.cn/info/1237/3095.htm).
@@ -25,7 +24,6 @@ Undergraduate
 
 Master
 
-
 🔥🔥 News
 ======
 * [Nov. 2024] [College Academic News: 2022 Master's Students Yang Jiaxi, **Qiu Han**, and Professor Wenxuan Yu Publish Article in the Journal of Asian Public Policy.](https://mp.weixin.qq.com/s/2TYL9l8GGay93hLLRQBzYw)
@@ -35,4 +33,3 @@ Master
 For more info
 ------
 You can access Rachel's latest C.V. [here](/assets/Resume_Han (Rachel) QIU.pdf). 
-
