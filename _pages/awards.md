@@ -9,6 +9,44 @@ author_profile: true
 ** 三下乡
 ** 总结
 
+# Outstanding Research Paper Award
+- **Event**: Digital Era Public Governance Innovation Academic Forum & 8th Public Management Graduate Student Academic Conference
+- **Year**: 2023
+
+# University Graduate Fellowship
+- **Duration**: 2022-2025
+
+# Summa Cum Laude
+- **Year**: 2022
+
+# Dean’s Scholarship
+- **Year**: 2022
+
+# Outstanding Contribution Award for Innovation & Entrepreneurship
+- **Year**: 2021
+
+# Outstanding Volunteer Service
+- **Year**: 2020
+
+# Provincial Outstanding Social Practice Team
+- **Year**: 2020
+
+# University’s Advanced Individual in Social Practice
+- **Year**: 2020
+
+# College Outstanding Paper in Social Practice
+- **Year**: 2020
+
+# Dean’s List
+- **Duration**: 2018-2020
+
+# First-class Comprehensive Scholarship (1 person per academic year)
+- **Duration**: 2019-2020
+
+# Third-class Comprehensive Scholarship (top 4% of the entire grade cohort)
+- **Duration**: 2018-2019
+
+
 Outstanding Research Paper Award, Digital Era Public Governance Innovation Academic Forum & 8th Public Management Graduate Student Academic Conference	2023
 University Graduate Fellowship	2022-2025
 Summa Cum Laude	2022
