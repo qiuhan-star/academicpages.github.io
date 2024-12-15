@@ -4,10 +4,12 @@ title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
-  - /resume
+  - /Resume_Han (Rachel) QIU.pdf
 ---
+You can access Rachel's latest C.V. [here](/assets/Resume_Han (Rachel) QIU.pdf). 
 
 {% include base_path %}
+
 
 Education
 ======
