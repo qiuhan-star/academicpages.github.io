@@ -1,5 +1,5 @@
 ---
-title: "Attention Allocation Dilemma: Unveiling the Thorny Challenges and Innovative Solutions in Rural Environmental Governance."
+title: "Attention Allocation Dilemma: Unveiling the Thorny Challenges and Innovative Solutions in Rural Environmental Governance"
 collection: publications
 category: working paper
 permalink: /publication/wp-2024-attention-allocation
