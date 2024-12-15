@@ -1,5 +1,5 @@
 ---
-title: "Determinants of Government Transparency: Subnational Evidence from China."
+title: "Determinants of Government Transparency: Subnational Evidence from China"
 collection: publications
 category: paper_under_review
 permalink: /publication/2024-government-transparency
