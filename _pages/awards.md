@@ -1,10 +1,10 @@
 ---
-layout: archive
-title: "Awards"
 permalink: /awards/
+title: "Honors and Awards"
 author_profile: true
 ---
-# Awards
+** Awards
+
 
 - Champion (with the Team ‘W0r1d 0ne’), Track III: Backdoor Trigger Recovery for Agents, [NeurIPS Competition for LLM and Agent Safety](https://www.llmagentsafetycomp24.com/leaderboards/), 2024.
 - Runner-Up (with the Team ‘W0r1d 0ne’), Track II: Backdoor Trigger Recovery for Models, [NeurIPS Competition for LLM and Agent Safety](https://www.llmagentsafetycomp24.com/leaderboards/), 2024.
