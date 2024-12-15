@@ -21,12 +21,12 @@ author_profile: true
 ## Innovation and Entrepreneurship Awards
 - Outstanding Contribution Award for Innovation & Entrepreneurship, 2021.
 
-#### Community Service Awards
+## Community Service Awards
 - Outstanding Volunteer Service, 2020.
 - Provincial Outstanding Social Practice Team, Hainan Province, 2020.
 - University’s Advanced Individual in Social Practice, Hainan University, 2020.
 
-#### Competition Prizes
+## Competition Prizes
 - 6th China College Students’ “Internet +” Competition, Core Member, <font color="#c00000">**National Silver Medal**</font>, Nov. 2020.
 - 12th “Challenge Cup” National College Competition, Core Member, <font color="#c00000">**National Silver Medal**</font>, Nov. 2020.
 - 6th China College Students’ “Internet +” Competition, Core Member, <font color="#c00000">**Provincial Gold Medal**</font>, Oct. 2020.
