@@ -4,16 +4,16 @@ main:
 
   - title: "Talks"
     url: /talks/   
-    
+
   - title: "Experience"
     url: /experience/    
 
- -  title: "Awards"
+  - title: "Awards"
     url: /awards/   
 
- -  title: "Services"
+  - title: "Services"
     url: /services/  
-  
+
   - title: "Teaching"
     url: /teaching/    
     
