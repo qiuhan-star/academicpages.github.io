@@ -7,7 +7,9 @@ redirect_from:
   - /markdown.html
 ---
 
-### Personal Homepage Guide
+### Rachel's Personal Homepage Guide
+
+**Welcome to My Personal Homepage!** Thank you for visiting.
 #### 1. About Me
 - **Introduction**: Hello, I'm Han (Rachel) Qiu, a passionate master's student at Xiamen University.
 - **Background**: Gain insight into my academic journey, research interests, work experience, and the skills I've developed.
@@ -23,18 +25,19 @@ redirect_from:
   - **Portfolio**: Explore a showcase of my academic and professional projects.
   - **Blog Posts**: Read my insights and in-depth discussions on various topics.
   - **CV**: Download my curriculum vitae for a comprehensive overview.
-#### 3. Content Guide
+#### 4. Content Guide
 - **Content Categories**: Discover the range of content I offer, from articles and tutorials to other educational materials.
 - **Update Schedule**: Stay updated on the regularity of new content added to the site.
-#### 4. Engagement Guide
+#### 5. Engagement Guide
 - **Commenting**: Join the conversation by learning how to comment on my blog posts.
 - **Social Media**: Connect with me on social media to engage with my work beyond this site.
-#### 5. User Support
+#### 6. User Support
 - **Contact Information**: Get in touch with me directly via email, phone, or through an online contact form.
-#### 6. Privacy Policy
+#### 7. Privacy Policy
 This section outlines how I handle the privacy of visitors to my site.
-#### 7. Legal Notices
+#### 8. Legal Notices
 - **Copyright**: Information about the rights to the content on this site.
 - **Disclaimers**: Understand the limitations of liability regarding the site's content and your use of it.
 ---
 Thank you for taking the time to read this guide. I hope you find my personal homepage informative and engaging. Your feedback is always welcome!
+
