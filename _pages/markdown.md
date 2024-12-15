@@ -45,6 +45,7 @@ This section outlines how I handle the privacy of visitors to my site.
 ## 7. Legal Notices
 - **Copyright**: Information about the rights to the content on this site.
 - **Disclaimers**: Understand the limitations of liability regarding the site's content and your use of it.
+
 ---
 Thank you for taking the time to read this guide. I hope you find my personal homepage informative and engaging. Your feedback is always welcome!
 
