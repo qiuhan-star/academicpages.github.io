@@ -22,17 +22,17 @@ I am actively seeking interesting research opportunities and PhD positions for F
 Education
 ======
 - name: Xiamen University
-  logo: /assets/images/badges/XMU-Logo.png
+  #logo: /assets/images/badges/XMU-Logo.png
   position: >- 
     School of Public Affairs <br/>
     Master of Management, Administration Management
   date: Sept. 2022 - Jun. 2025
 - name: Hainan University
-  logo: /assets/images/badges/HNU-Logo.png
+  #logo: /assets/images/badges/HNU-Logo.png
   position: Bachelor of Management, Public Administration
   date: Sept. 2018 - Jun. 2022
 - name: Arizona State University
-  logo: /assets/images/badges/ASU-Logo.png
+  #logo: /assets/images/badges/ASU-Logo.png
   position: Bachelor of Science, Public Service and Public Policy
   date: Sept. 2018 - May 2022
 
