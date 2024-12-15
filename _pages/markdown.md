@@ -25,17 +25,17 @@ redirect_from:
   - **Portfolio**: Explore a showcase of my academic and professional projects.
   - **Blog Posts**: Read my insights and in-depth discussions on various topics.
   - **CV**: Download my curriculum vitae for a comprehensive overview.
-#### 4. Content Guide
+#### 3. Content Guide
 - **Content Categories**: Discover the range of content I offer, from articles and tutorials to other educational materials.
 - **Update Schedule**: Stay updated on the regularity of new content added to the site.
-#### 5. Engagement Guide
+#### 4. Engagement Guide
 - **Commenting**: Join the conversation by learning how to comment on my blog posts.
 - **Social Media**: Connect with me on social media to engage with my work beyond this site.
-#### 6. User Support
+#### 5. User Support
 - **Contact Information**: Get in touch with me directly via email, phone, or through an online contact form.
-#### 7. Privacy Policy
+#### 6. Privacy Policy
 This section outlines how I handle the privacy of visitors to my site.
-#### 8. Legal Notices
+#### 7. Legal Notices
 - **Copyright**: Information about the rights to the content on this site.
 - **Disclaimers**: Understand the limitations of liability regarding the site's content and your use of it.
 ---
