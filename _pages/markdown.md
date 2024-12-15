@@ -11,7 +11,7 @@ redirect_from:
 
 ## 1. About Me
 - **Introduction**: Hello, I'm Han (Rachel) Qiu, a passionate master's student at Xiamen University.
-- **Background**: Gain insight into my academic journey, research interests, work experience, and the skills I've developed.
+- **News**: This section will feature some of the latest updates.
 
 ## 2. Site Navigation
 - **Overview**: Here's a glimpse of the main sections you can explore on my site.
