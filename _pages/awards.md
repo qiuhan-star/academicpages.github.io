@@ -9,7 +9,7 @@ author_profile: true
 ** 三下乡
 ** 总结
 
-#### **Academic Awards**
+## Academic Awards
 - Outstanding Research Paper Award, Digital Era Public Governance Innovation Academic Forum & 8th Public Management Graduate Student Academic Conference, 2023.
 - University Graduate Fellowship, 2022-2025.
 - Summa Cum Laude, 2022.
