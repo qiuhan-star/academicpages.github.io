@@ -21,7 +21,16 @@ I am actively seeking interesting research opportunities and PhD positions for F
 
 Education
 ======
-*[Xiamen University](
+Xiamen University, Sept. 2022 - Jun. 2025 (Expected)
+
+School of Public Affairs
+
+Master of Management, Administration Management
+
+
+* B.A. in Public Administration, Hainan University, Sept. 2018 - Jun. 2022
+* B.S. in Public Service and Public Policy, Arizona State University, Sept. 2018 - May. 2022
+
 
 School of Public Affairs
 
