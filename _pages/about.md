@@ -23,9 +23,11 @@ Education
 ======
 *[Xiamen University](
 
-  School of Public Affairs <br/>
-    Master of Management, Administration Management
-  date: Sept. 2022 - Jun. 2025
+School of Public Affairs
+
+Master of Management, Administration Management
+
+date: Sept. 2022 - Jun. 2025
 
   
 *Hainan University
@@ -36,6 +38,7 @@ Education
   #logo: /assets/images/badges/ASU-Logo.png
   position: Bachelor of Science, Public Service and Public Policy
   date: Sept. 2018 - May 2022
+
 
   
 Research Interest
