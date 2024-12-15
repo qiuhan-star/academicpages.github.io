@@ -16,9 +16,8 @@ author:
   avatar           : "ID-photo.PNG"
   name             : "Han (Rachel) Qiu"
   pronouns         : # "she/her"  
-  bio              : ｜
-                     "To be the woman I want to be, one step at a time."
-                     "Undaunted by the unimaginable, I excel in conquering challenges and redefining what’s achievable."
+  bio              : - "To be the woman I want to be, one step at a time."
+                     - "Undaunted by the unimaginable, I excel in conquering challenges and redefining what’s achievable."
   location         : "Zhejiang, China"
   employer         : "Xiamen University"
   uri              : # URL
