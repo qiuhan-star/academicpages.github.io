@@ -23,49 +23,49 @@ author:
   email            : "rachel.hanqiu@gmail.com" 
 
   # Academic websites
-  arxiv            : # URL - Update with the correct link to your profile
+  arxiv            : 
   googlescholar    : "https://scholar.google.com/citations?hl=zh-CN&user=9rbR2YsAAAAJ&view_op=list_works&gmla=AL3_zig9ggVZl_jRQGyBKsKRr5ggTPJiyo_U_O-UywY6Uj_M0OFCuBUhUYjL6k08OOy6fqzwy0uded1R135cACTzigY-aU3b1oV7RX1In2Jk0VvMkTTEMPLuaAh_"
-  impactstory      : "https://www.webofscience.com/wos/author/record/LTM-0273-2024"
+  impactstory      : 
   orcid            : "https://orcid.org/0009-0005-3691-6226"
-  semantic         : # URL
-  pubmed           : # URL
+  semantic         : 
+  pubmed           : 
   researchgate     : "https://www.researchgate.net/profile/Han-Qiu-20"
-  scopus           : # URL
-  web_of_science   : "https://www.webofscience.com/wos/author/record/LTM-0273-2024"
+  scopus           : 
+  webofscience   : "https://www.webofscience.com/wos/author/record/LTM-0273-2024"
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
-  codepen          : # Username
-  dribbble         : # Username
-  github           : # "qiuhan-star"
-  kaggle           : # Username  
+  codepen          : 
+  dribbble         : 
+  github           : "qiuhan-star"
+  kaggle           : 
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   bluesky          : # "bsky.app" # Replace this with you Bluesky username
-  facebook         : # Username
-  flickr           : # Username
-  foursquare       : # Username
-  goodreads        : # Username
-  google_plus      : # Username
-  keybase          : # Username
-  instagram        : # Username
-  lastfm           : # Username
+  facebook         : 
+  flickr           : 
+  foursquare       : 
+  goodreads        : 
+  google_plus      : 
+  keybase          : 
+  instagram        : 
+  lastfm           : 
   linkedin         : "http://linkedin.com/in/han-qiu-2b3793336"
-  mastodon         : # URL
-  medium           : # URL
-  pinterest        : # Username
-  soundcloud       : # Username
-  steam            : # Username
-  telegram         : # URL
-  tumblr           : # Username
-  twitter          : # Username for X / Twitter
-  vine             : # Username
-  weibo            : # Username
-  wikipedia        : # Username
-  xing             : # Username
-  youtube          : # Username
-  zhihu            : # Username
+  mastodon         : 
+  medium           : 
+  pinterest        : 
+  soundcloud       : 
+  steam            : 
+  telegram         : 
+  tumblr           : 
+  twitter          : 
+  vine             : 
+  weibo            : 
+  wikipedia        : 
+  xing             : 
+  youtube          : 
+  zhihu            : 
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
