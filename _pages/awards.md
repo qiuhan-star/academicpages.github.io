@@ -9,56 +9,35 @@ author_profile: true
 ** 三下乡
 ** 总结
 
-# Outstanding Research Paper Award
-- **Event**: Digital Era Public Governance Innovation Academic Forum & 8th Public Management Graduate Student Academic Conference
-- **Year**: 2023
+#### **Academic Awards**
+- Outstanding Research Paper Award, Digital Era Public Governance Innovation Academic Forum & 8th Public Management Graduate Student Academic Conference, 2023.
+- University Graduate Fellowship, 2022-2025.
+- Summa Cum Laude, 2022.
+- Dean’s Scholarship, 2022.
+- Outstanding Contribution Award for Innovation & Entrepreneurship, 2021.
+- Outstanding Volunteer Service, 2020.
+- Provincial Outstanding Social Practice Team, 2020.
+- University’s Advanced Individual in Social Practice, 2020.
+- College Outstanding Paper in Social Practice, 2020.
+- Dean’s List, 2018-2020.
+- First-class Comprehensive Scholarship (1 person per academic year), 2019-2020.
+- Third-class Comprehensive Scholarship (top 4% of the entire grade cohort), 2018-2019.
 
-# University Graduate Fellowship
-- **Duration**: 2022-2025
-
-# Summa Cum Laude
-- **Year**: 2022
-
-# Dean’s Scholarship
-- **Year**: 2022
-
-# Outstanding Contribution Award for Innovation & Entrepreneurship
-- **Year**: 2021
-
-# Outstanding Volunteer Service
-- **Year**: 2020
-
-# Provincial Outstanding Social Practice Team
-- **Year**: 2020
-
-# University’s Advanced Individual in Social Practice
-- **Year**: 2020
-
-# College Outstanding Paper in Social Practice
-- **Year**: 2020
-
-# Dean’s List
-- **Duration**: 2018-2020
-
-# First-class Comprehensive Scholarship (1 person per academic year)
-- **Duration**: 2019-2020
-
-# Third-class Comprehensive Scholarship (top 4% of the entire grade cohort)
-- **Duration**: 2018-2019
+- 6th China College Students’ “Internet +” Competition, Core Member, National Silver Medal, Nov. 2020.
+- 12th “Challenge Cup” National College Competition, Core Member, National Silver Medal, Nov. 2020.
+- 6th China College Students’ “Internet +” Competition, Core Member, Provincial Gold Medal, Oct. 2020.
+- 12th “Challenge Cup” Hainan College Competition, Core Member, Provincial Gold Medal, Oct. 2020.
+- 2020 Map the System Competition, China Division (hosted by Oxford University), Team Leader, Second Prize, Jun. 2020.
+- 17th “Challenge Cup” National College Science & Technology Contest, Team Leader, Third Prize, Apr. 2020.
+- 16th “Challenge Cup” National College Science & Technology Contest, Main Participant, Third Prize, May 2019.
+- 10th National College Student E-commerce Competition, Main Participant, Third Prize, Jul. 2020.
+- 9th National College Student E-commerce Competition, Main Participant, Third Prize, Jul. 2020.
+- 9th University Student World Heritage Competition, Team Leader, Third Prize, Sept. 2019.
 
 
-Outstanding Research Paper Award, Digital Era Public Governance Innovation Academic Forum & 8th Public Management Graduate Student Academic Conference	2023
-University Graduate Fellowship	2022-2025
-Summa Cum Laude	2022
-Dean’s Scholarship		2022
-Outstanding Contribution Award for Innovation & Entrepreneurship	2021
-Outstanding Volunteer Service	2020
-Provincial Outstanding Social Practice Team	2020
-University’s Advanced Individual in Social Practice	2020
-College Outstanding Paper in Social Practice	2020
-Dean’s List	2018-2020
-First-class Comprehensive Scholarship (1 person per academic year)       	2019-2020
-Third-class Comprehensive Scholarship (top 4% of the entire grade cohort) 	2018-2019
+
+
+
 
 
 - Champion (with the Team ‘W0r1d 0ne’), Track III: Backdoor Trigger Recovery for Agents, [NeurIPS Competition for LLM and Agent Safety](https://www.llmagentsafetycomp24.com/leaderboards/), 2024.
