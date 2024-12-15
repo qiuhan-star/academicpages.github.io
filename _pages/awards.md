@@ -9,6 +9,19 @@ author_profile: true
 ** 三下乡
 ** 总结
 
+Outstanding Research Paper Award, Digital Era Public Governance Innovation Academic Forum & 8th Public Management Graduate Student Academic Conference	2023
+University Graduate Fellowship	2022-2025
+Summa Cum Laude	2022
+Dean’s Scholarship		2022
+Outstanding Contribution Award for Innovation & Entrepreneurship	2021
+Outstanding Volunteer Service	2020
+Provincial Outstanding Social Practice Team	2020
+University’s Advanced Individual in Social Practice	2020
+College Outstanding Paper in Social Practice	2020
+Dean’s List	2018-2020
+First-class Comprehensive Scholarship (1 person per academic year)       	2019-2020
+Third-class Comprehensive Scholarship (top 4% of the entire grade cohort) 	2018-2019
+
 
 - Champion (with the Team ‘W0r1d 0ne’), Track III: Backdoor Trigger Recovery for Agents, [NeurIPS Competition for LLM and Agent Safety](https://www.llmagentsafetycomp24.com/leaderboards/), 2024.
 - Runner-Up (with the Team ‘W0r1d 0ne’), Track II: Backdoor Trigger Recovery for Models, [NeurIPS Competition for LLM and Agent Safety](https://www.llmagentsafetycomp24.com/leaderboards/), 2024.
