@@ -33,6 +33,24 @@ Education
 
 - Bachelor of Science, Public Service and Public Policy
 
+Education
+======
+**Xiamen University**
+Sept. 2022 - Jun. 2025 (Expected)
+
+- Master of Management, Administration Management
+
+**Hainan University**
+Sept. 2018 - Jun. 2022
+
+- Bachelor of Management, Public Administration
+
+**Arizona State University**
+Sept. 2018 - May 2022
+
+- Bachelor of Science, Public Service and Public Policy
+
+
 Research Interest
 ======
 The Evolution of My Research Interests
