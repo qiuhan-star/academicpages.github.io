@@ -9,6 +9,26 @@ author_profile: true
 ** 三下乡
 ** 总结
 
+## Academic Awards
+- Outstanding Research Paper Award, Digital Era Public Governance Innovation Academic Forum & 8th Public Management Graduate Student Academic Conference, 2023.
+- Outstanding Paper in Social Practice, HNU-ASU Joint International Tourism College, 2020.
+- Dean’s List, 2018-2020.
+## Fellowships and Scholarships
+- University Graduate Fellowship, Xiamen University, 2022-2025.
+- Dean’s Scholarship, 2022.
+- First-class Comprehensive Scholarship (<font color="#c00000">1 person</font> per academic year), Hainan University, 2019-2020.
+- Third-class Comprehensive Scholarship (<font color="#c00000">top 4%</font> of the entire grade cohort), Hainan University, 2018-2019.
+## Graduation Honors
+- Summa Cum Laude, Arizona State University, 2022.
+## Innovation and Entrepreneurship Awards
+- Outstanding Contribution Award for Innovation & Entrepreneurship, 2021.
+#### Community Service Awards
+- Outstanding Volunteer Service, 2020.
+- Provincial Outstanding Social Practice Team, Hainan Province, 2020.
+- University’s Advanced Individual in Social Practice, Hainan University, 2020.
+
+
+
 # Academic Awards
 - Outstanding Research Paper Award, Digital Era Public Governance Innovation Academic Forum & 8th Public Management Graduate Student Academic Conference, 2023.
 - University Graduate Fellowship, 2022-2025.
