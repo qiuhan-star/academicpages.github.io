@@ -27,13 +27,13 @@ author_profile: true
 - University’s Advanced Individual in Social Practice, Hainan University, 2020.
 
 #### Competition Prizes
-- 6th China College Students’ “Internet +” Competition, Core Member, <font color="#c00000">National Silver Medal</font>, Nov. 2020.
-- 12th “Challenge Cup” National College Competition, Core Member, <font color="#c00000">National Silver Medal</font>, Nov. 2020.
-- 6th China College Students’ “Internet +” Competition, Core Member, <font color="#c00000">Provincial Gold Medal</font>, Oct. 2020.
-- 12th “Challenge Cup” Hainan College Competition, Core Member, <font color="#c00000">Provincial Gold Medal</font>, Oct. 2020.
-- 2020 Map the System Competition, China Division (hosted by Oxford University), Team Leader, Second Prize (<font color="#c00000">Rank Second</font>), Jun. 2020.
-- 17th “Challenge Cup” National College Science & Technology Contest, Team Leader, Third Prize, Apr. 2020.
-- 16th “Challenge Cup” National College Science & Technology Contest, Main Participant, Third Prize, May 2019.
-- 10th National College Student E-commerce Competition, Main Participant, Third Prize, Jul. 2020.
-- 9th National College Student E-commerce Competition, Main Participant, Third Prize, Jul. 2020.
-- 9th University Student World Heritage Competition, Team Leader, Third Prize, Sept. 2019.
+- 6th China College Students’ “Internet +” Competition, Core Member, <font color="#c00000">**National Silver Medal**</font>, Nov. 2020.
+- 12th “Challenge Cup” National College Competition, Core Member, <font color="#c00000">**National Silver Medal**</font>, Nov. 2020.
+- 6th China College Students’ “Internet +” Competition, Core Member, <font color="#c00000">**Provincial Gold Medal**</font>, Oct. 2020.
+- 12th “Challenge Cup” Hainan College Competition, Core Member, <font color="#c00000">**Provincial Gold Medal**</font>, Oct. 2020.
+- 2020 Map the System Competition, China Division (hosted by Oxford University), Team Leader, **Second Prize** (<font color="#c00000">Rank Second</font>), Jun. 2020.
+- 17th “Challenge Cup” National College Science & Technology Contest, Team Leader, **Third Prize**, Apr. 2020.
+- 16th “Challenge Cup” National College Science & Technology Contest, Main Participant, **Third Prize**, May 2019.
+- 10th National College Student E-commerce Competition, Main Participant, **Third Prize**, Jul. 2020.
+- 9th National College Student E-commerce Competition, Main Participant, **Third Prize**, Jul. 2020.
+- 9th University Student World Heritage Competition, Team Leader, **Third Prize**, Sept. 2019.
