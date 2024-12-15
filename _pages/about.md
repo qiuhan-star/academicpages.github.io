@@ -23,15 +23,15 @@ Education
 ======
 Xiamen University, Sept. 2022 - Jun. 2025 (Expected)
 
-Master of Management, Administration Management
+  Master of Management, Administration Management
   
 Hainan University, Sept. 2018 - Jun. 2022
 
-Bachelor of Management, Public Administration
+  Bachelor of Management, Public Administration
 
 Arizona State University, Sept. 2018 - May 2022
 
-Bachelor of Science, Public Service and Public Policy
+  Bachelor of Science, Public Service and Public Policy
 
 Research Interest
 ======
