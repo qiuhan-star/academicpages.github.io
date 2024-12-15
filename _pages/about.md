@@ -48,7 +48,3 @@ Reflecting on my previous academic journey, it may seem broad in scope, but I se
 * [Nov. 2024] [College Academic News: 2022 Master's Students Yang Jiaxi, **Qiu Han**, and Professor Wenxuan Yu Publish Article in the Journal of Asian Public Policy.](https://mp.weixin.qq.com/s/2TYL9l8GGay93hLLRQBzYw)
 * [DEC. 2023] [College News: The 6th Chengzhi Graduate Academic Salon Successfully Held with Master's Students **Han Qiu** and Mingyue Zhang as Speakers, Professor Xue Li Attends as Special Guest](https://mp.weixin.qq.com/s/dn-2_kHyLDbNC0hQ042xEw)
 * Show more
-
-For more info
-------
-You can access Rachel's latest C.V. [here](/assets/Resume_Han (Rachel) QIU.pdf). 
