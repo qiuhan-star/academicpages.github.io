@@ -21,21 +21,22 @@ I am actively seeking interesting research opportunities and PhD positions for F
 
 Education
 ======
-Xiamen University, Sept. 2022 - Jun. 2025 (Expected)
+**Xiamen University**, Sept. 2022 - Jun. 2025 (Expected)
 
-  Master of Management, Administration Management
+- Master of Management, Administration Management
   
-Hainan University, Sept. 2018 - Jun. 2022
+**Hainan University**, Sept. 2018 - Jun. 2022
 
-  Bachelor of Management, Public Administration
+- Bachelor of Management, Public Administration
 
-Arizona State University, Sept. 2018 - May 2022
+**Arizona State University**, Sept. 2018 - May 2022
 
-  Bachelor of Science, Public Service and Public Policy
+- Bachelor of Science, Public Service and Public Policy
 
 Research Interest
 ======
-**The Evolution of My Research Interests**
+The Evolution of My Research Interests
+------
 Reflecting on my previous academic journey, it may seem broad in scope, but I see it as a natural evolution of my interests within the field of public policy and administration. My passion for exploration has been the compass guiding my studies, and the experiences I’ve gathered have greatly enriched my understanding and perspectives. Therefore, I would like to offer a more detailed account of how my research interests have evolved, in the hope that this will help you know me better.
 
 **During my undergraduate studies**, my focus was on local government responsiveness, transparency, and message strategy. My role as a research assistant allowed me to delve into the realms of collaborative governance and public service provision. It was also during this time that my passion for environmental and sustainability policies, particularly in the area of river and water governance, was ignited through my participation in extracurricular activities and volunteer work. Furthermore, my undergraduate experience was enriched by social practice research, which cultivated a strong interest in services designed for the elderly. This research underscored the importance of tailoring public policies to meet the unique needs of this demographic. Through these diverse experiences, I learned the importance of aligning public policy with the specific needs of different community segments, a lesson that has been central to my academic and professional growth.
