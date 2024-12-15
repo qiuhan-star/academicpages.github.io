@@ -1,5 +1,5 @@
 ---
-title: "Agile Response in E-Governance: Fostering Trust and Accountability."
+title: "Agile Response in E-Governance: Fostering Trust and Accountability"
 collection: publications
 category: working paper
 permalink: /publication/wp-2024-aglie
