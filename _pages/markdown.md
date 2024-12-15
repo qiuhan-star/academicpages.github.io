@@ -10,10 +10,11 @@ redirect_from:
 ### Rachel's Personal Homepage Guide
 
 **Welcome to My Personal Homepage!** Thank you for visiting.
-#### 1. About Me
+
+## 1. About Me
 - **Introduction**: Hello, I'm Han (Rachel) Qiu, a passionate master's student at Xiamen University.
 - **Background**: Gain insight into my academic journey, research interests, work experience, and the skills I've developed.
-#### 2. Site Navigation
+## 2. Site Navigation
 - **Overview**: Here's a glimpse of the main sections you can explore on my site.
   - **Homepage**: The starting point to learn about me and find ways to connect.
   - **Publications**: View my published research and scholarly articles.
@@ -25,17 +26,17 @@ redirect_from:
   - **Portfolio**: Explore a showcase of my academic and professional projects.
   - **Blog Posts**: Read my insights and in-depth discussions on various topics.
   - **CV**: Download my curriculum vitae for a comprehensive overview.
-#### 3. Content Guide
+## 3. Content Guide
 - **Content Categories**: Discover the range of content I offer, from articles and tutorials to other educational materials.
 - **Update Schedule**: Stay updated on the regularity of new content added to the site.
-#### 4. Engagement Guide
+## 4. Engagement Guide
 - **Commenting**: Join the conversation by learning how to comment on my blog posts.
 - **Social Media**: Connect with me on social media to engage with my work beyond this site.
-#### 5. User Support
+## 5. User Support
 - **Contact Information**: Get in touch with me directly via email, phone, or through an online contact form.
-#### 6. Privacy Policy
+## 6. Privacy Policy
 This section outlines how I handle the privacy of visitors to my site.
-#### 7. Legal Notices
+## 7. Legal Notices
 - **Copyright**: Information about the rights to the content on this site.
 - **Disclaimers**: Understand the limitations of liability regarding the site's content and your use of it.
 ---
