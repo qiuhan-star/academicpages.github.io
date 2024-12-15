@@ -3,7 +3,11 @@ permalink: /awards/
 title: "Honors and Awards"
 author_profile: true
 ---
-** Awards
+** 学术
+** 学业
+** 创新创业比赛
+** 三下乡
+** 总结
 
 
 - Champion (with the Team ‘W0r1d 0ne’), Track III: Backdoor Trigger Recovery for Agents, [NeurIPS Competition for LLM and Agent Safety](https://www.llmagentsafetycomp24.com/leaderboards/), 2024.
