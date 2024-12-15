@@ -1,14 +1,11 @@
 ---
 permalink: /markdown/
-title: "Guide"
+title: "Rachel's Personal Homepage Guide"
 author_profile: true
 redirect_from: 
   - /md/
   - /markdown.html
 ---
-
-### Rachel's Personal Homepage Guide
-
 **Welcome to My Personal Homepage!** Thank you for visiting.
 
 ## 1. About Me
