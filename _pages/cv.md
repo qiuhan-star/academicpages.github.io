@@ -19,7 +19,7 @@ Education
 
 Work experience
 ======
-This page is currently being updated.
+**Hello, this page is currently being updated and is expected to be ready by December 22, 2024. Thank you for your patience.**
 
 Skills
 ======
@@ -41,7 +41,7 @@ Talks
   
 Teaching
 ======
-This page is currently being updated.
+**Hello, this page is currently being updated and is expected to be ready by December 22, 2024. Thank you for your patience.**
 
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
@@ -49,4 +49,4 @@ This page is currently being updated.
   
 Service and leadership
 ======
-This page is currently being updated.
+**Hello, this page is currently being updated and is expected to be ready by December 22, 2024. Thank you for your patience.**
