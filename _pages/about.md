@@ -23,30 +23,16 @@ Education
 ======
 Xiamen University, Sept. 2022 - Jun. 2025 (Expected)
 
-School of Public Affairs
-
 Master of Management, Administration Management
-
-
-* B.A. in Public Administration, Hainan University, Sept. 2018 - Jun. 2022
-* B.S. in Public Service and Public Policy, Arizona State University, Sept. 2018 - May. 2022
-
-
-School of Public Affairs
-
-Master of Management, Administration Management
-
-date: Sept. 2022 - Jun. 2025
-
   
-*Hainan University
+Hainan University, Sept. 2018 - Jun. 2022
 
-  Bachelor of Management, Public Administration
-  date: Sept. 2018 - Jun. 2022
-- name: Arizona State University
-  #logo: /assets/images/badges/ASU-Logo.png
-  position: Bachelor of Science, Public Service and Public Policy
-  date: Sept. 2018 - May 2022
+Bachelor of Management, Public Administration
+
+Arizona State University, Sept. 2018 - May 2022
+
+Bachelor of Science, Public Service and Public Policy
+
 
 
   
