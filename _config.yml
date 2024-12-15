@@ -13,9 +13,10 @@ repository               : "qiuhan-star/hanrachelqiu.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "ID-photo.PNG"
-  avatar_caption   : >-
-                     "Hello, I’m Rachel. Welcome to my academic homepage!"
+  avatar_url: /images/ID-photo.PNG
+  avatar_caption: >-
+    Hello, I’m Rachel. Welcome to my academic homepage!
+  #avatar           : "ID-photo.PNG"
   name             : "Han (Rachel) Qiu"
   pronouns         : # "she/her"  
   bio              : "Dare to Dream, Fearless in Adversity, Embrace Passion"
