@@ -18,6 +18,9 @@ As Generative Artificial Intelligence (GAI) rapidly integrates into higher educa
 
 [photos](https://github.com/qiuhan-star/hanrachelqiu.github.io/images/cover1.png)
 
+![我的图片](/images/cover1.png "封面图片")
+
+
 [photos]("https://github.com/qiuhan-star/hanrachelqiu.github.io/images/cover1.png")
 
 photos: cover1.png "cover1.png"
