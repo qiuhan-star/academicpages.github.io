@@ -13,7 +13,7 @@ citation: 'Yang, Jiaxi, Han Qiu*, and Wenxuan Yu. 2024. Surging Currents: A Syst
 ![cover2](https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/publications/JAPP_cover2.png)
 
 <div style="display: flex;">
-  <div style="flex: 1; margin-top: 100px;"> <!-- 添加 margin-top: 100px; -->
+  <div style="flex: 1; margin-top: 150px;"> <!-- 添加 margin-top: 150px; -->
     <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/publications/JAPP_cover1.png" alt="cover1" title="cover1">
   </div>
   <div style="flex: 2;">
