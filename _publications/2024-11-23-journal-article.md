@@ -22,3 +22,23 @@ citation: 'Yang, Jiaxi, Han Qiu*, and Wenxuan Yu. 2024. Surging Currents: A Syst
     <p>Generative artificial intelligence; ChatGPT; higher education</p>
   </div>
 </div>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+  <!-- 左边的图片 -->
+  <div style="flex: 1; max-width: 49%; margin-bottom: 20px;">
+    <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/publications/JAPP_cover1.png" alt="cover1" title="cover1">
+  </div>
+  <!-- 右边的图片 -->
+  <div style="flex: 1; max-width: 49%; margin-bottom: 20px;">
+    <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/publications/JAPP_cover2.png" alt="cover2" title="cover2">
+  </div>
+  <!-- 摘要内容 -->
+  <div style="flex: 0 0 100%;">
+    <h2>ABSTRACT:</h2>
+    <p>As Generative Artificial Intelligence (GAI) rapidly integrates into higher education, a critical question arises: should we focus on the technology’s potential or the essential role of stakeholders?...</p>
+    <h2>KEYWORDS:</h2>
+    <p>Generative artificial intelligence; ChatGPT; higher education</p>
+  </div>
+</div>
+
+
