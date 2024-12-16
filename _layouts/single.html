@@ -50,12 +50,15 @@ layout: default
         <div class="download-links">
           <h4>文章链接和下载</h4>
           <ul>
-            <li><strong>文章链接:</strong> <a href="{{ page.url }}">{{ page.title }}</a></li>
-            {% if page.paperurl %}
-            <li><strong>Download Paper:</strong> <a href="{{ page.paperurl }}" target="_blank">PDF</a></li>
+            <!-- 查看文章链接，使用 DOI 链接 -->
+            <li><strong>View Paper:</strong> <a href="{{ page.paperurl }}" target="_blank">Online Version</a></li>
+            <!-- 下载文章链接，假设你有一个 page.paperpdfurl 变量 -->
+            {% if page.paperpdfurl %}
+           <li><strong>Download Paper:</strong> <a href="{{ page.downloadurl }}" target="_blank">Download Paper</a></li>
             {% endif %}
+            <!-- 下载幻灯片链接 -->
             {% if page.slidesurl %}
-            <li><strong>Download Slides:</strong> <a href="{{ page.slidesurl }}" target="_blank">Slides</a></li>
+            <li><strong>Download Slides:</strong> <a href="{{ page.slidesurl }}" target="_blank">Download Slides</a></li>
             {% endif %}
           </ul>
         </div>
