@@ -48,16 +48,16 @@ layout: default
         {{ content }}
 
         {% if page.citation %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
+        <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
         {% endif %}
 
-        {% if page.paperurl %}
+        {% if page.downloadurl %}
            <p style="font-size: smaller">
-             <a href="{{ page.paperurl }}">Download Paper</a>
-             {% if page.viewpaperurl %}
+             <a href="{{ page.downloadurl }}">Download Paper</a>
+             {% if page.paperurl %}
              | <a href="{{ page.viewpaperurl }}">View Paper</a>
-          {% endif %}
-         </p>
+            {% endif %}
+        </p>
         {% endif %}
 
         {% if page.slidesurl %}
@@ -68,7 +68,7 @@ layout: default
         <div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>
         {% endif %}
       </section>
-      
+
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
           <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
