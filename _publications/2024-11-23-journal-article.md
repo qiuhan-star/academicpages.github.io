@@ -43,7 +43,6 @@ citation: 'Yang, Jiaxi, Han Qiu*, and Wenxuan Yu. 2024. Surging Currents: A Syst
     <p>Generative artificial intelligence; ChatGPT; higher education</p>
   </div>
   <div style="flex: 1; margin-top: 150px;">
-    <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/publications/JAPP_cover2.png" alt="cover2" title="cover2">
     <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/publications/JAPP_cover1.png" alt="cover1" title="cover1">
   </div>
 </div>
