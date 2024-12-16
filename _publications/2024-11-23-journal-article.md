@@ -1,7 +1,7 @@
 ---
 title: "Surging currents: a systematic review of the literature on dynamic stakeholder engagements in higher education in the generative artificial intelligence era"
 collection: publications
-category: journal article
+category: journal articles
 permalink: /publication/2024-11-23-journal-article
 excerpt: 'How artificial intelligence is reshaping the role and potential in the field of education? This paper highlights key roles for educators, students, admins, tech firms, and governments.'
 date: 2024-11-23
