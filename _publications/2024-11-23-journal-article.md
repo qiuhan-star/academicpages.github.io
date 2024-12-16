@@ -10,7 +10,7 @@ slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://doi.org/10.1080/17516234.2024.2429046'
 citation: 'Yang, Jiaxi, Han Qiu*, and Wenxuan Yu. 2024. Surging Currents: A Systematic Review of the Literature on Dynamic Stakeholder Engagements in Higher Education in the Generative Artificial Intelligence Era. *Journal of Asian Public Policy*, November, 1–29. https://doi.org/10.1080/17516234.2024.2429046'
 ---
-![cover2](https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/publications/JAPP_cover2.png) "cover2")
+![cover2](https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/publications/JAPP_cover2.png)
 
 <div style="display: flex;">
   <div style="flex: 1; margin-top: 100px;"> <!-- 添加 margin-top: 100px; -->
