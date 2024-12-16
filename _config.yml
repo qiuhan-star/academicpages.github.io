@@ -71,14 +71,16 @@ author:
 publication_category:
   books:
     title: 'Books'
-  manuscripts:
+  journal articles:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
-  paper_under_review:
+  paper under review:
     title: 'Paper Under Review'   
   working paper:
     title: 'Working Paper' 
+  case report:
+    title: 'Case Report'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
