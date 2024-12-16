@@ -52,7 +52,7 @@ layout: default
         {% elsif page.citation and page.viewpaperurl and page.downloadurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.viewpaperurl }}">View Paper</a> | <a href="{{ page.downloadurl }}">Download Paper</a></p>
         {% elsif page.citation and page.viewpaperurl and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.viewpaperurl }}">View Paper</a> | <a href="{{ page.downloadurl }}">Download Paper</a></p>
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.viewpaperurl }}">View Paper</a> | <a href="{{ page.slidesurl }}">Download Paper</a></p>
         {% elsif page.citation and page.downloadurl and page.slidesurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.downloadurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
         {% elsif page.citation and page.viewpaperurl %}
