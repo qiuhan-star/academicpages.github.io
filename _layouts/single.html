@@ -47,7 +47,7 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
-        {% if page.citation and page.viewpaperurl and page.downloadurland page.slidesurl %}
+        {% if page.citation and page.viewpaperurl and page.downloadurl and page.slidesurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br />
             <a href="{{ page.viewpaperurl }}">View Paper</a> |
             <a href="{{ page.downloadurl }}">Download Paper</a> |
