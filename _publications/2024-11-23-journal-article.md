@@ -30,7 +30,7 @@ citation: 'Yang, Jiaxi, Han Qiu*, and Wenxuan Yu. 2024. Surging Currents: A Syst
   </div>
   <div style="flex: 1; margin-top: 100px; padding-top: 20px;"> <!-- Added padding-top here -->
     <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/publications/JAPP_cover1.png" alt="cover1" title="cover1">
-    <div style="margin-top: 100px;"> <!-- Added margin-top here to separate the image from the keywords -->
+    <div style="margin-top: 75px;"> <!-- Added margin-top here to separate the image from the keywords -->
     <h3>KEYWORDS:</h3>
     <p>Generative artificial intelligence; ChatGPT; higher education</p>
     </div>
