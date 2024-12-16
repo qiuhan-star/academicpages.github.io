@@ -21,3 +21,16 @@ citation: 'Yang, Jiaxi, Han Qiu*, and Wenxuan Yu. 2024. Surging Currents: A Syst
     <p>Generative artificial intelligence; ChatGPT; higher education</p>
   </div>
 </div>
+
+
+<div style="display: flex;">
+  <div style="flex: 2; padding-right: 20px; border: 2px solid #000; padding: 10px;">
+    <h2>ABSTRACT:</h2>
+    <p>As Generative Artificial Intelligence (GAI) rapidly integrates into higher education, a critical question arises: should we focus on the technology’s potential or the essential role of stakeholders? While GAI offers transformative possibilities, its success hinges on students, educators, administrators, and policymakers. This study examines the structure of these stakeholders and the patterns of relationships between them. Utilizing a systematic literature review, we screened 224 studies and selected 38 key articles to construct a hierarchical framework illustrating the complex interactions among stakeholders. The research reveals the prominence of educators, students, and administrators while reflecting the increasing attention to technology vendors and government agencies. Interactions among stakeholders primarily fall into four patterns: cooperation, control and guidance, support and dependency, as well as competition and conflict. Although existing research extensively discusses GAI’s potential, this study argues that in-depth analyses of stakeholder roles and relationships are lacking, particularly given real-world complexities. Future research should explore these multidimensional relationships to promote responsible and effective GAI use in education.</p>
+  </div>
+  <div style="flex: 1; margin-top: 150px;">
+    <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/publications/JAPP_cover1.png" alt="cover1" title="cover1">
+    <h2>KEYWORDS:</h2>
+    <p>Generative artificial intelligence; ChatGPT; higher education</p>
+  </div>
+</div>
