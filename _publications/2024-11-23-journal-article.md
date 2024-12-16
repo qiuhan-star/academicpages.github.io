@@ -6,7 +6,7 @@ permalink: /publication/2024-11-23-journal-article
 excerpt: 'How artificial intelligence is reshaping the role and potential in the field of education? This paper highlights key roles for educators, students, admins, tech firms, and governments.'
 date: 2024-11-23
 venue: 'Journal of Asian Public Policy'
-slidesurl: <a href="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/files/paper1.pdf" download="Surging%20currents.pdf">Download PDF</a>
+slidesurl: "https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/files/paper1.pdf"
 paperurl: 'https://doi.org/10.1080/17516234.2024.2429046'
 citation: 'Yang, Jiaxi, Han Qiu*, and Wenxuan Yu. 2024. Surging Currents: A Systematic Review of the Literature on Dynamic Stakeholder Engagements in Higher Education in the Generative Artificial Intelligence Era. *Journal of Asian Public Policy*, November, 1–29. https://doi.org/10.1080/17516234.2024.2429046'
 ---
@@ -25,7 +25,10 @@ citation: 'Yang, Jiaxi, Han Qiu*, and Wenxuan Yu. 2024. Surging Currents: A Syst
 </div>
 
 
+slidesurl: <a href="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/files/paper1.pdf" download="Surging%20currents.pdf">Download PDF</a>
+paperurl: 'https://doi.org/10.1080/17516234.2024.2429046'
 
-
+slidesurl: "https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/files/paper1.pdf"
+paperurl: "https://doi.org/10.1080/17516234.2024.2429046"
 
 
