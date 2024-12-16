@@ -23,12 +23,3 @@ citation: 'Yang, Jiaxi, Han Qiu*, and Wenxuan Yu. 2024. Surging Currents: A Syst
     </div>
   </div>
 </div>
-
-
-slidesurl: <a href="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/files/paper1.pdf" download="Surging%20currents.pdf">Download PDF</a>
-paperurl: 'https://doi.org/10.1080/17516234.2024.2429046'
-
-slidesurl: "https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/files/paper1.pdf"
-paperurl: "https://doi.org/10.1080/17516234.2024.2429046"
-
-

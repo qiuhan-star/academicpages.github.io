@@ -47,19 +47,18 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
-        {% if page.citation and page.paperurl and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.citation and page.paperurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>
-        {% elsif page.citation and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.citation %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
-        {% elsif page.slidesurl %}
-          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% endif %}
-
-        {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+        <div class="download-links">
+          <h4>文章链接和下载</h4>
+          <ul>
+            <li><strong>文章链接:</strong> <a href="{{ page.url }}">{{ page.title }}</a></li>
+            {% if page.paperurl %}
+            <li><strong>Download Paper:</strong> <a href="{{ page.paperurl }}" target="_blank">PDF</a></li>
+            {% endif %}
+            {% if page.slidesurl %}
+            <li><strong>Download Slides:</strong> <a href="{{ page.slidesurl }}" target="_blank">Slides</a></li>
+            {% endif %}
+          </ul>
+        </div>
       </section>
 
       <footer class="page__meta">
