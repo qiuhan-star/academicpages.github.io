@@ -68,34 +68,7 @@ layout: default
         <div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>
         {% endif %}
       </section>
-
-        <div class="download-links">
-          <h4>Article Links and Downloads</h4>
-          <ul>
-            {% if page.paperurl %}
-              <li><strong>View Paper:</strong> <a href="{{ page.paperurl }}" target="_blank">Online Version</a></li>
-            {% endif %}
-            {% if page.downloadurl %}
-              <li><strong>Download Paper:</strong> <a href="{{ page.downloadurl }}" target="_blank">Download Paper</a></li>
-            {% endif %}
-            {% if page.slidesurl %}
-              <li><strong>Download Slides:</strong> <a href="{{ page.slidesurl }}" target="_blank">Download Slides</a></li>
-            {% endif %}
-          </ul>
-        </div>
-      </section>
-
-
-
-
-
-
-
-
-
-
-
-
+      
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
           <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
