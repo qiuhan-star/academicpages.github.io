@@ -25,10 +25,35 @@
   <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &
   <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>.<br />
   Site last updated {{ "now" | date: '%Y-%m-%d' }}.
-  Visitor Count: <span>{{ site.data.visit_count }}</span>,
-  Total Page Views: <span>{{ site.data.page_view_count }}</span>,
+  Visitor Count: <span id="visitor-count">{{ site.data.visit_count }}</span>,
+  Total Page Views: <span id="page-view-count">{{ site.data.page_view_count }}</span>,
   Contact me at <a href="mailto:rachel.hanqiu@gmail.com">rachel.hanqiu@gmail.com</a>
 </div>
+
+<script>
+  // Function to update the visitor count and page view count
+  function updateCounts() {
+    fetch('/update-counts', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ type: 'visit' })
+    });
+
+    fetch('/update-counts', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ type: 'pageView' })
+    });
+  }
+
+  // Call the function when the page loads
+  document.addEventListener('DOMContentLoaded', updateCounts);
+</script>
+
 
 <div class="runtime">
   Blog up for

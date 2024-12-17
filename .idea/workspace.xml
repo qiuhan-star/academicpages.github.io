@@ -72,6 +72,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_data" />
       <recent name="$PROJECT_DIR$/_game" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -103,15 +104,7 @@
       <workItem from="1734428470139" duration="10808000" />
       <workItem from="1734444644210" duration="485000" />
       <workItem from="1734445132265" duration="2245000" />
-      <workItem from="1734447383942" duration="3515000" />
-    </task>
-    <task id="LOCAL-00097" summary="Merge remote-tracking branch 'origin/master'">
-      <option name="closed" value="true" />
-      <created>1734439944739</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1734439944739</updated>
+      <workItem from="1734447383942" duration="3642000" />
     </task>
     <task id="LOCAL-00098" summary="Merge remote-tracking branch 'origin/master'">
       <option name="closed" value="true" />
@@ -497,7 +490,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734450735475</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;_pages/game-details.html">
+      <option name="closed" value="true" />
+      <created>1734450949589</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1734450949589</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
