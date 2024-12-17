@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>动画页面过渡</title>
+<title>Welcome to Rachel's Homepage</title>
 <style>
     /* CSS样式 */
     body, html {
@@ -69,6 +69,8 @@ redirect_from:
 
         // 开始动画
         overlay.style.transform = 'translateX(-100%)'; // 拉开覆盖层
+        overlay.style.opacity = '0'; // 使覆盖层透明
+
         setTimeout(function() {
             overlay.style.display = 'none'; // 隐藏覆盖层
             mainContent.style.display = 'block'; // 显示主页内容
@@ -83,7 +85,6 @@ redirect_from:
 </script>
 </body>
 </html>
-
 
 
 
