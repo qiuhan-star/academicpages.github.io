@@ -8,23 +8,20 @@ redirect_from:
 ---
 My name is Han Qiu (Rachel, 邱涵).
 
-I am a rigorously trained Master’s student in Public Administration at the [School of Public Affairs](https://spa.xmu.edu.cn/), Xiamen University. My supervisor is [Professor Wenxuan Yu](https://spa.xmu.edu.cn/info/1237/3095.htm).
+I am a rigorously trained Master’s student in Public Administration at the [School of Public Affairs](https://spa.xmu.edu.cn/), Xiamen University, under the guidance of [Professor Wenxuan Yu](https://spa.xmu.edu.cn/info/1237/3095.htm).
 
-I received B.S. degree in Public Service & Public Policy from ASU (2022) and B.A. degree in Public Administration from Hainan University (2022). My supervisor is [Professor Haiying Lin](https://haitc.hainanu.edu.cn/cslm/jzyg/szdw/xzgl.htm). 
+I received B.S. degree in Public Service & Public Policy from Arizona State University (2022) and B.A. degree in Public Administration from Hainan University (2022), where I was mentored by [Professor Haiying Lin](https://haitc.hainanu.edu.cn/cslm/jzyg/szdw/xzgl.htm). 
 
-I passionate about promoting social justice and advancing public interest and welfare.
+Driven by a passion for social justice and committed to advancing public interest and welfare, my research interests are broadly lie in the areas of public finance, public and nonprofit management, digital government, government transparency, information technology and politics, and environmental policy.
 
-My research interests are broadly lie in the areas of public finance, public and nonprofit management, digital government, government transparency, information technology and politics, and environmental policy.
-
-I am actively seeking interesting research opportunities and PhD positions for Fall 2025. If you are looking for a dedicated and self-motivated candidate, please DO contact me at rachel.hanqiu@gmail.com!
-
+I am actively seeking research opportunities and PhD positions for Fall 2025. If you are looking for a dedicated and self-motivated candidate, please DO contact me at rachel.hanqiu@gmail.com!
 
 🔥🔥 News
 ======
 * [NOV. 2024] [College Academic Achievement: Master's Students Jiaxi Yang, **Han Qiu**, and Professor Wenxuan Yu Co-author Article in the Journal of Asian Public Policy.](https://mp.weixin.qq.com/s/2TYL9l8GGay93hLLRQBzYw)
 * [DEC. 2023] [Academic Milestone: Master's Students **Han Qiu** and Jiaxi Yang Attend International Academic Conference and Deliver Papers](https://mp.weixin.qq.com/s/EuHTxNFZpdGGEOrvOj-RPg)
 * [DEC. 2023] [College Academic Event: The 6th Chengzhi Graduate Academic Salon a Success, Featuring Presentations by Master's Students **Han Qiu** and Mingyue Zhang, with Professor Xue Li as Guest Speaker](https://mp.weixin.qq.com/s/dn-2_kHyLDbNC0hQ042xEw)
-* Show more
+* Show more...
 
 
 
