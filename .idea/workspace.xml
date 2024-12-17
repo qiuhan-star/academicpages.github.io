@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce0efda0-9734-4e26-afff-7ee90fd9b06b" name="Changes" comment="1234">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="28ed89aa-cbd9-4763-b1bd-c9ac8a875645" name="更改" comment="1234">
       <change beforePath="$PROJECT_DIR$/_pages/game-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/game-details.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +89,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ce0efda0-9734-4e26-afff-7ee90fd9b06b" name="Changes" comment="" />
+      <changelist id="" name="Changes" comment="" />
       <created>1734347173759</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -101,23 +100,7 @@
       <workItem from="1734411326652" duration="3855000" />
       <workItem from="1734415248722" duration="3912000" />
       <workItem from="1734428364044" duration="104000" />
-      <workItem from="1734428470139" duration="976000" />
-    </task>
-    <task id="LOCAL-00022" summary="Merge remote-tracking branch 'origin/master'">
-      <option name="closed" value="true" />
-      <created>1734405390699</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1734405390699</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Merge remote-tracking branch 'origin/master'">
-      <option name="closed" value="true" />
-      <created>1734405403571</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1734405403571</updated>
+      <workItem from="1734428470139" duration="1206000" />
     </task>
     <task id="LOCAL-00024" summary="Merge remote-tracking branch 'origin/master'">
       <option name="closed" value="true" />
@@ -495,7 +478,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734429206159</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="1234">
+      <option name="closed" value="true" />
+      <created>1734429450791</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1734429450791</updated>
+    </task>
+    <task id="LOCAL-00072" summary="1234">
+      <option name="closed" value="true" />
+      <created>1734429567908</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1734429567908</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
