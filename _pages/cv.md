@@ -10,8 +10,8 @@ You can access Rachel's latest C.V. [here](https://raw.githubusercontent.com/qiu
 
 {% include base_path %}
 
----
 继续尝试
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
