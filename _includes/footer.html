@@ -32,11 +32,18 @@
 
 <div class="runtime">
   Blog up for
-  {% assign start_date = "2024-12-13T00:00:00+00:00" %}
-  {% assign duration = site.time | date: "%s" | minus: start_date | date: "%s" | divided_by: 86400 %}
-  {{ duration }} days,
-  {{ site.time | date: "%s" | minus: start_date | date: "%s" | divided_by: 3600 | modulo: 24 }} hrs,
-  {{ site.time | date: "%s" | minus: start_date | date: "%s" | divided_by: 60 | modulo: 60 }} Min,
-  {{ site.time | date: "%s" | minus: start_date | date: "%s" | modulo: 60 }} Sec
-  </div>
+  {% assign start_date = "2024-12-13T00:00:00+00:00" | date_to_xmlschema %}
+  {% assign current_time = site.time | date_to_xmlschema %}
+  {% assign duration = current_time | minus: start_date %}
+  {% assign days = duration | divided_by: 86400 %}
+  {% assign hours = duration | divided_by: 3600 | modulo: 24 %}
+  {% assign minutes = duration | divided_by: 60 | modulo: 60 %}
+  {% assign seconds = duration | modulo: 60 %}
+
+  {{ days }} days,
+  {{ hours }} hrs,
+  {{ minutes }} Min,
+  {{ seconds }} Sec
+</div>
 </footer>
+
