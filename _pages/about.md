@@ -24,6 +24,8 @@ I am actively seeking research opportunities and PhD positions for Fall 2025. If
 
 <span style="color: #888888;">**[DEC. 2023]**</span> 🗨️ **Academic Salon:**</span> *Delighted to Share My Research Insights within the College Community!* >> [**Read More**](https://mp.weixin.qq.com/s/dn-2_kHyLDbNC0hQ042xEw)
 
+<span style="color: #888888;">**[May 2022]**</span> 🎓 **I've graduated!** *Summa Cum Laude Achievement with Heartfelt Thanks to My Supporters!* 🌟👩‍🎓
+
 **Show more...**
 
 Research Interest
