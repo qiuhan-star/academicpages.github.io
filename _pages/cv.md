@@ -224,3 +224,66 @@ for (i = 0; i < coll.length; i++) {
 
 </body>
 </html>
+
+
+-----
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Collapsible List Example</title>
+<style>
+  /* ... (Your CSS styles) ... */
+</style>
+</head>
+<body>
+
+<button class="toggle-all">Toggle All</button>
+
+<!-- ... (Your collapsible content) ... -->
+
+<script>
+// 确保在文档加载完毕后执行脚本
+document.addEventListener("DOMContentLoaded", function() {
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+      this.classList.toggle("active");
+    });
+  }
+
+  // 全部折叠/展开的函数
+  function toggleAllContent(display) {
+    for (i = 0; i < coll.length; i++) {
+      var content = coll[i].nextElementSibling;
+      content.style.display = display;
+      if (display === "block") {
+        coll[i].classList.add("active");
+      } else {
+        coll[i].classList.remove("active");
+      }
+    }
+  }
+
+  // 为“Toggle All”按钮添加点击事件监听器
+  document.querySelector('.toggle-all').addEventListener('click', function() {
+    var isAnyContentVisible = Array.from(coll).some(function(c) {
+      return window.getComputedStyle(c.nextElementSibling).display === 'block';
+    });
+    toggleAllContent(isAnyContentVisible ? 'none' : 'block');
+  });
+});
+</script>
+
+</body>
+</html>
