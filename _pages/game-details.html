@@ -17,14 +17,6 @@ author_profile: true
             max-width: 300px;
             margin: 20px auto;
         }
-        #audioControls {
-            text-align: center;
-        }
-        #playPauseBtn {
-            padding: 10px;
-            cursor: pointer;
-            font-size: 16px;
-        }
     </style>
 </head>
 <body>
@@ -35,18 +27,17 @@ author_profile: true
                 <source src="assets/Unstoppable-Sia.320.mp3" type="audio/mpeg">
                 Your browser does not support the audio element.
             </audio>
-            <button id="playPauseBtn">Play</button>
         </div>
     </header>
     <div class="container">
         <section>
-           <h2>About the Game</h2>
-           <p>The PhD Simulator is a unique game crafted by a PhD graduate from the University of Washington, currently employed at Google. This game was developed to celebrate the author's successful graduation and mirrors the many challenges of a PhD journey within its gameplay.</p>
+            <h2>About the Game</h2>
+            <p>The PhD Simulator is a unique game crafted by a PhD graduate from the University of Washington, currently employed at Google. This game was developed to celebrate the author's successful graduation and mirrors the many challenges of a PhD journey within its gameplay.</p>
         </section>
 
         <section>
-           <h2>Gameplay</h2>
-           <p>The game is straightforward, featuring scenarios and choices that reflect the academic experience. As you make decisions, the 'Hope' meter at the top left corner of the screen changes.</p>
+            <h2>Gameplay</h2>
+            <p>The game is straightforward, featuring scenarios and choices that reflect the academic experience. As you make decisions, the 'Hope' meter at the top left corner of the screen changes.</p>
         </section>
 
         <section>
@@ -68,28 +59,5 @@ author_profile: true
             <p>Ready to dive into the academic adventure? <a href="https://research.wmz.ninja/projects/phd/index.html" target="_blank">Play the PhD Simulator Game now</a> and experience the challenges and triumphs of a PhD journey.</p>
         </section>
     </div>
-
-    <script>
-        var audio = document.getElementById("audioPlayer");
-        var playPauseBtn = document.getElementById("playPauseBtn");
-
-        function playPauseAudio() {
-            if (audio.paused) {
-                audio.play();
-                playPauseBtn.textContent = 'Pause';
-            } else {
-                audio.pause();
-                playPauseBtn.textContent = 'Play';
-            }
-        }
-
-        playPauseBtn.addEventListener('click', playPauseAudio);
-
-        window.onload = function() {
-            audio.play().catch(function(error) {
-                console.error("Auto-play was prevented:", error);
-            });
-        }
-    </script>
 </body>
 </html>
