@@ -16,6 +16,9 @@ My research interests are broadly lie in the areas of public finance, public and
 
 I am actively seeking research opportunities and PhD positions for Fall 2025. If you are looking for a dedicated and self-motivated candidate, please DO contact me at rachel.hanqiu@gmail.com!
 
+🌟 Interesting Sharing 🌟
+======
+As I was weighing the decision to pursue a PhD, I stumbled upon a phenomenal game -- the [**PhD Simulator**](https://research.wmz.ninja/projects/phd/index.html)! I'm eager to spread the word. For a deeper dive into the details, [**Click Here**](game-details.html).
 
 🔥🔥 Latest News
 ======
@@ -29,8 +32,6 @@ I am actively seeking research opportunities and PhD positions for Fall 2025. If
 
 **Show more...**
 
-
-
 Research Interest
 ======
 ## **The Evolution of My Research Interests**
@@ -41,37 +42,6 @@ Reflecting on my previous academic journey, it may seem broad in scope, but I se
 **In graduate school**, my attention turned to <u>government transparency (both administrative and fiscal transparency), performance management, digital governance, AI policy, and environmental policies (climate change and energy just transition)</u>. My research and exploration of AI, especially generative AI, revealed its potential to streamline public sector operations and improve policy effectiveness. However, I also became aware of the double-edged nature of technology, understanding its potential to disrupt, for instance, higher education and its challenges for public administration. This realization has led me to understand the critical necessity of integrating critical thinking and ethical considerations into our policies and practices in our rapidly evolving era.
 
 
-The following is under construction. It is expected to be completed on December 22, so please be patient.
-======
 
-<!-- Interesting Sharing Section -->
-<h2>Interesting Sharing</h2>
-<p>Take a leap into the academic adventure with the <strong>PhD Simulator</strong>!</p>
-<!-- Button to the game details page -->
-<a href="game-details.html" class="button">PhD Simulator Details</a>
-
-<style>
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 10px;
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.button:hover {
-    background-color: #0056b3;
-}
-</style>
-
-
-
-Interesting Sharing
-======
-<a href="game-details.html" class="button">**PhD Simulator**</a>
-
-
-Take a leap into the academic adventure with the **PhD Simulator**! [**Click Here to See More Information**](https://qiuhan-star.github.io/hanrachelqiu.github.io/game-details.html)
+## 📅 **Coming Soon**
+The narrative continues. ✨ **Mark your calendars for December 22** when the full story unfolds. 🌟 Your patience is greatly appreciated!
