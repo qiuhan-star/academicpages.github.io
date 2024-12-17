@@ -6,8 +6,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hello!
-
 My name is Han Qiu (Rachel, 邱涵).
 
 I am a rigorously trained Master’s student in Public Administration at the [School of Public Affairs](https://spa.xmu.edu.cn/), Xiamen University. My supervisor is [Professor Wenxuan Yu](https://spa.xmu.edu.cn/info/1237/3095.htm).
