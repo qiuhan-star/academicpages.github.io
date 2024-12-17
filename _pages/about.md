@@ -28,7 +28,6 @@ I am actively seeking research opportunities and PhD positions for Fall 2025. If
 ✨📢 [DEC. 2023] [Academic Milestone: This is my first time at International Academic Conference, gains college broadcast!](https://mp.weixin.qq.com/s/EuHTxNFZpdGGEOrvOj-RPg)
 📚🗣️ [DEC. 2023] [Academic Showcase: I am glad to share my insights to collge peers!](https://mp.weixin.qq.com/s/dn-2_kHyLDbNC0hQ042xEw)
 
-Certainly! Here are the revised versions of your news items with the emojis integrated for a more engaging and celebratory tone:
 🎉📚 [NOV. 2024] [Academic Achievement: My Research Paper Earns College Acclaim!](https://mp.weixin.qq.com/s/2TYL9l8GGay93hLLRQBzYw)
 - This revision emphasizes the positive recognition received for the research paper.
 ✨📢 [DEC. 2023] [Academic Milestone: Making My Debut at the International Academic Conference, Featured in College Broadcast!](https://mp.weixin.qq.com/s/EuHTxNFZpdGGEOrvOj-RPg)
