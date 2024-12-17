@@ -30,7 +30,6 @@ author_profile: true
 <body>
     <header>
         <h2>Take a leap into the academic adventure with the PhD Simulator!</h2>
-        <!-- Audio Player -->
         <div id="audioControls">
             <audio id="audioPlayer" controls>
                 <source src="assets/Unstoppable-Sia.320.mp3" type="audio/mpeg">
@@ -40,53 +39,9 @@ author_profile: true
         </div>
     </header>
     <div class="container">
-        <!-- Rest of your sections -->
-    </div>
-    <script>
-        var audio = document.getElementById("audioPlayer");
-        var playPauseBtn = document.getElementById("playPauseBtn");
-        function playPauseAudio() {
-            if (audio.paused) {
-                audio.play();
-                playPauseBtn.textContent = 'Pause';
-            } else {
-                audio.pause();
-                playPauseBtn.textContent = 'Play';
-            }
-        }
-        playPauseBtn.addEventListener('click', playPauseAudio);
-        window.onload = function() {
-            audio.play().catch(function(error) {
-                console.error("Auto-play was prevented:", error);
-            });
-        }
-    </script>
-</body>
-</html>
-
-
-
-
-
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PhD Simulator</title>
-    <style>
-        .container p {
-            text-align: justify;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h2>Take a leap into the academic adventure with the PhD Simulator!</h2>
-    </header>
-    <div class="container">
         <section>
-            <h2>About the Game</h2>
-            <p>The PhD Simulator is a unique game crafted by a PhD graduate from the University of Washington, currently employed at Google. This game was developed to celebrate the author's successful graduation and mirrors the many challenges of a PhD journey within its gameplay.</p>
+           <h2>About the Game</h2>
+           <p>The PhD Simulator is a unique game crafted by a PhD graduate from the University of Washington, currently employed at Google. This game was developed to celebrate the author's successful graduation and mirrors the many challenges of a PhD journey within its gameplay.</p>
         </section>
 
         <section>
@@ -105,7 +60,7 @@ author_profile: true
 
         <section>
             <h2>Who Should Play</h2>
-            <p><strong>For those considering a PhD</strong>, playing the game multiple times can provide insights into the challenges involved. <strong>Current PhD students</strong> without a clear direction may find valuable guidance on how to graduate on time. <strong>Professors</strong> looking to give their students a realistic glimpse into the PhD journey should consider incorporating the game into their curriculum.</p> <!-- Corrected the strong tags -->
+            <p><strong>For those considering a PhD</strong>, playing the game multiple times can provide insights into the challenges involved. <strong>Current PhD students</strong> without a clear direction may find valuable guidance on how to graduate on time. <strong>Professors</strong> looking to give their students a realistic glimpse into the PhD journey should consider incorporating the game into their curriculum.</p>
         </section>
 
         <section>
@@ -113,60 +68,28 @@ author_profile: true
             <p>Ready to dive into the academic adventure? <a href="https://research.wmz.ninja/projects/phd/index.html" target="_blank">Play the PhD Simulator Game now</a> and experience the challenges and triumphs of a PhD journey.</p>
         </section>
     </div>
-</body>
-</html>
 
+    <script>
+        var audio = document.getElementById("audioPlayer");
+        var playPauseBtn = document.getElementById("playPauseBtn");
 
-<html>
-<head>
-<style>
+        function playPauseAudio() {
+            if (audio.paused) {
+                audio.play();
+                playPauseBtn.textContent = 'Pause';
+            } else {
+                audio.pause();
+                playPauseBtn.textContent = 'Play';
+            }
+        }
 
+        playPauseBtn.addEventListener('click', playPauseAudio);
 
-#audioPlayer {
-
-#audioControls {
-  margin: 20px;
-}
-
-#playPauseBtn {
-  padding: 10px;
-  cursor: pointer;
-}
-</style>
-</head>
-<body>
-
-<audio id="audioPlayer" controls>
-  <source src="assets/Unstoppable-Sia.320.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
-<div id="audioControls">
-  <button id="playPauseBtn">Play</button>
-</div>
-
-<script>
-var audio = document.getElementById("audioPlayer");
-var playPauseBtn = document.getElementById("playPauseBtn");
-
-function playPauseAudio() {
-  if (audio.paused) {
-    audio.play();
-    playPauseBtn.textContent = 'Pause'; // 更新按钮文本为"Pause"
-  } else {
-    audio.pause();
-    playPauseBtn.textContent = 'Play'; // 更新按钮文本为"Play"
-  }
-}
-
-playPauseBtn.addEventListener('click', playPauseAudio);
-
-window.onload = function() {
-  audio.play().catch(function(error) {
-    console.error("Auto-play was prevented:", error);
-  });
-}
-</script>
-
+        window.onload = function() {
+            audio.play().catch(function(error) {
+                console.error("Auto-play was prevented:", error);
+            });
+        }
+    </script>
 </body>
 </html>
