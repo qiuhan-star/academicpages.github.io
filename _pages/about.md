@@ -6,6 +6,89 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>动画页面过渡</title>
+<style>
+    /* CSS样式 */
+    body, html {
+        height: 100%;
+        margin: 0;
+        overflow: hidden; /* 隐藏滚动条 */
+    }
+
+    #overlay {
+        background: #333; /* 覆盖层的背景颜色 */
+        color: white;
+        width: 100%;
+        height: 100%;
+        position: fixed; /* 使覆盖层固定在视口中 */
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+        transition: transform 0.5s ease-in-out; /* 动画过渡效果 */
+    }
+
+    .content {
+        text-align: center;
+    }
+
+    #main-content {
+        display: none; /* 初始时隐藏主页内容 */
+        transition: opacity 1s ease-in-out; /* 动画过渡效果 */
+    }
+</style>
+</head>
+<body>
+
+<div id="overlay" onclick="openPage()">
+    <div class="content">
+        <h1>欢迎</h1>
+        <p>点击任意处进入主页</p>
+    </div>
+</div>
+
+<div id="main-content">
+    <!-- 这里是你的主页内容 -->
+    <h1>这是主页</h1>
+    <p>欢迎来到我的网站</p>
+</div>
+
+<script>
+    // JavaScript脚本
+    function openPage() {
+        var overlay = document.getElementById('overlay');
+        var mainContent = document.getElementById('main-content');
+
+        // 开始动画
+        overlay.style.transform = 'translateX(-100%)'; // 拉开覆盖层
+        setTimeout(function() {
+            overlay.style.display = 'none'; // 隐藏覆盖层
+            mainContent.style.display = 'block'; // 显示主页内容
+            setTimeout(function() {
+                mainContent.style.opacity = 1; // 渐显主页内容
+            }, 50); // 稍微延迟渐显效果
+        }, 500); // 确保动画时间与CSS中定义的过渡时间一致
+
+        // 解除body的overflow隐藏，允许滚动
+        document.body.style.overflow = 'auto';
+    }
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
 My name is Han Qiu (Rachel, 邱涵). Driven by a passion for social justice and a personal dedication to making a difference, I am deeply committed to advancing public interest and welfare, always eager to contribute to charitable causes and promote community well-being.
 
 I am a rigorously trained Master’s student in Public Administration at the [School of Public Affairs](https://spa.xmu.edu.cn/), [Xiamen University](https://www.xmu.edu.cn/), under the guidance of [Professor Wenxuan Yu](https://spa.xmu.edu.cn/info/1237/3095.htm).
@@ -48,3 +131,5 @@ Reflecting on my previous academic journey, it may seem broad in scope, but I se
 📅 **Coming Soon**
 ======
 The narrative continues. ✨ **Mark your calendars for December 22** when the full story unfolds. 🌟 Your patience is greatly appreciated!
+
+
