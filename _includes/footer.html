@@ -28,19 +28,13 @@
 
   <p>Visitor Count: {{ site.data.visit_count }}</p>
   <p>Total Page Views: {{ site.data.page_view_count }}</p>
-  <p>Contact me at <a href="mailto:rachel.hanqiu@gmail.com">your-email@example.com</a></p>
+  <p>Contact me at <a href="mailto:rachel.hanqiu@gmail.com">rachel.hanqiu@gmail.com</a></p>
 </div>
 
 <div class="runtime">
-  Blog up for
-  {% assign start_date = "2024-12-13" %}
-  {% assign duration = site.time | date: "%s" | minus: start_date | date: "%s" | divided_by: 86400 %}
-  {{ duration }} days
-  {% assign hours = site.time | date: "%s" | minus: start_date | date: "%s" | divided_by: 3600 | modulo: 24 %}
-  {{ hours }} hrs
-  {% assign minutes = site.time | date: "%s" | minus: start_date | date: "%s" | divided_by: 60 | modulo: 60 %}
-  {{ minutes }} Min
-  {% assign seconds = site.time | date: "%s" | minus: start_date | date: "%s" | modulo: 60 %}
-  {{ seconds }} Sec
+  Blog up for {{ site.time | date: "%s" | minus: "2024-12-13" | date: "%s" | divided_by: 86400 }} days,
+  {{ site.time | date: "%s" | minus: "2024-12-13" | date: "%s" | divided_by: 3600 | modulo: 24 }} hrs,
+  {{ site.time | date: "%s" | minus: "2024-12-13" | date: "%s" | divided_by: 60 | modulo: 60 }} Min,
+  {{ site.time | date: "%s" | minus: "2024-12-13" | date: "%s" | modulo: 60 }} Sec
   </div>
 </footer>
