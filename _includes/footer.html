@@ -25,33 +25,9 @@
   <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &
   <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>.<br />
   Last updated {{ "now" | date: '%Y-%m-%d' }}.
-  Visitor Count: <span id="visitor-count">{{ site.data.counts.visit_count }}</span>,
-  Total Page Views: <span id="page-view-count">{{ site.data.counts.page_view_count }}</span>,
   Contact me at <a href="mailto:rachel.hanqiu@gmail.com">rachel.hanqiu@gmail.com</a>
 </div>
 
-document.addEventListener('DOMContentLoaded', function() {
-  // 发送请求到服务器获取计数
-  fetch('/update-counts', { // 确保 URL 与您的服务器端点匹配
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify({ type: 'visit' }) // 假设每次页面加载都是一次访问
-  })
-  .then(response => {
-    if (!response.ok) {
-      throw new Error('Network response was not ok');
-    }
-    return response.json();
-  })
-  .then(data => {
-    // 更新页面上的计数
-    document.getElementById('visitor-count').textContent = data.visitCount;
-    document.getElementById('page-view-count').textContent = data.pageViewCount;
-  })
-  .catch(error => console.error('Error updating counts:', error));
-});
 
 <div class="runtime" style="font-size: 14px;">
   Blog up for
