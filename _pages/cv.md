@@ -10,12 +10,100 @@ You can access Rachel's latest C.V. [here](https://raw.githubusercontent.com/qiu
 
 {% include base_path %}
 
-<!-- 在页面顶部或底部添加一键展开/收拢图标和文本 -->
-<button class="toggle-all" style="position: fixed; top: 10px; right: 10px;">
-  <img src="collapse-icon.png" alt="Toggle All" />
-  <span>Toggle All</span>
-</button>
 
+
+
+
+新的
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Collapsible List Example</title>
+<style>
+  .collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
+  /* 添加样式以在页面顶部显示一键展开/收拢按钮 */
+  .toggle-all {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+  }
+</style>
+</head>
+<body>
+
+<!-- 一键展开/收拢按钮 -->
+<button class="toggle-all">Toggle All</button>
+
+<button class="collapsible">Education</button>
+<div class="content">
+  <!-- Education content here -->
+</div>
+
+<!-- ... 其他折叠部分 ... -->
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
+// Function to toggle all collapsible content
+function toggleAllContent(display) {
+  for (i = 0; i < coll.length; i++) {
+    var content = coll[i].nextElementSibling;
+    content.style.display = display;
+    coll[i].classList.toggle("active", display === "block");
+  }
+}
+
+// Add click event listener to the toggle-all button
+document.querySelector('.toggle-all').addEventListener('click', function() {
+  var isAnyContentVisible = Array.from(coll).some(function(c) {
+    return window.getComputedStyle(c.nextElementSibling).display === 'block';
+  });
+  toggleAllContent(isAnyContentVisible ? 'none' : 'block');
+});
+</script>
+
+</body>
+</html>
+
+
+下面是第一次版本
 <!DOCTYPE html>
 <html lang="en">
 <head>
