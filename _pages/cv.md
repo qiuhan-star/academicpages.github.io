@@ -17,10 +17,6 @@ Education
 * B.A. in Public Administration, Hainan University, Sept. 2018 - Jun. 2022
 * B.S. in Public Service and Public Policy, Arizona State University, Sept. 2018 - May. 2022
 
-Work experience
-======
-**Hello, this page is currently being updated and is expected to be ready by December 22, 2024. Thank you for your patience.**
-
 Skills
 ======
 * Stata, SPSS, R, Python, QGIS, and ArcGIS; ; 
@@ -38,15 +34,11 @@ Talks
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  
-Teaching
+
+Service and leadership
 ======
 **Hello, this page is currently being updated and is expected to be ready by December 22, 2024. Thank you for your patience.**
 
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
+Work experience
 ======
 **Hello, this page is currently being updated and is expected to be ready by December 22, 2024. Thank you for your patience.**
