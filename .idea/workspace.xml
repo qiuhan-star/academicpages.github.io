@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce0efda0-9734-4e26-afff-7ee90fd9b06b" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
-      <change beforePath="$PROJECT_DIR$/_pages/cv.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/cv.md" afterDir="false" />
+    <list default="true" id="ce0efda0-9734-4e26-afff-7ee90fd9b06b" name="Changes" comment="News">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,12 +24,12 @@
     &quot;assignee&quot;: &quot;qiuhan-star&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/qiuhan-star/hanrachelqiu.github.io.git&quot;,
-    &quot;accountId&quot;: &quot;40bbdc22-ef31-4667-8c83-4235a105f399&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/qiuhan-star/hanrachelqiu.github.io.git",
+    "accountId": "c1230462-fc64-4985-973f-37111bde268d"
   }
-}</component>
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -78,6 +79,8 @@
       <option name="presentableId" value="Default" />
       <updated>1734347173759</updated>
       <workItem from="1734402885981" duration="5964000" />
+      <workItem from="1734410805963" duration="358000" />
+      <workItem from="1734411167484" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <option name="closed" value="true" />
