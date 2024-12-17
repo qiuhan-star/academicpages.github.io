@@ -19,6 +19,91 @@
 </div>
 {% endif %}
 
+
+<footer class="footer mt-5 py-5 h-auto text-base text-third-text-color relative border-t-2 border-t-border-color">
+    <div class="info-container py-3 text-center">
+        {% if site.footer.customize %}
+            <div class="customize-info my-1">{{ site.footer.customize }}</div>
+        {% endif %}
+        <div class="text-center">
+            &copy;
+            {% if site.footer.start %}
+              <span>{{ site.footer.start | date: "%Y" }}</span> -
+            {% endif %}
+            {{ "now" | date: "%Y" }}&nbsp;&nbsp;{{ site.footer.icon | default: '<i class="fa-regular fa-computer-classic"></i>' }}&nbsp;&nbsp;<a href="{{ site.url }}">{{ site.footer.author | default: site.author }}</a>
+            {% if site.footer.statistics %}
+                {% assign sitePostsCount = site.posts | size %}
+                {% assign siteWordCount = site.content | number_of_words %}
+                <p class="post-count space-x-0.5">
+                    <span>
+                        {{ sitePostsCount }} {{ site.footer.statistics.posts_label }}
+                    </span>
+                    {% if siteWordCount %}
+                        <span>
+                            {{ siteWordCount }} {{ site.footer.statistics.wordcount_label }}
+                        </span>
+                    {% endif %}
+                </p>
+            {% endif %}
+        </div>
+        {% if site.global.website_counter.enable %}
+            <script {% if site.global.single_page %}data-swup-reload-script{% endif %} src="{{ site.global.website_counter.url | default: 'https://vercount.one/js' }}"></script>
+            <div class="relative text-center lg:absolute lg:right-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-right">
+                {% if site.global.website_counter.site_uv %}
+                    <span id="busuanzi_container_site_uv" class="lg:!block">
+                        <span class="text-sm">{{ site.footer.statistics.uv_label }}</span>
+                        <span id="busuanzi_value_site_uv"></span>
+                    </span>
+                {% endif %}
+                {% if site.global.website_counter.site_pv %}
+                    <span id="busuanzi_container_site_pv" class="lg:!block">
+                        <span class="text-sm">{{ site.footer.statistics.pv_label }}</span>
+                        <span id="busuanzi_value_site_pv"></span>
+                    </span>
+                {% endif %}
+            </div>
+        {% endif %}
+        <div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
+            <span class="lg:block text-sm">{{ site.footer.powered_by_label }} <a target="_blank" class="text-base" href="https://jekyllrb.com">Jekyll</a></span>
+            <span class="text-sm lg:block">{{ site.footer.theme_label }} <a class="text-base" target="_blank" href="https://github.com/your-theme-repo">Your Theme</a></span>
+        </div>
+        {% if site.footer.icp.enable %}
+            <div class="icp-info my-1"><a target="_blank" rel="nofollow" href="{{ site.footer.icp.url | default: 'https://beian.miit.gov.cn' }}">{{ site.footer.icp.number }}</a></div>
+        {% endif %}
+        {% if site.footer.runtime %}
+            <div>
+                {{ site.footer.runtime_label }} <span class="odometer" id="runtime_days"></span> {{ site.footer.days_label }} <span class="odometer" id="runtime_hours"></span> {{ site.footer.hours_label }} <span class="odometer" id="runtime_minutes"></span> {{ site.footer.minutes_label }} <span class="odometer" id="runtime_seconds"></span> {{ site.footer.seconds_label }}
+            </div>
+            <script {% if site.global.single_page %}data-swup-reload-script{% endif %}>
+                try {
+                    function odometer_init() {
+                    const elements = document.querySelectorAll('.odometer');
+                    elements.forEach(el => {
+                        new Odometer({
+                            el,
+                            format: '( ddd).dd',
+                            duration: 200
+                        });
+                    });
+                    }
+                    odometer_init();
+                } catch (error) {}
+            </script>
+        {% endif %}
+        {% for script in site.inject.footer %}
+            {% if script %}
+                {% if site.global.single_page %}
+                    {{ script | replace: '<script', '<script data-swup-reload-script' }}
+                {% else %}
+                    {{ script }}
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    </div>
+</
+
+
+
 <div class="page__footer-copyright">
   &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }},
   {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }}
@@ -31,7 +116,6 @@
   <p>Visitor Count: {{ site.data.visit_count }}</p>
   <p>Total Page Views: {{ site.data.page_view_count }}</p>
   <p>Contact me at <a href="mailto:rachel.hanqiu@gmail.com">your-email@example.com</a></p>
-  <p>Privacy Policy: <a href="{{ base_path }}/privacy-policy.html">Privacy Policy</a></p>
 </div>
 
 <div class="runtime">
