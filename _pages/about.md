@@ -15,10 +15,12 @@ I received a B.S. degree in Public Service & Public Policy from [Arizona State U
 My research interests are broadly lie in the areas of public finance, public and nonprofit management, digital government, government transparency, information technology and politics, and environmental policy.
 
 I am actively seeking research opportunities and PhD positions for Fall 2025. If you are looking for a dedicated and self-motivated candidate, please DO contact me at rachel.hanqiu@gmail.com!
+<br><br>
 
 🌟 Interesting Sharing 🌟
 ======
 As I was weighing the decision to pursue a PhD, I stumbled upon a phenomenal game -- the [**PhD Simulator**](https://research.wmz.ninja/projects/phd/index.html)! I'm eager to spread the word. For a deeper dive into the details, [**Click Here**](game-details.html).
+<br><br>
 
 🔥🔥 Latest News
 ======
@@ -31,6 +33,7 @@ As I was weighing the decision to pursue a PhD, I stumbled upon a phenomenal gam
 <span style="color: #888888;">**[May 2022]**</span> 🎓 **I've graduated!** *Summa Cum Laude Achievement with Heartfelt Thanks to My Supporters!* 🌟👩‍🎓
 
 **Show more...**
+<br><br>
 
 Research Interest
 ======
@@ -40,6 +43,9 @@ Reflecting on my previous academic journey, it may seem broad in scope, but I se
 **During my undergraduate studies**, my focus was on <u>local government responsiveness, transparency, and message strategy</u>. My role as a <u>research assistant</u> allowed me to delve into the realms of <u>collaborative governance and public service provision</u>. It was also during this time that my passion for <u>environmental and sustainability policies</u>, particularly in the area of <u>river and water governance</u>, was ignited through my participation in extracurricular activities and volunteer work. Furthermore, my undergraduate experience was enriched by social practice research, which cultivated a strong interest in services designed for the elderly. This research underscored the importance of tailoring public policies to meet the unique needs of this demographic. Through these diverse experiences, I learned the importance of aligning public policy with the specific needs of different community segments, a lesson that has been central to my academic and professional growth.
 
 **In graduate school**, my attention turned to <u>government transparency (both administrative and fiscal transparency), performance management, digital governance, AI policy, and environmental policies (climate change and energy just transition)</u>. My research and exploration of AI, especially generative AI, revealed its potential to streamline public sector operations and improve policy effectiveness. However, I also became aware of the double-edged nature of technology, understanding its potential to disrupt, for instance, higher education and its challenges for public administration. This realization has led me to understand the critical necessity of integrating critical thinking and ethical considerations into our policies and practices in our rapidly evolving era.
+<br><br>
 
-## 📅 **Coming Soon**
+📅 **Coming Soon**
+======
 The narrative continues. ✨ **Mark your calendars for December 22** when the full story unfolds. 🌟 Your patience is greatly appreciated!
+
