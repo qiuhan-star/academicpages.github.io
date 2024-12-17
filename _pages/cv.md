@@ -44,9 +44,6 @@ You can access Rachel's latest C.V. [here](https://raw.githubusercontent.com/qiu
 </head>
 <body>
 
-<h2>Collapsible List Example</h2>
-<p>Click on the buttons inside the box to expand/collapse the content.</p>
-
 <button class="collapsible">Education</button>
 <div class="content">
   <p>* M.A. in Administration Management, Xiamen University, Sept. 2022 - Jun. 2025 (Expected)</p>
@@ -64,11 +61,17 @@ You can access Rachel's latest C.V. [here](https://raw.githubusercontent.com/qiu
 <button class="collapsible">Publications</button>
 <div class="content">
   <!-- Publications content here -->
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
 </div>
 
 <button class="collapsible">Talks</button>
 <div class="content">
   <!-- Talks content here -->
+  <ul>{% for post in site.talks reversed %}
+    {% include archive-single-talk-cv.html  %}
+  {% endfor %}</ul>
 </div>
 
 <button class="collapsible">Service and leadership</button>
