@@ -43,4 +43,4 @@ Reflecting on my previous academic journey, it may seem broad in scope, but I se
 
 Interesting Sharing
 ======
-Take a leap into the academic adventure with the **PhD Simulator**! [**Click Here See More Information**](http://www.your-game-link.com)
+Take a leap into the academic adventure with the **PhD Simulator**! [**Click Here to See More Information**](https://qiuhan-star.github.io/hanrachelqiu.github.io/game-details.html)
