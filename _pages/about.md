@@ -41,29 +41,30 @@ redirect_from:
 
     #main-content {
         display: none; /* 初始时隐藏主页内容 */
+        opacity: 0; /* 初始时不透明度为0 */
         transition: opacity 1s ease-in-out; /* 动画过渡效果 */
     }
 </style>
 </head>
 <body>
 
-<div id="overlay" onclick="openPage()">
+<div id="overlay">
     <div class="content">
-        <h1>欢迎</h1>
-        <p>点击任意处进入主页</p>
+        <h1>Welcome</h1>
+        <p>Click anywhere to enter Rachel's homepage</p>
     </div>
 </div>
 
 <div id="main-content">
     <!-- 这里是你的主页内容 -->
-    <h1>这是主页</h1>
-    <p>欢迎来到我的网站</p>
+    <h1>This is the homepage</h1>
+    <p>Welcome to Rachel's website</p>
 </div>
 
 <script>
     // JavaScript脚本
-    function openPage() {
-        var overlay = document.getElementById('overlay');
+    document.getElementById('overlay').addEventListener('click', function() {
+        var overlay = this;
         var mainContent = document.getElementById('main-content');
 
         // 开始动画
@@ -78,13 +79,10 @@ redirect_from:
 
         // 解除body的overflow隐藏，允许滚动
         document.body.style.overflow = 'auto';
-    }
+    });
 </script>
 </body>
 </html>
-
-
-
 
 
 
