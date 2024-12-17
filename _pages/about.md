@@ -8,16 +8,13 @@ redirect_from:
 ---
 My name is Han Qiu (Rachel, 邱涵).
 
-I am a rigorously trained Master’s student in Public Administration at the [School of Public Affairs](https://spa.xmu.edu.cn/), Xiamen University. My supervisor is [Professor Wenxuan Yu](https://spa.xmu.edu.cn/info/1237/3095.htm).
+I am a rigorously trained Master’s student in Public Administration at the [School of Public Affairs](https://spa.xmu.edu.cn/), Xiamen University, under the guidance of [Professor Wenxuan Yu](https://spa.xmu.edu.cn/info/1237/3095.htm).
 
-I received B.S. degree in Public Service & Public Policy from ASU (2022) and B.A. degree in Public Administration from Hainan University (2022). My supervisor is [Professor Haiying Lin](https://haitc.hainanu.edu.cn/cslm/jzyg/szdw/xzgl.htm). 
+I received B.S. degree in Public Service & Public Policy from Arizona State University (2022) and B.A. degree in Public Administration from Hainan University (2022), where I was mentored by [Professor Haiying Lin](https://haitc.hainanu.edu.cn/cslm/jzyg/szdw/xzgl.htm). 
 
-I passionate about promoting social justice and advancing public interest and welfare.
+Driven by a passion for social justice and committed to advancing public interest and welfare, my research interests are broadly lie in the areas of public finance, public and nonprofit management, digital government, government transparency, information technology and politics, and environmental policy.
 
-My research interests are broadly lie in the areas of public finance, public and nonprofit management, digital government, government transparency, information technology and politics, and environmental policy.
-
-I am actively seeking interesting research opportunities and PhD positions for Fall 2025. If you are looking for a dedicated and self-motivated candidate, please DO contact me at rachel.hanqiu@gmail.com!
-
+I am actively seeking research opportunities and PhD positions for Fall 2025. If you are looking for a dedicated and self-motivated candidate, please DO contact me at rachel.hanqiu@gmail.com!
 
 🔥🔥 News
 ======
