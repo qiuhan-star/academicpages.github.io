@@ -45,4 +45,7 @@ The following is under construction. It is expected to be completed on December 
 
 Interesting Sharing
 ======
+<a href="game-details.html" class="button">**PhD Simulator**</a>
+
+
 Take a leap into the academic adventure with the **PhD Simulator**! [**Click Here to See More Information**](https://qiuhan-star.github.io/hanrachelqiu.github.io/game-details.html)
