@@ -4,7 +4,6 @@ title: "PhD Simulator Game Details"
 author_profile: True
 ---
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -60,5 +59,37 @@ author_profile: True
             <p>For those considering a PhD, I recommend playing the game multiple times to understand the challenges involved. For current PhD students without a clear direction, it might provide insights on how to graduate on time. For professors who wish to give their students a glimpse into the realities of a PhD journey, I highly recommend introducing them to the PhD Simulator game.</p>
         </section>
     </div>
+</body>
+</html>
+
+
+
+播放音乐
+
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+<audio id="bgMusic" loop>
+  <source src="assets/Unstoppable-Sia.320.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<button onclick="togglePlay()">Play/Pause</button>
+
+<script>
+var music = document.getElementById("bgMusic");
+
+function togglePlay() {
+  if (music.paused) {
+    music.play();
+  } else {
+    music.pause();
+  }
+}
+</script>
+
 </body>
 </html>
