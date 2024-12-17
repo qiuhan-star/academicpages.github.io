@@ -82,23 +82,7 @@
       <workItem from="1734410805963" duration="358000" />
       <workItem from="1734411167484" duration="152000" />
       <workItem from="1734411326652" duration="3855000" />
-      <workItem from="1734415248722" duration="2525000" />
-    </task>
-    <task id="LOCAL-00008" summary="Changes">
-      <option name="closed" value="true" />
-      <created>1734403780894</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1734403780894</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Changes">
-      <option name="closed" value="true" />
-      <created>1734403893351</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1734403893351</updated>
+      <workItem from="1734415248722" duration="2875000" />
     </task>
     <task id="LOCAL-00010" summary="Changes">
       <option name="closed" value="true" />
@@ -476,7 +460,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734416683416</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;_pages/about.md">
+      <option name="closed" value="true" />
+      <created>1734425443600</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1734425443600</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;_pages/about.md">
+      <option name="closed" value="true" />
+      <created>1734425557000</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1734425557000</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
