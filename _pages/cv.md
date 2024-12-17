@@ -10,7 +10,11 @@ You can access Rachel's latest C.V. [here](https://raw.githubusercontent.com/qiu
 
 {% include base_path %}
 
-
+<!-- 在页面顶部或底部添加一键展开/收拢图标和文本 -->
+<button class="toggle-all" style="position: fixed; top: 10px; right: 10px;">
+  <img src="collapse-icon.png" alt="Toggle All" />
+  <span>Toggle All</span>
+</button>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -103,6 +107,10 @@ for (i = 0; i < coll.length; i++) {
 
 </body>
 </html>
+
+
+
+
 
 
 
