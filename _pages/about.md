@@ -21,7 +21,7 @@ I am actively seeking research opportunities and PhD positions for Fall 2025. If
 * [NOV. 2024] [College Academic Achievement: Master's Students Jiaxi Yang, **Han Qiu**, and Professor Wenxuan Yu Co-author Article in the Journal of Asian Public Policy.](https://mp.weixin.qq.com/s/2TYL9l8GGay93hLLRQBzYw)
 * [DEC. 2023] [Academic Milestone: Master's Students **Han Qiu** and Jiaxi Yang Attend International Academic Conference and Deliver Papers](https://mp.weixin.qq.com/s/EuHTxNFZpdGGEOrvOj-RPg)
 * [DEC. 2023] [College Academic Event: The 6th Chengzhi Graduate Academic Salon a Success, Featuring Presentations by Master's Students **Han Qiu** and Mingyue Zhang, with Professor Xue Li as Guest Speaker](https://mp.weixin.qq.com/s/dn-2_kHyLDbNC0hQ042xEw)
-* Show more
+* Show more...
 
 
 
