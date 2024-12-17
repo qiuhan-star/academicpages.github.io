@@ -32,9 +32,12 @@
 </div>
 
 <div class="runtime">
-  Blog up for {{ site.time | date: "%s" | minus: "2024-12-13" | date: "%s" | divided_by: 86400 }} days,
-  {{ site.time | date: "%s" | minus: "2024-12-13" | date: "%s" | divided_by: 3600 | modulo: 24 }} hrs,
-  {{ site.time | date: "%s" | minus: "2024-12-13" | date: "%s" | divided_by: 60 | modulo: 60 }} Min,
-  {{ site.time | date: "%s" | minus: "2024-12-13" | date: "%s" | modulo: 60 }} Sec
+  Blog up for
+  {% assign start_date = "2024-12-13T00:00:00+00:00" %}
+  {% assign duration = site.time | date: "%s" | minus: start_date | date: "%s" | divided_by: 86400 %}
+  {{ duration }} days,
+  {{ site.time | date: "%s" | minus: start_date | date: "%s" | divided_by: 3600 | modulo: 24 }} hrs,
+  {{ site.time | date: "%s" | minus: start_date | date: "%s" | divided_by: 60 | modulo: 60 }} Min,
+  {{ site.time | date: "%s" | minus: start_date | date: "%s" | modulo: 60 }} Sec
   </div>
 </footer>
