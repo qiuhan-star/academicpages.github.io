@@ -4,12 +4,9 @@ title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
-  - /Resume_Han (Rachel) QIU.pdf
+  - /Resume_Han_(Rachel)_QIU.pdf
 ---
-You can access Rachel's latest C.V. [here](/assets/Resume_Han (Rachel) QIU.pdf). 
-
-
-You can access Rachel's latest C.V. [here](/assets/Resume_Han%20(Rachel)%20QIU.pdf).
+You can access Rachel's latest C.V. [here](https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/assets/Resume_Han (Rachel) QIU.pdf). 
 
 {% include base_path %}
 
