@@ -11,11 +11,6 @@ You can access Rachel's latest C.V. [here](https://raw.githubusercontent.com/qiu
 {% include base_path %}
 
 
-
-
-
-新的
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,7 +40,6 @@ You can access Rachel's latest C.V. [here](https://raw.githubusercontent.com/qiu
     background-color: #f1f1f1;
   }
 
-  /* 添加样式以在页面顶部显示一键展开/收拢按钮 */
   .toggle-all {
     position: fixed;
     top: 10px;
@@ -55,15 +49,47 @@ You can access Rachel's latest C.V. [here](https://raw.githubusercontent.com/qiu
 </head>
 <body>
 
-<!-- 一键展开/收拢按钮 -->
 <button class="toggle-all">Toggle All</button>
 
 <button class="collapsible">Education</button>
 <div class="content">
-  <!-- Education content here -->
+  <p>* M.A. in Administration Management, Xiamen University, Sept. 2022 - Jun. 2025 (Expected)</p>
+  <p>* B.A. in Public Administration, Hainan University, Sept. 2018 - Jun. 2022</p>
+  <p>* B.S. in Public Service and Public Policy, Arizona State University, Sept. 2018 - May. 2022</p>
 </div>
 
-<!-- ... 其他折叠部分 ... -->
+<button class="collapsible">Skills</button>
+<div class="content">
+  <p>Stata, SPSS, R, Python, QGIS, and ArcGIS;</p>
+  <p>Office (Word, Excel, and PowerPoint)</p>
+  <p>Adobe (PS, LR, AU, and PR)</p>
+</div>
+
+<button class="collapsible">Publications</button>
+<div class="content">
+  <!-- Publications content here -->
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+</div>
+
+<button class="collapsible">Talks</button>
+<div class="content">
+  <!-- Talks content here -->
+  <ul>{% for post in site.talks reversed %}
+    {% include archive-single-talk-cv.html  %}
+  {% endfor %}</ul>
+</div>
+
+<button class="collapsible">Service and leadership</button>
+<div class="content">
+  <p>Hello, this page is currently being updated and is expected to be ready by December 22, 2024. Thank you for your patience.</p>
+</div>
+
+<button class="collapsible">Work experience</button>
+<div class="content">
+  <p>Hello, this page is currently being updated and is expected to be ready by December 22, 2024. Thank you for your patience.</p>
+</div>
 
 <script>
 var coll = document.getElementsByClassName("collapsible");
