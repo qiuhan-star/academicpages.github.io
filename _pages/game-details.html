@@ -56,6 +56,72 @@ author_profile: true
 <head>
 <style>
 
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#audioPlayer {
+  position: fixed;
+  right: 0;
+  top: 20%; /* 您可以根据需要调整这个值 */
+}
+
+#audioControls {
+  margin: 20px;
+}
+
+#playPauseBtn {
+  padding: 10px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<audio id="audioPlayer" controls>
+  <source src="assets/Unstoppable-Sia.320.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<div id="audioControls">
+  <button id="playPauseBtn">Play</button>
+</div>
+
+<script>
+var audio = document.getElementById("audioPlayer");
+var playPauseBtn = document.getElementById("playPauseBtn");
+
+function playPauseAudio() {
+  if (audio.paused) {
+    audio.play();
+    playPauseBtn.textContent = 'Pause'; // 更新按钮文本为"Pause"
+  } else {
+    audio.pause();
+    playPauseBtn.textContent = 'Play'; // 更新按钮文本为"Play"
+  }
+}
+
+playPauseBtn.addEventListener('click', playPauseAudio);
+
+window.onload = function() {
+  audio.play().catch(function(error) {
+    console.error("Auto-play was prevented:", error);
+  });
+}
+</script>
+
+</body>
+</html>
+
+
+
+
+音乐
+
+
+
+
 #audioPlayer {
 
 #audioControls {
