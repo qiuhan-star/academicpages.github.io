@@ -18,11 +18,11 @@ I am actively seeking research opportunities and PhD positions for Fall 2025. If
 
 🔥🔥 Latest News
 ======
-**[NOV. 2024]** 🎉 **Academic Achievement:** *My Research Paper Earns College Acclaim!* >> [**Read More**](https://mp.weixin.qq.com/s/2TYL9l8GGay93hLLRQBzYw)
+<span style="color: #888888;">**[NOV. 2024]**</span> 🎉 **Academic Achievement:** *My Research Paper Earns College Acclaim!* >> [**Read More**](https://mp.weixin.qq.com/s/2TYL9l8GGay93hLLRQBzYw)
 
-**[DEC. 2023]** 🚀 **Academic Milestone:** *Making My Debut at the International Academic Conference, Featured in College Broadcast!* >> [**Read More**](https://mp.weixin.qq.com/s/EuHTxNFZpdGGEOrvOj-RPg)
+<span style="color: #888888;">**[DEC. 2023]**</span> 🚀 **Academic Milestone:** *Making My Debut at the International Academic Conference, Featured in College Broadcast!* >> [**Read More**](https://mp.weixin.qq.com/s/EuHTxNFZpdGGEOrvOj-RPg)
 
-**[DEC. 2023]** 🗨️ **Academic Salon:** *Delighted to Share My Research Insights within the College Community!* >> [**Read More**](https://mp.weixin.qq.com/s/dn-2_kHyLDbNC0hQ042xEw)
+<span style="color: #888888;">**[DEC. 2023]**</span> 🗨️ **Academic Salon:**</span> *Delighted to Share My Research Insights within the College Community!* >> [**Read More**](https://mp.weixin.qq.com/s/dn-2_kHyLDbNC0hQ042xEw)
 
 **Show more...**
 
