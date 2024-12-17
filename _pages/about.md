@@ -44,6 +44,31 @@ Reflecting on my previous academic journey, it may seem broad in scope, but I se
 The following is under construction. It is expected to be completed on December 22, so please be patient.
 ======
 
+<!-- Interesting Sharing Section -->
+<h2>Interesting Sharing</h2>
+<p>Take a leap into the academic adventure with the <strong>PhD Simulator</strong>!</p>
+<!-- Button to the game details page -->
+<a href="game-details.html" class="button">PhD Simulator Details</a>
+
+<style>
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+</style>
+
+
+
 Interesting Sharing
 ======
 <a href="game-details.html" class="button">**PhD Simulator**</a>
