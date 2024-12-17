@@ -1,5 +1,5 @@
 ---
-title: "a a Found"
+title: "PhD Simulator"
 sitemap: false
 permalink: /game-details.html
 ---
@@ -64,8 +64,6 @@ permalink: /game-details.html
 
 
 
-播放音乐
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -88,6 +86,36 @@ function togglePlay() {
   } else {
     music.pause();
   }
+}
+</script>
+
+</body>
+</html>
+
+
+新的内容
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* 可以添加一些样式来控制音频播放器的显示 */
+#audioPlayer {
+  display: none; /* 隐藏音频播放器 */
+}
+</style>
+</head>
+<body>
+
+<audio id="audioPlayer">
+  <source src="your-music-file.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+// 在页面加载完成后播放音乐
+window.onload = function() {
+  var audio = document.getElementById("audioPlayer");
+  audio.play();
 }
 </script>
 
