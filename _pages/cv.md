@@ -7,6 +7,8 @@ redirect_from:
   - /Resume_Han (Rachel) QIU.pdf
 ---
 You can access Rachel's latest C.V. [here](/assets/Resume_Han (Rachel) QIU.pdf). 
+
+
 You can access Rachel's latest C.V. [here](/assets/Resume_Han%20(Rachel)%20QIU.pdf).
 
 {% include base_path %}
