@@ -44,13 +44,6 @@ Reflecting on my previous academic journey, it may seem broad in scope, but I se
 **In graduate school**, my attention turned to <u>government transparency (both administrative and fiscal transparency), performance management, digital governance, AI policy, and environmental policies (climate change and energy just transition)</u>. My research and exploration of AI, especially generative AI, revealed its potential to streamline public sector operations and improve policy effectiveness. However, I also became aware of the double-edged nature of technology, understanding its potential to disrupt, for instance, higher education and its challenges for public administration. This realization has led me to understand the critical necessity of integrating critical thinking and ethical considerations into our policies and practices in our rapidly evolving era.
 <br><br>
 
-Visitor Map
-======
-<script type="text/javascript" src="//rf.revolvermaps.com/0/0/7.js?i=5hkt0oe6j11&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;sx=0" async="async"></script>
-<br><br>
-
 📅 **Coming Soon**
 ======
 The narrative continues. ✨ **Mark your calendars for December 22** when the full story unfolds. 🌟 Your patience is greatly appreciated!
-
-
