@@ -26,8 +26,5 @@ main:
   - title: "Blog Posts"
     url: /year-archive/
 
-  - title: "PhD Simulator"
-    url: /game-details/
-
   - title: "Theme-Switcher"
     url: /theme-switcher/
