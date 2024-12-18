@@ -3,6 +3,9 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 <style>
+  .bold-text {
+    font-weight: bold;
+  }
   .heart {
     display: inline-block;
     position: relative;
@@ -101,11 +104,11 @@
   <div class="footer-follow">
     <div class="footer-left">
       <ul class="social-icons">
-        <li><a href="http://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+        <li><a href="http://github.com/{{ site.author.github }}" class="bold-text"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
         <li>&nbsp;</li> <!-- 添加一个空的列表项来创建空格 -->
         <li>&nbsp;</li> <!-- 添加一个空的列表项来创建空格 -->
         <li>&nbsp;</li> <!-- 添加一个空的列表项来创建空格 -->
-        <li><a href="#weixin-qrcode" class="weixin-qrcode-link" onclick="document.getElementById('weixin-qrcode-modal').style.display='block'"><i class="fab fa-weixin"></i> WeChat</a></li>
+        <li><a href="#weixin-qrcode" class="weixin-qrcode-link bold-text" onclick="document.getElementById('weixin-qrcode-modal').style.display='block'"><i class="fab fa-weixin"></i> WeChat</a></li>
       </ul>
     </div>
       <div id="weixin-qrcode-modal" class="modal">
