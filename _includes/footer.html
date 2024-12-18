@@ -1,3 +1,56 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>跳动的心心</title>
+<style>
+  .heart {
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 90px;
+    transform: scale(0.7);
+  }
+  .heart:before,
+  .heart:after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 80px;
+    background: red;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+  }
+  .heart:after {
+    left: 50px;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+  }
+  @keyframes beat {
+    0% {
+      transform: scale(0.7);
+    }
+    25% {
+      transform: scale(0.8);
+    }
+    50% {
+      transform: scale(0.7);
+    }
+    75% {
+      transform: scale(0.8);
+    }
+    100% {
+      transform: scale(0.7);
+    }
+  }
+  .heart {
+    animation: beat 1s infinite;
+  }
+</style>
+</head>
+<body>
+
  <style>
     .footer {
       font-size: 1rem;
@@ -35,7 +88,7 @@
       </ul>
     </div>
     <div class="footer-center page__footer-copyright">
-      &copy; 2024 Han (Rachel) Qiu. <br>
+      <div>© 2024 <span class="heart"></span> Han (Rachel) Qiu.</div>
       Powered by <a href="http://jekyllrb.com">Jekyll</a> and <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>. <br>
       Last updated 2024-12-18.
     </div>
