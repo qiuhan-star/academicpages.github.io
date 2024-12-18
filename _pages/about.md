@@ -46,7 +46,6 @@ Reflecting on my previous academic journey, it may seem broad in scope, but I se
 
 Visitor Map
 ======
-<script src="//rf.revolvermaps.com/0/0/6.js?i=54e0ojatafc&m=7&c=e63100&cr1=ffffff&f=arial&l=0&bv=90&lx=-420&ly=420&hi=20&he=7&hc=a8ddff&rs=80" async></script>
 <br><br>
 
 
