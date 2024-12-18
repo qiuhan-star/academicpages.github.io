@@ -1,57 +1,64 @@
 <style>
-.footer-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 14px;
-}
-.footer-left, .footer-right, .footer-center {
-  flex: 1;
-}
-.footer-left {
-  text-align: left;
-}
-.footer-right {
-  text-align: right;
-}
-.footer-copyright {
-  font-size: 16px;
-}
-.footer-runtime {
-  font-size: 18px;
-}
+  .footer-follow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-left, .footer-right, .footer-center {
+    flex: 1;
+  }
+
+  .footer-left {
+    text-align: left;
+  }
+
+  .footer-right {
+    text-align: right;
+  }
+
+  .footer-copyright {
+    font-size: 16px;
+    text-align: center; /* 确保版权信息居中显示 */
+  }
+
+  .footer-runtime {
+    font-size: 18px;
+  }
 </style>
 
-{% include base_path %}
+<footer>
+  <div class="footer-follow">
+    {% if site.author.github or site.author.bitbucket or site.atom_feed.hide != true %}
+    <div class="footer-left">
+      <ul class="social-icons">
+        {% if site.data.ui-text[site.locale].follow_label %}
+          <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+        {% endif %}
+        {% if site.author.github %}
+          <li><a href="http://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+        {% endif %}
+        {% if site.author.bitbucket %}
+          <li><a href="http://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
+        {% endif %}
+        <li><a href="mailto:rachel.hanqiu@gmail.com">Email Me</a></li>
+      </ul>
+    </div>
+    {% endif %}
 
-{% if site.author.github or site.author.bitbucket or site.atom_feed.hide != true %}
-  <div class="page__footer-follow footer-left">
-    <ul class="social-icons">
-      {% if site.data.ui-text[site.locale].follow_label %}
-        <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
-      {% endif %}
-      {% if site.author.github %}
-        <li><a href="http://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
-      {% endif %}
-      {% if site.author.bitbucket %}
-        <li><a href="http://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
-      {% endif %}
-      <li><a href="mailto:rachel.hanqiu@gmail.com">Email Me</a></li>
-    </ul>
-  </div>
-  {% endif %}
+    <div class="footer-center page__footer-copyright">
+      &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }},
+      {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }}
+      <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &
+      <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>.<br />
+      Last updated {{ "now" | date: '%Y-%m-%d' }}.
+    </div>
 
-  <div class="page__footer-copyright footer-center">
-    &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }},
-    {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }}
-    <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &
-    <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>.<br />
-    Last updated {{ "now" | date: '%Y-%m-%d' }}.
+    <div class="footer-right runtime">
+      Blog up for <span id="days">0</span> days, <span id="hours">0</span> hrs, <span id="minutes">0</span> Min, <span id="seconds">0</span> Sec
+    </div>
   </div>
-
-  <div class="runtime footer-right">
-    Blog up for <span id="days">0</span> days, <span id="hours">0</span> hrs, <span id="minutes">0</span> Min, <span id="seconds">0</span> Sec
-  </div>
+</footer>
 
 <script>
   var startTime = new Date('2024-12-13T00:00:00Z').getTime();
@@ -74,7 +81,4 @@
 
   updateUptime();
 </script>
-</footer>
-
-
 
