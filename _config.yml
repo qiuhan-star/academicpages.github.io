@@ -147,7 +147,7 @@ social:
 analytics:
   provider               :  "google-analytics-4" # false (default), "google", "google-universal", "google-analytics-4", "custom"//原来是false
   google:
-    tracking_id          :  "G-S0DGZJKVH1"
+    tracking_id          :  G-S0DGZJKVH1
 
 
 # Reading Files
