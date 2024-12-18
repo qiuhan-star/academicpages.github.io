@@ -20,7 +20,8 @@ author:
   location         : "Zhejiang, China"
   employer         : "Xiamen University"
   uri              : # URL
-  email            : "rachel.hanqiu@gmail.com" 
+  email            : "rachel.hanqiu@gmail.com"
+  wechat_qrcode    : "images/wechat.PNG"
 
   # Academic websites
   arxiv            : 
