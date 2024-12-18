@@ -98,9 +98,9 @@
     }
 </style>
 </head>
-<body>
 
 <footer class="footer">
+<body>
   <div class="footer-follow">
     <div class="footer-left">
       <ul class="social-icons">
@@ -130,9 +130,20 @@
       TOTAL PAGE VIEWS <span class="page-views">45</span>
     </div>
   </div>
+</body>
 </footer>
 
 <script>
+// 微信获取模态框
+var modal = document.getElementById('weixin-qrcode-modal');
+// 当用户点击任何地方时，关闭模态框
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+// 计时器
 function updateUptime() {
   var startTime = new Date('2024-12-13T00:00:00Z').getTime();
   var currentTime = new Date().getTime();
@@ -188,17 +199,3 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-<script>
-// 获取模态框
-var modal = document.getElementById('weixin-qrcode-modal');
-
-// 当用户点击任何地方时，关闭模态框
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-</script>
-
-</body>
-</html>
