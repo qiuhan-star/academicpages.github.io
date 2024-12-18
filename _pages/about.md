@@ -6,15 +6,21 @@ redirect_from:
   - /about/
   - /about.html
 ---
-My name is Han Qiu (Rachel, 邱涵). Driven by a passion for social justice and a personal dedication to making a difference, I am deeply committed to advancing public interest and welfare, always eager to contribute to charitable causes and promote community well-being.
+## Who am I?
+Hello there! I’m Han Qiu (邱涵), also known as Rachel. Occasionally, I step out of my usual zone to engage in meetings and share insights at various [talks](https://qiuhan-star.github.io/hanrachelqiu.github.io//talks/).
 
-I am a rigorously trained Master’s student in Public Administration at the [School of Public Affairs](https://spa.xmu.edu.cn/), [Xiamen University](https://www.xmu.edu.cn/), under the guidance of [Professor Wenxuan Yu](https://spa.xmu.edu.cn/info/1237/3095.htm).
+I am a rigorously trained Master’s student in Public Administration at the [School of Public Affairs](https://spa.xmu.edu.cn/), [Xiamen University](https://www.xmu.edu.cn/), fortunate to be guided by [Professor Wenxuan Yu](https://spa.xmu.edu.cn/info/1237/3095.htm).
 
-I received a B.S. degree in Public Service & Public Policy from [Arizona State University](https://www.asu.edu/) (2022) and a B.A. degree in Public Administration from [Hainan University](https://www.hainanu.edu.cn/) (2022), where I was mentored by [Professor Haiying Lin](https://haitc.hainanu.edu.cn/cslm/jzyg/szdw/xzgl.htm).
+I hold a B.S. degree in Public Service & Public Policy from [Arizona State University](https://www.asu.edu/) (2022) and a B.A. degree in Public Administration from [Hainan University](https://www.hainanu.edu.cn/) (2022), where I was fortunate to be mentored by [Professor Haiying Lin](https://haitc.hainanu.edu.cn/cslm/jzyg/szdw/xzgl.htm). Throughout my undergraduate years, I had the privilege of learning from esteemed faculty including Dr. Jekyung Lee, Dr. Min-Hyu Kim, Dr. Kathy Yang, Dr. Min-Hyu Kim, Dr. Qingqing Wang, and Dr. Sang Eun Lee. Their diverse perspectives and dedication to teaching greatly enhanced my educational experience.
 
-My research interests are broadly lie in the areas of public finance, public and nonprofit management, digital government, government transparency, information technology and politics, and environmental policy.
+My research interests broadly lie in the areas of public finance, public and nonprofit management, digital government, government transparency, information technology and politics, and environmental policy.
 
-I am actively seeking research opportunities and PhD positions for Fall 2025. If you are looking for a dedicated and self-motivated candidate, please DO contact me at rachel.hanqiu@gmail.com!
+I am actively seeking research opportunities and PhD positions for Fall 2025. If you are looking for a dedicated and self-motivated candidate, I’d be thrilled to connect. Please feel free to reach out to me at rachel.hanqiu@gmail.com!
+
+## When I'm Not Working:
+- I am a fervent advocate for social justice and a firm believer in the transformative power of public service. Committed to public welfare, I am constantly seeking ways to contribute to my community and make a real difference.
+- In my free time, I enjoy Latin dance, surfing, running, photography, and sketching.
+- I am also passionate about learning new languages: German, Korean, and Japanese.
 <br><br>
 
 🌟 Interesting Sharing 🌟
