@@ -1,9 +1,11 @@
 ---
-layout: archive
-permalink: /theme-switcher.html/
+permalink: /theme-switcher/
 title: "Theme Switcher"
 author_profile: true
 ---
+## Extracurricular Experience
+
+
 <html lang="en">
 <head>
 <meta charset="UTF-8">
