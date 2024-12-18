@@ -73,9 +73,13 @@ permalink: /game-details.html/
         var audio = document.getElementById('audioPlayer');
         var playPauseBtn = document.getElementById('playPauseBtn');
 
+        // 尝试在页面加载时播放音乐，但大多数现代浏览器会阻止自动播放
+        // 因此，最好是在用户点击按钮时播放音乐
         playPauseBtn.addEventListener('click', function() {
             if (audio.paused) {
-                audio.play();
+                audio.play().catch(function(error) {
+                    console.error("Error trying to play audio:", error);
+                });
                 playPauseBtn.textContent = 'Pause Music';
             } else {
                 audio.pause();
