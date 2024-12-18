@@ -20,10 +20,11 @@
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
   </div>
 
+
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">
-      <!-- Font Awesome icons / Biographic information  -->
+      <!-- Font Awesome icons / Biographic information -->
       {% if author.location %}
         <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
       {% endif %}
@@ -36,6 +37,14 @@
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
       {% endif %}
+    </ul>
+      {% if author.wechat_qrcode %}
+        <div class="author__wechat">
+          <img src="{{ author.wechat_qrcode | prepend: "/images/" | prepend: base_path }}" alt="WeChat QR Code" class="author__wechat-qrcode">
+          <p>Scan to add me on WeChat</p>
+        </div>
+      {% endif %}
+</div>
 
       <!-- Font Awesome and Academicons icons / Academic websites -->
       {% if author.arxiv %}
