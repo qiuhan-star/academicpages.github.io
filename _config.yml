@@ -21,7 +21,6 @@ author:
   employer         : "Xiamen University"
   uri              : # URL
   email            : "rachel.hanqiu@gmail.com"
-  wechat_qrcode    : "images/wechat.PNG"
 
   # Academic websites
   arxiv            : 
@@ -32,7 +31,7 @@ author:
   pubmed           : 
   researchgate     : "https://www.researchgate.net/profile/Han-Qiu-20"
   scopus           : 
-  web of science   : "https://www.webofscience.com/wos/author/record/LTM-0273-2024"
+  webofscience     : "https://www.webofscience.com/wos/author/record/LTM-0273-2024"
 
   # Social media
   bluesky          : # "bsky.app" # Replace this with you Bluesky username
@@ -64,7 +63,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : 
   dribbble         : 
-  github           : "qiuhan-star"
+  github           : #"qiuhan-star"
   kaggle           : 
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 

@@ -37,16 +37,7 @@
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
       {% endif %}
-      {% if author.wechat_qrcode %}
-        <li>
-          <a href="#" onclick="showWeChatQR(); return false;"><i class="fab fa-fw fa-weixin icon-pad-right" aria-hidden="true"></i>WeChat</a>
-        </li>
-      </li>
     </ul>
-    <div id="wechatQR" style="display: none;">
-      <img src="{{ author.wechat_qrcode | prepend: "/images/" | prepend: base_path }}" alt="WeChat QR Code" class="author__wechat-qrcode">
-      <p>Scan to add me on WeChat</p>
-    </div>
 </div>
 
 
