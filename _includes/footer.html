@@ -28,20 +28,20 @@
   }
   /* 滚动动画 */
   @keyframes scrollNumber {
-  0% { transform: translateY(0); }
-  50% { transform: translateY(-100%); }
-  100% { transform: translateY(-200%); }
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-100%); }
+    100% { transform: translateY(-200%); }
   }
   .second-scroll {
-  display: inline-block;
-  position: relative;
-  height: 1em; /* 高度需要与数字字体大小匹配 */
-  overflow: hidden;
+    display: inline-block;
+    position: relative;
+    height: 1em; /* 高度需要与数字字体大小匹配 */
+    overflow: hidden;
   }
   .second-scroll span {
-  position: absolute;
-  width: 100%;
-  animation: scrollNumber 1s steps(10, end) infinite; /* 10步完成动画，与数字数量匹配 */
+    position: absolute;
+    width: 100%;
+    animation: scrollNumber 1s steps(10, end) infinite; /* 10步完成动画，与数字数量匹配 */
   }
   .heart {
     animation: beat 1s infinite;
