@@ -3,44 +3,89 @@ permalink: /theme-switcher/
 title: "Theme Switcher"
 author_profile: true
 ---
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Theme Switcher</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap">
 <style>
-  :root {
-    --color-background: #1b1b1b; /* 暗色背景 */
-    --color-text: #fff; /* 暗色文字 */
-    --color-background-light: #fff; /* 亮色背景 */
-    --color-text-light: #0b1016; /* 亮色文字 */
-  }
+  * { box-sizing: border-box; }
+
   body {
-    background-color: var(--color-background-light);
-    color: var(--color-text-light);
-    transition: background-color 0.3s, color 0.3s;
+    font-family: "Montserrat", sans-serif;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    min-height: 100vh;
+    margin: 0;
+    transition: background 0.2s linear;
   }
-  body.dark-mode {
-    background-color: var(--color-background);
-    color: var(--color-text);
+
+  body.dark { background-color: #292c35; }
+
+  body.dark h1, body.dark .support a { color: #fff; }
+
+  .checkbox {
+    opacity: 0;
+    position: absolute;
+  }
+
+  .checkbox-label {
+    background-color: #111;
+    width: 50px;
+    height: 26px;
+    border-radius: 50px;
+    position: relative;
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .fa-moon { color: #f1c40f; }
+
+  .fa-sun { color: #f39c12; }
+
+  .checkbox-label .ball {
+    background-color: #fff;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+  }
+
+  .checkbox:checked + .checkbox-label .ball {
+    transform: translateX(24px);
   }
 </style>
 </head>
 <body>
 
-<button onclick="toggleTheme()">切换主题</button>
+<h1>Light/Dark Toggle<br>Button</h1>
 
-<script>
-  function toggleTheme() {
-    let html = document.querySelector('html');
-    // 检查html元素是否已经包含dark-mode类
-    if (html.classList.contains('dark-mode')) {
-      // 如果包含，则移除
-      html.classList.remove('dark-mode');
-    } else {
-      // 如果不包含，则添加
-      html.classList.add('dark-mode');
-    }
-  }
+<div>
+  <input type="checkbox" class="checkbox" id="checkbox">
+  <label for="checkbox" class="checkbox-label">
+    <i class="fas fa-moon"></i>
+    <i class="fas fa-sun"></i>
+    <span class="ball"></span>
+  </label>
+</div>
+
+<script type="text/javascript">
+  const checkbox = document.getElementById("checkbox");
+  checkbox.addEventListener("change", () => {
+    document.body.classList.toggle("dark");
+  });
 </script>
 
 </body>
