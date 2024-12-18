@@ -7,7 +7,6 @@ author_profile: true
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Theme Switcher</title>
 <style>
   :root {
     --color-background: #1b1b1b; /* 暗色背景 */
