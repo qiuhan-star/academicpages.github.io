@@ -19,7 +19,7 @@ I am actively seeking research opportunities and PhD positions for Fall 2025. If
 
 🌟 Interesting Sharing 🌟
 ======
-As I was weighing the decision to pursue a PhD, I stumbled upon a phenomenal game -- the [**PhD Simulator**](https://research.wmz.ninja/projects/phd/index.html)! I'm eager to spread the word. For a deeper dive into the details, [**Click Here**](https://qiuhan-star.github.io/game-details.html).<br>
+As I was weighing the decision to pursue a PhD, I stumbled upon a phenomenal game -- the [**PhD Simulator**](https://research.wmz.ninja/projects/phd/index.html)! I'm eager to spread the word. For a deeper dive into the details, [**Click Here**](https://qiuhan-star.github.io/pages/game-details.html).<br>
 
 🔥🔥 Latest News
 ======
