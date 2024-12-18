@@ -1,59 +1,54 @@
-<style>
-  .footer-follow {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Footer Example</title>
+  <style>
+    .footer {
+      margin-top: 5rem;
+      padding: 5rem 0;
+      height: auto;
+      font-size: 1rem;
+      color: #333;
+      position: relative;
+      border-top: 2px solid #000;
+    }
+    .footer-follow {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .footer-left, .footer-right, .footer-center {
+      flex: 1;
+      text-align: center;
+    }
+    .footer-left {
+      text-align: left;
+    }
+    .footer-right {
+      text-align: right;
+    }
+    .social-icons li {
+      display: inline;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
 
-  .footer-left, .footer-right, .footer-center {
-    flex: 1;
-  }
-
-  .footer-left {
-    text-align: left;
-  }
-
-  .footer-right {
-    text-align: right;
-  }
-
-  .footer-copyright {
-    font-size: 16px;
-    text-align: center; /* 确保版权信息居中显示 */
-  }
-
-  .footer-runtime {
-    font-size: 18px;
-  }
-</style>
-
-<footer>
+<footer class="footer">
   <div class="footer-follow">
-    {% if site.author.github or site.author.bitbucket or site.atom_feed.hide != true %}
     <div class="footer-left">
       <ul class="social-icons">
-        {% if site.data.ui-text[site.locale].follow_label %}
-          <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
-        {% endif %}
-        {% if site.author.github %}
-          <li><a href="http://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
-        {% endif %}
-        {% if site.author.bitbucket %}
-          <li><a href="http://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
-        {% endif %}
-        <li><a href="mailto:rachel.hanqiu@gmail.com">Email Me</a></li>
+        <li><a href="http://github.com/yourusername"><i class="fab fa-github"></i> GitHub</a></li>
+        <li><a href="http://bitbucket.org/yourusername"><i class="fab fa-bitbucket"></i> Bitbucket</a></li>
+        <li><a href="mailto:youremail@example.com">Email Me</a></li>
       </ul>
     </div>
-    {% endif %}
-
     <div class="footer-center page__footer-copyright">
-      &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }},
-      {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }}
-      <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &
-      <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>.<br />
-      Last updated {{ "now" | date: '%Y-%m-%d' }}.
+      &copy; 2024 Han (Rachel) Qiu. Powered by <a href="http://jekyllrb.com">Jekyll</a> and <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>. Last updated 2024-12-18.
     </div>
-
     <div class="footer-right runtime">
       Blog up for <span id="days">0</span> days, <span id="hours">0</span> hrs, <span id="minutes">0</span> Min, <span id="seconds">0</span> Sec
     </div>
@@ -61,24 +56,24 @@
 </footer>
 
 <script>
+function updateUptime() {
   var startTime = new Date('2024-12-13T00:00:00Z').getTime();
+  var currentTime = new Date().getTime();
+  var timeDiff = currentTime - startTime;
+  var days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
 
-  function updateUptime() {
-    var now = new Date().getTime();
-    var duration = now - startTime;
-    var days = Math.floor(duration / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((duration % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((duration % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((duration % (1000 * 60)) / 1000);
+  document.getElementById('days').textContent = days;
+  document.getElementById('hours').textContent = hours;
+  document.getElementById('minutes').textContent = minutes;
+  document.getElementById('seconds').textContent = seconds;
+}
 
-    document.getElementById('days').textContent = days;
-    document.getElementById('hours').textContent = hours;
-    document.getElementById('minutes').textContent = minutes;
-    document.getElementById('seconds').textContent = seconds;
-  }
-
-  setInterval(updateUptime, 1000);
-
-  updateUptime();
+setInterval(updateUptime, 1000);
+updateUptime();
 </script>
 
+</body>
+</html>
