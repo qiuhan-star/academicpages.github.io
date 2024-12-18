@@ -35,10 +35,13 @@
       </ul>
     </div>
     <div class="footer-center page__footer-copyright">
-      &copy; 2024 Han (Rachel) Qiu. Powered by <a href="http://jekyllrb.com">Jekyll</a> and <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>. Last updated 2024-12-18.
+      &copy; 2024 Han (Rachel) Qiu. <br>
+      Powered by <a href="http://jekyllrb.com">Jekyll</a> and <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>. <br>
+      Last updated 2024-12-18.
     </div>
     <div class="footer-right runtime">
       Blog up for <span id="days">0</span> days, <span id="hours">0</span> hrs, <span id="minutes">0</span> Min, <span id="seconds">0</span> Sec
+      VISITOR COUNT <span class="visitor-count">1568</span> TOTAL PAGE VIEWS <span class="page-views">3178</span>
     </div>
   </div>
 </footer>
@@ -61,6 +64,38 @@ function updateUptime() {
 
 setInterval(updateUptime, 1000);
 updateUptime();
+</script>
+
+<script>
+// 假设的服务器端 API 路径
+const visitorCountApi = '/api/visitor-count';
+const pageViewsApi = '/api/page-views';
+
+// 获取访问者计数
+function fetchVisitorCount() {
+  fetch(visitorCountApi)
+    .then(response => response.json())
+    .then(data => {
+      document.querySelector('.visitor-count').textContent = data.count;
+    })
+    .catch(error => console.error('Error fetching visitor count:', error));
+}
+
+// 获取页面浏览量
+function fetchPageViews() {
+  fetch(pageViewsApi)
+    .then(response => response.json())
+    .then(data => {
+      document.querySelector('.page-views').textContent = data.count;
+    })
+    .catch(error => console.error('Error fetching page views:', error));
+}
+
+// 页面加载时获取计数
+document.addEventListener('DOMContentLoaded', () => {
+  fetchVisitorCount();
+  fetchPageViews();
+});
 </script>
 
 </html>
