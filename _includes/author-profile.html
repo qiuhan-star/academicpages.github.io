@@ -40,11 +40,6 @@
     </ul>
 </div>
 
-
-
-
-
-
       <!-- Font Awesome and Academicons icons / Academic websites -->
       {% if author.orcid %}
         <li><a href="{{ author.orcid }}"><i class="ai ai-orcid ai-fw icon-pad-right"></i>ORCID</a></li>
@@ -54,6 +49,9 @@
       {% endif %}
       {% if author.googlescholar %}
         <li><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar icon-pad-right"></i>Google Scholar</a></li>
+      {% endif %}
+      {% if author.webofscience %}
+        <li><a href="{{ author.webofscience }}"><i class="ai ai-webofscience icon-pad-right"></i>Web of Science</a></li>
       {% endif %}
       {% if author.arxiv %}
         <li><a href="{{ author.arxiv }}"><i class="ai ai-arxiv ai-fw icon-pad-right"></i>arXiv</a></li>
