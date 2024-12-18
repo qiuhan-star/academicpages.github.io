@@ -1,127 +1,131 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>跳动的心心</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-<style>
-  .heart {
-    display: inline-block;
-    position: relative;
-    width: 20px; /* 调整宽度 */
-    height: 18px; /* 调整高度 */
-    transform: scale(0.7);
-    animation: beat 1s infinite;
-  }
-  .heart:before,
-  .heart:after {
-    content: "";
-    position: absolute;
-    width: 10px; /* 调整宽度 */
-    height: 16px; /* 调整高度 */
-    background: red;
-    border-radius: 50px 50px 0 0;
-    transform: rotate(-45deg);
-    transform-origin: 0 100%;
-  }
-  .heart:after {
-    left: 10px; /* 调整位置 */
-    transform: rotate(45deg);
-    transform-origin: 100% 100%;
-  }
-  @keyframes beat {
-    0%, 100% { transform: scale(1) rotate(-45deg); }
-    25%, 75% { transform: scale(1.1) rotate(-45deg); }
-  }
-  /* Footer styles */
-  .footer {
-    font-size: 1rem;
-    color: #333;
-    margin-bottom: 0; /* 确保没有底部外边距 */
-  }
-  .footer-follow {
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
-  }
-  .footer-left, .footer-right, .footer-center {
-    text-align: center;
-    flex: 1;
-  }
-  .footer-left {
-    text-align: left;
-  }
-  .footer-right {
-    text-align: right;
-  }
-  .social-icons li {
-    display: inline;
-  }
-  .fa-weixin {
-      color: #1AAD19; /* 微信绿 */
-  }
-  .modal {
-      display: none; /* 默认隐藏模态框 */
-      position: fixed;
-      z-index: 1;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      overflow: auto;
-      background-color: rgba(0, 0, 0, 0.4);
-  }
-  .modal-content {
-      background-color: #fefefe;
-      margin: 15% auto;
-      padding: 20px;
-      border: 1px solid #888;
-      width: 80%;
-      max-width: 300px;
-  }
-  .close {
-      color: #aaa;
-      float: right;
-      font-size: 28px;
-      font-weight: bold;
-  }
-  .close:hover,
-  .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-  }
-</style>
+    <style>
+      .heart {
+        display: inline-block;
+        position: relative;
+        width: 20px; /* 调整宽度 */
+        height: 18px; /* 调整高度 */
+        transform: scale(0.7);
+        animation: beat 1s infinite;
+      }
+      .heart:before,
+      .heart:after {
+        content: "";
+        position: absolute;
+        width: 10px; /* 调整宽度 */
+        height: 16px; /* 调整高度 */
+        background: red;
+        border-radius: 50px 50px 0 0;
+        transform: rotate(-45deg);
+        transform-origin: 0 100%;
+      }
+      .heart:after {
+        left: 10px; /* 调整位置 */
+        transform: rotate(45deg);
+        transform-origin: 100% 100%;
+      }
+      @keyframes beat {
+        0%, 100% { transform: scale(1) rotate(-45deg); }
+        25%, 75% { transform: scale(1.1) rotate(-45deg); }
+      }
+      /* Footer styles */
+      .footer {
+        font-size: 1rem;
+        color: #333;
+        margin-bottom: 0; /* 确保没有底部外边距 */
+      }
+      .footer-follow {
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+      }
+      .footer-left, .footer-right, .footer-center {
+        text-align: center;
+        flex: 1;
+      }
+      .footer-left {
+        text-align: left;
+      }
+      .footer-right {
+        text-align: right;
+      }
+      .social-icons li {
+        display: inline;
+      }
+      .fa-weixin {
+          color: #1AAD19; /* 微信绿 */
+      }
+      .modal {
+          display: none; /* 默认隐藏模态框 */
+          position: fixed;
+          z-index: 1;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          overflow: auto;
+          background-color: rgba(0, 0, 0, 0.4);
+      }
+      .modal-content {
+          background-color: #fefefe;
+          margin: 15% auto;
+          padding: 20px;
+          border: 1px solid #888;
+          width: 80%;
+          max-width: 300px;
+      }
+      .close {
+          color: #aaa;
+          float: right;
+          font-size: 28px;
+          font-weight: bold;
+      }
+      .close:hover,
+      .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+      }
+    </style>
 </head>
 <body>
-<footer class="footer">
-  <div class="footer-follow">
-    <div class="footer-left">
-      <ul class="social-icons">
-        <li><a href="http://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
-        <li>&nbsp;</li> <!-- 添加一个空的列表项来创建空格 -->
-        <li>&nbsp;</li> <!-- 添加一个空的列表项来创建空格 -->
-        <li><a href="mailto:rachel.hanqiu@gmail.com"><i class="fa-solid fa-envelope"></i> Email Me</a></li>
-        <li>&nbsp;</li>
-        <li><a href="#weixin-qrcode" class="weixin-qrcode-link" onclick="document.getElementById('weixin-qrcode-modal').style.display='block'"><i class="fab fa-weixin"></i> WeChat</a></li>
-      </ul>
-    </div>
-    <div id="weixin-qrcode-modal" class="modal">
-      <div class="modal-content">
-        <span class="close" onclick="document.getElementById('weixin-qrcode-modal').style.display='none'">&times;</span>
-
-    <div class="footer-center page__footer-copyright">
-      <div>© 2024 <span class="heart"> </span> Han (Rachel) Qiu.</div>
-      Last updated 2024-12-18. <br>
-      Blog up for <span id="days">0</span> days, <span id="hours">0</span> hrs, <span id="minutes">0</span> Min, <span id="seconds">0</span> Sec
-    </div>
-    <div class="footer-right runtime">
-      VISITOR COUNT <span class="visitor-count">58</span><br>
-      TOTAL PAGE VIEWS <span class="page-views">45</span>
-    </div>
-  </div>
+    <footer class="footer">
+        <div class="footer-follow">
+            <div class="footer-left">
+                <ul class="social-icons">
+                    <li><a href="http://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+                    <li>&nbsp;</li>
+                    <li>&nbsp;</li>
+                    <li><a href="mailto:rachel.hanqiu@gmail.com"><i class="fa-solid fa-envelope"></i> Email Me</a></li>
+                    <li>&nbsp;</li>
+                    <li><a href="images/wechat.PNG" class="weixin-qrcode-link" onclick="document.getElementById('weixin-qrcode-modal').style.display='block'"><i class="fab fa-weixin"></i> WeChat</a></li>
+                </ul>
+            </div>
+            <div id="weixin-qrcode-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="document.getElementById('weixin-qrcode-modal').style.display='none'">&times;</span>
+                    <!-- 这里可以放置微信二维码图片或其他内容 -->
+                </div>
+            </div>
+            <div class="footer-center page__footer-copyright">
+                <div>© 2024 <span class="heart"> </span> Han (Rachel) Qiu.</div>
+                Last updated 2024-12-18. <br>
+                Blog up for <span id="days">0</span> days, <span id="hours">0</span> hrs, <span id="minutes">0</span> Min, <span id="seconds">0</span> Sec
+            </div>
+            <div class="footer-right runtime">
+                VISITOR COUNT <span class="visitor-count">58</span><br>
+                TOTAL PAGE VIEWS <span class="page-views">45</span>
+            </div>
+        </div>
+    </footer>
 <body>
-</footer>
+
 
 
 <script>
