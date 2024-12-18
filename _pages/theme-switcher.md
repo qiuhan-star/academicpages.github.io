@@ -22,16 +22,9 @@ author_profile: true
     transition: background-color 0.3s, color 0.3s;
   }
 
-  @media (prefers-color-scheme: dark) {
-    body {
-      background-color: var(--color-background);
-      color: var(--color-text);
-    }
-  }
-
-  button {
-    margin: 10px;
-    padding: 5px 10px;
+  body.dark-mode {
+    background-color: var(--color-background);
+    color: var(--color-text);
   }
 </style>
 </head>
@@ -42,15 +35,10 @@ author_profile: true
 <script>
   function toggleTheme() {
     let html = document.querySelector('html');
-    let currentTheme = html.getAttribute('data-theme');
-    if (currentTheme === "dark") {
-      html.setAttribute('data-theme', 'light');
-      html.style.backgroundColor = var(--color-background-light);
-      html.style.color = var(--color-text-light);
+    if (html.classList.contains('dark-mode')) {
+      html.classList.remove('dark-mode');
     } else {
-      html.setAttribute('data-theme', 'dark');
-      html.style.backgroundColor = var(--color-background);
-      html.style.color = var(--color-text);
+      html.classList.add('dark-mode');
     }
   }
 </script>
