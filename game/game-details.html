@@ -93,3 +93,18 @@ permalink: /game-details.html/
         </section>
     </div>
 </html>
+
+
+    <script>
+        // This script will automatically play the audio when the page loads
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const audioPlayer = document.getElementById('audioPlayer');
+            if (audioPlayer) {
+                audioPlayer.play().catch(error => {
+                    console.error("Audio play failed:", error);
+                });
+            }
+        });
+    </script>
+</body>
+</html>
