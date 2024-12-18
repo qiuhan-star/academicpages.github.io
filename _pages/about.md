@@ -21,7 +21,7 @@ I am actively seeking research opportunities and PhD positions for Fall 2025. If
 ======
 As I was weighing the decision to pursue a PhD, I stumbled upon a phenomenal game -- the [**PhD Simulator**](https://research.wmz.ninja/projects/phd/index.html)! I'm eager to spread the word. For a deeper dive into the details, [**Click Here**](/game-details.html/).<br>
 
-🔥🔥 Latest News
+🔥 Latest News
 ======
 <span style="color: #888888;">**[NOV. 2024]**</span> 🎉 **Academic Achievement:** *My Research Paper Earns College Acclaim!* >> [**Read More**](https://mp.weixin.qq.com/s/2TYL9l8GGay93hLLRQBzYw)
 
