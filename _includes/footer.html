@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>跳动的心心</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 <style>
   .heart {
     display: inline-block;
@@ -66,7 +67,41 @@
     .social-icons li {
       display: inline;
     }
-  </style>
+    .fa-weixin {
+        color: #1AAD19; /* 微信绿 */
+    }
+    .modal {
+        display: none; /* 默认隐藏模态框 */
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    .modal-content {
+        background-color: #fefefe;
+        margin: 15% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+        max-width: 300px;
+    }
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+      .close:hover,
+      .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+ </style>
 
 <footer class="footer">
   <div class="footer-follow">
@@ -76,8 +111,18 @@
         <li>&nbsp;</li> <!-- 添加一个空的列表项来创建空格 -->
         <li>&nbsp;</li> <!-- 添加一个空的列表项来创建空格 -->
         <li><a href="mailto:rachel.hanqiu@gmail.com"><i class="fa-solid fa-envelope"></i> Email Me</a></li>
+        <li>&nbsp;</li>
+        <li><a href="#weixin-qrcode" class="weixin-qrcode-link" onclick="document.getElementById('weixin-qrcode-modal').style.display='block'"><i class="fab fa-weixin"></i> WeChat</a></li>
       </ul>
     </div>
+      <div id="weixin-qrcode-modal" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="document.getElementById('weixin-qrcode-modal').style.display='none'">&times;</span>
+          <p>Scan WeChat QR Code</p>
+          <img src="images/wechat.PNG" alt="WeChat QR Code" class="img-fluid">
+        </div>
+      </div>
+
     <div class="footer-center page__footer-copyright">
       <div>© 2024 <span class="heart"> </span> Han (Rachel) Qiu.</div>
       Last updated 2024-12-18. <br>
@@ -142,4 +187,21 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 </script>
 
+</html>
+
+
+
+<script>
+// 获取模态框
+var modal = document.getElementById('weixin-qrcode-modal');
+
+// 当用户点击任何地方时，关闭模态框
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
 </html>
