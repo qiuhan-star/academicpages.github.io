@@ -7,6 +7,7 @@ author_profile: true
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme Switcher</title>
 <style>
   :root {
     --color-background: #1b1b1b; /* 暗色背景 */
@@ -32,9 +33,12 @@ author_profile: true
 <script>
   function toggleTheme() {
     let html = document.querySelector('html');
+    // 检查html元素是否已经包含dark-mode类
     if (html.classList.contains('dark-mode')) {
+      // 如果包含，则移除
       html.classList.remove('dark-mode');
     } else {
+      // 如果不包含，则添加
       html.classList.add('dark-mode');
     }
   }
