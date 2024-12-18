@@ -7,23 +7,23 @@
   .heart {
     display: inline-block;
     position: relative;
-    width: 100px;
-    height: 90px;
+    width: 20px; /* 调整宽度 */
+    height: 18px; /* 调整高度 */
     transform: scale(0.7);
   }
   .heart:before,
   .heart:after {
     content: "";
     position: absolute;
-    width: 50px;
-    height: 80px;
+    width: 10px; /* 调整宽度 */
+    height: 16px; /* 调整高度 */
     background: red;
     border-radius: 50px 50px 0 0;
     transform: rotate(-45deg);
     transform-origin: 0 100%;
   }
   .heart:after {
-    left: 50px;
+    left: 10px; /* 调整位置 */
     transform: rotate(45deg);
     transform-origin: 100% 100%;
   }
