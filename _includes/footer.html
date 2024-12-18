@@ -4,7 +4,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>跳动的心心</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 <style>
   .heart {
     display: inline-block;
@@ -12,6 +11,7 @@
     width: 20px; /* 调整宽度 */
     height: 18px; /* 调整高度 */
     transform: scale(0.7);
+    animation: beat 1s infinite;
   }
   .heart:before,
   .heart:after {
@@ -30,79 +30,70 @@
     transform-origin: 100% 100%;
   }
   @keyframes beat {
-    0% { transform: scale(1) rotate(-45deg); }
-    25% { transform: scale(1.1) rotate(-45deg); }
-    50% { transform: scale(1) rotate(-45deg); }
-    75% { transform: scale(1.1) rotate(-45deg); }
-    100% { transform: scale(1) rotate(-45deg); }
+    0%, 100% { transform: scale(1) rotate(-45deg); }
+    25%, 75% { transform: scale(1.1) rotate(-45deg); }
   }
-  .heart {
-    animation: beat 1s infinite;
+  /* Footer styles */
+  .footer {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0; /* 确保没有底部外边距 */
+  }
+  .footer-follow {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+  }
+  .footer-left, .footer-right, .footer-center {
+    text-align: center;
+    flex: 1;
+  }
+  .footer-left {
+    text-align: left;
+  }
+  .footer-right {
+    text-align: right;
+  }
+  .social-icons li {
+    display: inline;
+  }
+  .fa-weixin {
+      color: #1AAD19; /* 微信绿 */
+  }
+  .modal {
+      display: none; /* 默认隐藏模态框 */
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0, 0, 0, 0.4);
+  }
+  .modal-content {
+      background-color: #fefefe;
+      margin: 15% auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+      max-width: 300px;
+  }
+  .close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
   }
 </style>
 </head>
 <body>
-
- <style>
-    .footer {
-      font-size: 1rem;
-      color: #333;
-      margin-bottom: 0; /* 确保没有底部外边距 */
-    }
-    .footer-follow {
-      justify-content: space-between;
-      align-items: center;
-      display: flex;
-    }
-    .footer-left, .footer-right, .footer-center {
-      text-align: center;
-      flex: 1;
-    }
-    .footer-left {
-      text-align: left;
-    }
-    .footer-right {
-      text-align: right;
-    }
-    .social-icons li {
-      display: inline;
-    }
-    .fa-weixin {
-        color: #1AAD19; /* 微信绿 */
-    }
-    .modal {
-        display: none; /* 默认隐藏模态框 */
-        position: fixed;
-        z-index: 1;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        overflow: auto;
-        background-color: rgba(0, 0, 0, 0.4);
-    }
-    .modal-content {
-        background-color: #fefefe;
-        margin: 15% auto;
-        padding: 20px;
-        border: 1px solid #888;
-        width: 80%;
-        max-width: 300px;
-    }
-    .close {
-        color: #aaa;
-        float: right;
-        font-size: 28px;
-        font-weight: bold;
-    }
-      .close:hover,
-      .close:focus {
-        color: black;
-        text-decoration: none;
-        cursor: pointer;
-    }
- </style>
-
 <footer class="footer">
   <div class="footer-follow">
     <div class="footer-left">
@@ -115,13 +106,9 @@
         <li><a href="#weixin-qrcode" class="weixin-qrcode-link" onclick="document.getElementById('weixin-qrcode-modal').style.display='block'"><i class="fab fa-weixin"></i> WeChat</a></li>
       </ul>
     </div>
-      <div id="weixin-qrcode-modal" class="modal">
-        <div class="modal-content">
-          <span class="close" onclick="document.getElementById('weixin-qrcode-modal').style.display='none'">&times;</span>
-          <p>Scan WeChat QR Code</p>
-          <img src="images/wechat.PNG" alt="WeChat QR Code" class="img-fluid">
-        </div>
-      </div>
+    <div id="weixin-qrcode-modal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="document.getElementById('weixin-qrcode-modal').style.display='none'">&times;</span>
 
     <div class="footer-center page__footer-copyright">
       <div>© 2024 <span class="heart"> </span> Han (Rachel) Qiu.</div>
@@ -133,9 +120,21 @@
       TOTAL PAGE VIEWS <span class="page-views">45</span>
     </div>
   </div>
+<body>
 </footer>
 
+
 <script>
+// 微信模态框显示和隐藏的逻辑
+var modal = document.getElementById('weixin-qrcode-modal');
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+// 更新网站运行时间的函数
 function updateUptime() {
   var startTime = new Date('2024-12-13T00:00:00Z').getTime();
   var currentTime = new Date().getTime();
@@ -151,57 +150,24 @@ function updateUptime() {
   document.getElementById('seconds').textContent = seconds;
 }
 
+// 设置定时器每秒更新一次网站运行时间
 setInterval(updateUptime, 1000);
 updateUptime();
-</script>
 
-<script>
-// 假设的服务器端 API 路径
-const visitorCountApi = '/api/visitor-count';
-const pageViewsApi = '/api/page-views';
-
-// 获取访问者计数
-function fetchVisitorCount() {
-  fetch(visitorCountApi)
+// 获取访问者计数和页面浏览量的函数
+function fetchCount(api, selector) {
+  fetch(api)
     .then(response => response.json())
     .then(data => {
-      document.querySelector('.visitor-count').textContent = data.count;
+      document.querySelector(selector).textContent = data.count;
     })
-    .catch(error => console.error('Error fetching visitor count:', error));
+    .catch(error => console.error(`Error fetching ${selector}:`, error));
 }
 
-// 获取页面浏览量
-function fetchPageViews() {
-  fetch(pageViewsApi)
-    .then(response => response.json())
-    .then(data => {
-      document.querySelector('.page-views').textContent = data.count;
-    })
-    .catch(error => console.error('Error fetching page views:', error));
-}
-
-// 页面加载时获取计数
+// 页面加载时获取访问者计数和页面浏览量
 document.addEventListener('DOMContentLoaded', () => {
-  fetchVisitorCount();
-  fetchPageViews();
+  fetchCount('/api/visitor-count', '.visitor-count');
+  fetchCount('/api/page-views', '.page-views');
 });
+
 </script>
-
-</html>
-
-
-
-<script>
-// 获取模态框
-var modal = document.getElementById('weixin-qrcode-modal');
-
-// 当用户点击任何地方时，关闭模态框
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-</script>
-
-</body>
-</html>
