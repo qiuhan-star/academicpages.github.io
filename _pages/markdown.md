@@ -46,5 +46,3 @@ This section outlines how I handle the privacy of visitors to my site.
 
 ---
 Thank you for taking the time to read this guide. I hope you find my personal homepage informative and engaging. Your feedback is always welcome!
-
-<script src="//rf.revolvermaps.com/0/0/6.js?i=54e0ojatafc&m=7&c=e63100&cr1=ffffff&f=arial&l=0&bv=90&lx=-420&ly=420&hi=20&he=7&hc=a8ddff&rs=80" async></script>
