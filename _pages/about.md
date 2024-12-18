@@ -24,7 +24,7 @@ As I was weighing the decision to pursue a PhD, I stumbled upon a phenomenal gam
 
 🔥 Latest News
 ======
-<span style="color: #888888;">**[DEC. 2024]**</span> 📚 **Proud to be Invited to Review** AI & Public Affairs Education Article. Acknowledged as an 🌟 **“Excellent Reviewer”** 🌟. >> **View Details**
+<span style="color: #888888;">**[DEC. 2024]**</span> 📚 **Proud to be Invited to Review** AI & Public Affairs Education Article. Acknowledged as an 🌟 **“Excellent Reviewer”** 🌟. >> [**View Details**](https://www.webofscience.com/wos/author/record/LTM-0273-2024)
 
 <span style="color: #888888;">**[NOV. 2024]**</span> 🎉 **Academic Achievement:** *My Research Paper Earns College Acclaim!* >> [**Read More**](https://mp.weixin.qq.com/s/2TYL9l8GGay93hLLRQBzYw)
 
