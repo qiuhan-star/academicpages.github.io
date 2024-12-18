@@ -87,7 +87,7 @@ teaser                   :  # filename of teaser fallback teaser image placed in
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
-read_more                : "enabled" # if enabled, adds "Read more" links to excerpts//disabled
+read_more                : "disabled" # if enabled, adds "Read more" links to excerpts//disabled
 talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
@@ -145,9 +145,9 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               :  "google-analytics-4" # false (default), "google", "google-universal", "google-analytics-4", "custom"//原来是false
   google:
-    tracking_id          :
+    tracking_id          :  "G-S0DGZJKVH1"
 
 
 # Reading Files
