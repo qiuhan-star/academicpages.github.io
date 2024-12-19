@@ -1,42 +1,43 @@
-{% include base_path %}
+{% include base_path %} <!-- 包含基础路径，用于设置URLs的根路径 -->
 
-{% if post.header.teaser %}
-  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% if post.header.teaser %} <!-- 如果文章有自定义的teaser（预告图） -->
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %} <!-- 将自定义的teaser保存到变量中 -->
 {% else %}
-  {% assign teaser = site.teaser %}
+  {% assign teaser = site.teaser %} <!-- 否则使用站点默认的teaser -->
 {% endif %}
 
-{% if post.id %}
-  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% if post.id %} <!-- 如果文章有ID -->
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %} <!-- 将文章标题转换为Markdown格式，并移除<p>标签 -->
 {% else %}
-  {% assign title = post.title %}
+  {% assign title = post.title %} <!-- 否则直接使用文章标题 -->
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
+<div class="{{ include.type | default: "list" }}__item"> <!-- 创建一个列表项，类型可以是传入的参数或默认为"list" -->
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork"> <!-- 创建一个文章项，并设置schema.org的CreativeWork类型 -->
+    {% if include.type == "grid" and teaser %} <!-- 如果类型是"grid"并且有teaser -->
+      <div class="archive__item-teaser"> <!-- 显示文章的teaser图像 -->
+        <img src= <!-- 设置图像的src属性 -->
+          {% if teaser contains "://" %} <!-- 如果teaser是一个完整的URL -->
+            "{{ teaser }}" <!-- 直接使用这个URL -->
           {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+            "{{ teaser | prepend: "/images/" | prepend: base_path }}" <!-- 否则，将teaser路径添加到/images/和基础路径 -->
           {% endif %}
-          alt="">
+          alt=""> <!-- 设置图像的alt属性 -->
       </div>
     {% endif %}
-    <h2 class="archive__item-title" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+    <h2 class="archive__item-title" itemprop="headline"> <!-- 设置文章标题，使用schema.org的headline属性 -->
+      {% if post.link %} <!-- 如果文章有外部链接 -->
+        <a href="{{ post.link }}">{{ title }}</a> <!-- 显示外部链接 -->
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a> <!-- 显示永久链接图标 -->
       {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a> <!-- 否则，只显示永久链接 -->
       {% endif %}
     </h2>
-    {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+    {% if post.read_time %} <!-- 如果文章设置了阅读时间 -->
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p> <!-- 显示阅读时间 -->
     {% endif %}
-    {% if post.date %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
-    {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }},  {{post.location}} {% endif %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
+    {% if post.date %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %} <!-- 显示文章日期 -->
+    {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }},  {{post.location}}</p>{% endif %} <!-- 显示文章类型、地点和位置 -->
+    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %} <!-- 显示文章摘要 -->
   </article>
 </div>
