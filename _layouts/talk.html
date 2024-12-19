@@ -2,6 +2,83 @@
 layout: default
 ---
 
+{% include base_path %} <!-- 包含基础路径，通常用于设置URLs的根路径 -->
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %} <!-- 如果页面头部设置了覆盖颜色、覆盖图像或图像，则包含一个页面英雄部分（通常是页面的头部横幅） -->
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %} <!-- 如果页面不是首页并且启用了面包屑导航，则包含面包屑导航 -->
+  {% endunless %}
+{% endif %}
+
+<div id="main" role="main"> <!-- 主要内容的容器 -->
+  {% include sidebar.html %} <!-- 包含侧边栏 -->
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork"> <!-- 文章部分，使用schema.org定义的CreativeWork类型 -->
+    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    <!-- 如果页面有标题，则设置元数据，包含页面标题 -->
+
+    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    <!-- 如果页面有摘要，则设置元数据，包含页面摘要 -->
+
+    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
+    <!-- 如果页面有日期，则设置元数据，包含发布日期 -->
+
+    {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
+    <!-- 如果页面有修改日期，则设置元数据，包含修改日期 -->
+
+    <div class="page__inner-wrap"> <!-- 页面内部包装容器 -->
+      {% unless page.header.overlay_color or page.header.overlay_image %}
+        <header> <!-- 页面头部，如果未设置覆盖颜色或图像 -->
+          {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+          <!-- 显示页面标题 -->
+
+          {% if page.read_time %}
+            <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+            <!-- 如果设置了阅读时间，则显示阅读时间 -->
+          {% endif %}
+
+          {% if page.modified %}
+            <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
+            <!-- 显示修改日期 -->
+          {% elsif page.date %}
+            <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
+            <!-- 显示发布日期 -->
+          {% endif %}
+
+          {% if page.talk_type %}<p>{{page.talk_type}} at {{ page.venue }},  {{page.location}} {% endif %}
+          <!-- 如果设置了演讲类型、地点和位置，则显示这些信息 -->
+        </header>
+      {% endunless %}
+
+      <section class="page__content" itemprop="text">
+        {{ content }} <!-- 显示页面内容 -->
+        {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+        <!-- 如果页面有链接，则显示链接 -->
+      </section>
+
+      <footer class="page__meta"> <!-- 页面元数据部分 -->
+        {% if site.data.ui-text[site.locale].meta_label %}
+          <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
+          <!-- 显示元数据标题 -->
+        {% endif %}
+        {% include page__taxonomy.html %} <!-- 包含页面分类信息 -->
+      </footer>
+
+      {% if page.share %}{% include social-share.html %}{% endif %}
+      <!-- 如果页面设置了分享，则包含社交分享链接 -->
+
+      {% include post_pagination.html %} <!-- 包含帖子分页 -->
+    </div>
+
+    {% if site.comments.provider and page.comments %}
+      {% include comments.html %} <!-- 如果启用了评论，则包含
+
+
+
 {% include base_path %}
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
