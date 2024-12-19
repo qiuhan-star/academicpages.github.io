@@ -8,6 +8,8 @@ location: "Beijing, China" #演讲地点
 start_date: 2024-04-19
 end_date: 2024-04-21
 ---
+
+
 About the Conference
 -
 The International Conference on Comparative Public Policy was jointly organized by the School of Public Policy and Management at Tsinghua University, the Journal of Comparative Policy Analysis (JCPA), and the International Comparative Policy Analysis Forum (ICPA-Forum).

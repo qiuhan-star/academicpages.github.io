@@ -13,17 +13,6 @@ layout: default
   {% endunless %}
 {% endif %}
 
-{% if page %}
-  <pre>
-    <code>
-      start_date: {{ page.start_date }}
-      end_date: {{ page.end_date }}
-      date: {{ page.date }}
-      modified: {{ page.modified }}
-    </code>
-  </pre>
-{% endif %}
-
 <div id="main" role="main"> <!-- 主要内容的容器 -->
   {% include sidebar.html %} <!-- 包含侧边栏 -->
 
