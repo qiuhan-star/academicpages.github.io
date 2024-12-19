@@ -35,13 +35,6 @@ Captured in the moment, sharing insights at a recent research event. 📸
 </div>
 
 <style>
-    body {
-        display: grid;
-        place-items: center;
-        height: 100vh;
-        margin: 0;
-        overflow: hidden;
-    }
     #homeCarousel {
         width: 300px;
         height: 1800px; /* Adjusted height */
@@ -56,8 +49,6 @@ Captured in the moment, sharing insights at a recent research event. 📸
     }
     #homeCarousel #homeCarouselWrap>img {
         flex-shrink: 0;
-        width: 400px;
-        height: 300px; /* Adjusted height */
         cursor: pointer;
     }
     @keyframes move {
