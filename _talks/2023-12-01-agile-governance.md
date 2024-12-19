@@ -7,7 +7,6 @@ venue: "The Hong Kong University of Science and Technology (HKUST)"
 date: 2023-12-01
 location: "Hong Kong, China"
 ---
-
 News
 -
 [>Read More](https://mp.weixin.qq.com/s/EuHTxNFZpdGGEOrvOj-RPg)
@@ -29,7 +28,6 @@ News
 </style>
 
 <script>
-  // JavaScript 函数来切换内容的显示和隐藏
   function toggleReflections() {
     var content = document.getElementById('reflections-content');
     if (content.style.display === 'none') {
@@ -45,7 +43,7 @@ News
 <a href="#" onclick="toggleReflections()">Expand for Insights</a>
 
 <!-- 折叠内容 -->
-<div id="reflections-content">
+<div id="reflections-content" style="display:none;">
     <p>🇭🇰 Academic Journey at HKUST ~</p>
     <p>作为硕士生，第一次参加学术会议！
     我和我的合作者很幸运地以全场唯一的学生身份入选并参会～
@@ -162,4 +160,5 @@ Captured in the moment! 📸
     });
 </script>
 #Talk #AcademicLife
+
 
