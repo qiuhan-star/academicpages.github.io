@@ -14,13 +14,6 @@ author_profile: true
   body {
     font-family: "Montserrat", sans-serif;
     background-color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    min-height: 100vh;
-    margin: 0;
     transition: background 0.2s linear;
   }
 
