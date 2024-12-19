@@ -38,7 +38,7 @@ Captured in the moment, sharing insights at a recent research event. 📸
 <style>
     #homeCarousel {
         width: 100%;
-        height: 1400px; /* 添加单位px */
+        height: 500px; /* 添加单位px */
         overflow: hidden;
         border: solid rgba(0, 0, 0, 0.1);
         position: relative;
@@ -48,7 +48,7 @@ Captured in the moment, sharing insights at a recent research event. 📸
         display: flex;
         width: 100%; /* 确保宽度与父容器相同 */
         position: absolute;
-        animation: move 55s linear infinite;
+        animation: move 5s linear infinite;
     }
     #homeCarouselWrap img {
         flex-shrink: 0; /* 防止图片缩小 */
@@ -104,9 +104,6 @@ Captured in the moment, sharing insights at a recent research event. 📸
         }
     }
 </style>
-
-第一张和第二张照片的图片尺寸是1080 × 1449
-第三张照片1135 × 2016
 
 <script>
     document.getElementById('homeCarousel').addEventListener('click', function(e) {
