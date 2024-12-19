@@ -11,9 +11,8 @@ author_profile: true
     The narrative continues. ✨🌟 Your patience is greatly appreciated!
 </div>
 
-#{% include base_path %}
+{% include base_path %}
 
-#{% for post in site.portfolio %}
-  #{% include archive-single.html %}
-#{% endfor %}
-
+{% for post in site.portfolio %}
+  {% include archive-single.html %}
+{% endfor %}
