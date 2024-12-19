@@ -1,6 +1,6 @@
 ---
 title: "My Career Aspirations"
-excerpt: "With a PhD in Public Policy and Administration, I aim to contribute to the academic community and the public sector. My long-term goal is to become a leading academic in my field, conducting research that informs policy decisions and educates the next generation of public administrators. Here, I would like to offer a more detailed." #<br/> <img src='/images/500x300.png'>
+excerpt: "I'm passionate about making my mark in academia and the public sector. My dream? To be a top expert in my field, churning out research that guides policy and inspires the next wave of public service leaders. Here's a little more about my journey and where I hope to take it." #<br/> <img src='/images/500x300.png'>
 collection: portfolio
 permalink: /protfolio/protfolio-3
 ---
