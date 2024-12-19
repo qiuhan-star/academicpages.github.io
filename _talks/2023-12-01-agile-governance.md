@@ -15,128 +15,96 @@ Captured in the moment, sharing insights at a recent research event. 📸
 
 [News Report](https://mp.weixin.qq.com/s/EuHTxNFZpdGGEOrvOj-RPg)
 
-<style>
-  .modal {
-    display: none; 
-    position: fixed; 
-    z-index: 1; 
-    left: 0;
-    top: 0;
-    width: 100%; 
-    height: 100%; 
-    overflow: auto; 
-    background-color: rgba(0,0,0,0.9);
-  }
-
-  .modal-content {
-    margin: 10% auto; 
-    display: block; 
-    width: 80%; 
-    max-width: 700px;
-  }
-
-  .mySlides {
-    display: none;
-  }
-  
-  .cursor {
-    cursor: pointer
-  }
-  
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -50px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
-  
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
-  
-  /* 添加 .hover-shadow 样式 */
-  .hover-shadow {
-    transition: transform .3s;
-  }
-  
-  .hover-shadow:hover {
-    transform: scale(1.05);
-  }
-</style>
-
-<div id="gallery">
-  <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/Talk-2023-12-01-1.PNG" onclick="openModal();currentSlide(1)" class="hover-shadow">
-  <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/Talk-2023-12-01-2.PNG" onclick="openModal();currentSlide(2)" class="hover-shadow">
-  <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/Talk-2023-12-01-3.PNG" onclick="openModal();currentSlide(3)" class="hover-shadow">
-</div>
-
-<div id="myModal" class="modal">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
-  <div class="modal-content">
-
-    <div class="mySlides">
-      <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/Talk-2023-12-01-1.PNG">
-    </div>
-
-    <div class="mySlides">
-      <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/Talk-2023-12-01-2.PNG">
-    </div>
-
-    <div class="mySlides">
-      <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/Talk-2023-12-01-3.PNG">
-    </div>
-
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+<div id="homeCarousel">
+  <div id="homeCarouselWrap">
+    <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/Talk-2023-12-01-1.PNG">
+    <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/Talk-2023-12-01-2.PNG">
+    <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/Talk-2023-12-01-3.PNG">
   </div>
 </div>
+<div id="modal">
+  <span id="closeBtn">×</span>
+  <img id="img2">
+</div>
+
+<style>
+    body {
+        display: grid;
+        place-items: center;
+        height: 100vh;
+        margin: 0;
+        overflow: hidden;
+    }
+    #homeCarousel {
+        width: 400px;
+        height: 240px;
+        overflow: hidden;
+        border: solid rgba(0, 0, 0, 0.1);
+    }
+    #homeCarousel #homeCarouselWrap {
+        display: flex;
+        animation: move 6s linear infinite;
+    }
+    #homeCarousel #homeCarouselWrap>img {
+        flex-shrink: 0;
+        width: 100%;
+        height: 240px;
+        cursor: pointer;
+    }
+    @keyframes move {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-1200px); /* 3 images * 400px width */
+        }
+    }
+    #homeCarousel #homeCarouselWrap:hover {
+        animation-play-state: paused;
+    }
+    #modal {
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: -100%;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.9);
+        transition-duration: 0.4s;
+        text-align: center;
+    }
+    #img2 {
+        width: 75%;
+        max-height: 80%;
+        display: block; /* Add this to remove bottom space */
+        margin: 0 auto; /* Center the image */
+    }
+    #closeBtn {
+        position: absolute;
+        top: 5%;
+        right: 2.5%;
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    @media(max-width: 400px) {
+        #closeBtn {
+            top: 0;
+        }
+    }
+</style>
 
 <script>
-  let slideIndex = 1;
-  showSlides(slideIndex);
-  
-  function openModal() {
-    document.getElementById("myModal").style.display = "block";
-  }
-  
-  function closeModal() {
-    document.getElementById("myModal").style.display = "none";
-  }
-  
-  function plusSlides(n) {
-    showSlides(slideIndex += n);
-  }
-  
-  function currentSlide(n) {
-    showSlides(slideIndex = n);
-  }
-  
-  function showSlides(n) {
-    let i;
-    let slides = document.getElementsByClassName("mySlides");
-    let dots = document.getElementsByClassName("demo"); // 注意：你需要确保HTML中有.demo类的元素
-    if (n > slides.length) { slideIndex = 1 }
-    if (n < 1) { slideIndex = slides.length }
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none"; // 隐藏所有幻灯片
-    }
-    for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", ""); // 移除所有demo类的"active"类
-    }
-    slides[slideIndex - 1].style.display = "block"; // 显示当前索引的幻灯片
-    dots[slideIndex - 1].className += " active"; // 为当前索引的demo类添加"active"类
-  }
+    document.getElementById('homeCarousel').addEventListener('click', function(e) {
+      if(e.target.tagName === 'IMG') {
+        document.getElementById('modal').style.top = '0';
+        document.getElementById('img2').src = e.target.src;
+      }
+    });
+    
+    document.getElementById('closeBtn').addEventListener('click', function() {
+      document.getElementById('modal').style.top = '-100%';
+    });
 </script>
