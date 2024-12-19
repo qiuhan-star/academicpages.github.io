@@ -115,37 +115,38 @@ author_profile: true
 
 ## Work Experiences
 
-### Hangzhou Basic Interior Design & Construction Co., Ltd.
-**Location:** Zhejiang, China
+**Hangzhou Basic Interior Design & Construction Co., Ltd.** (Zhejiang, China)
 
-#### Head of Data Planning Department (Full-time)
+**Head of Data Planning Department** (Full-time)
+
 **Duration:** Jun. 2023 - Sep. 2023
 - Spearheaded the collection and synthesis of data from internal databases and market research reports, utilizing statistical methods to ensure data accuracy and relevance.
 - Expertly managed and organized data using Excel, creating spreadsheets with formulas and pivot tables to streamline data analysis and improve data integrity.
 - Crafted comprehensive reports and infographics, and presented findings via PowerPoint to simplify complex data for team comprehension.
 - Delivered strategic data interpretations, leveraging statistical models to forecast trends and inform executive decision-making, resulting in more informed and data-driven strategic planning sessions.
 
-#### Assistant to the Chief Financial Officer (Full-time)
+**Assistant to the Chief Financial Office** (Full-time)
+
 **Duration:** Jun. 2022 - Aug. 2022
 - Supported the CFO in managing the company’s financial operations, ensuring compliance with financial policies and procedures.
 - Analyzed financial data, identifying trends and quantifiable improvement areas within financial statements, budgets, and cash flow projections.
 - Contributed to monthly financial reporting, leveraging analytical skills to present clear, data-driven insights.
 - Assisted in the management of accounts payable and receivable, enhancing payment efficiency and cash flow through targeted quantitative strategies.
 
-### Zhejiang Yiming Food Co., Ltd
-**Location:** Zhejiang, China
+**Zhejiang Yiming Food Co., Ltd**  (Zhejiang, China)
 
-#### Executive Assistant to the COO and CFO (Full-time Intern)
+**Executive Assistant to the COO and CFO** (Full-time Intern)
+
 **Duration:** Dec. 2021 - Apr. 2022
 - Optimized COO’s schedule by planning itineraries and coordinating meetings.
 - Assisted COO in strategic planning, leading to the development of public relations strategies.
 - Supported CFO in budgeting and cost control, analyzing financial data to inform strategic financial decisions and optimize resource allocation within the company.
 - Assisted the CFO in executing comprehensive market research and analysis, facilitating informed strategic financial planning and decision-making.
 
-### National Survey Research Center (NSRC) at Renmin University of China
-**Location:** Online
+**National Survey Research Center (NSRC) at Renmin University of China** (Online)
 
-#### Telephone Interviewer (Part-time Intern)
+**Telephone Interviewer** (Part-time Intern)
+
 **Duration:** Mar. 2021 - Dec. 2021
 - Conducted telephone interviews for high-impact surveys, including a national study on the comprehensive effects of the COVID-19 pandemic and a nationwide employment survey of 2021 university graduates.
 - Maintained a 98% accuracy rate in collecting over 200 detailed survey samples, contributing to the reliability of research findings.
