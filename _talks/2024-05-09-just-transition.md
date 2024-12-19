@@ -57,7 +57,6 @@ Captured in the moment! 📸
     <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/talks/Talk-2024-05-09-8.JPG">
     <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/talks/Talk-2024-05-09-9.JPG">
     <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/talks/Talk-2024-05-09-10.JPG">
-    <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/talks/Talk-2024-05-09-11.JPG">
   </div>
 </div>
 <div id="modal">
@@ -92,7 +91,7 @@ Captured in the moment! 📸
             transform: translateX(0);
         }
         100% {
-            transform: translateX(-1100%); /* 调整为两张图片的总宽度 */
+            transform: translateX(-1000%); /* 调整为两张图片的总宽度 */
         }
     }
     #homeCarouselWrap:hover {
