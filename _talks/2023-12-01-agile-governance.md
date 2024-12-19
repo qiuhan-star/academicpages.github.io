@@ -38,10 +38,9 @@ Captured in the moment, sharing insights at a recent research event. 📸
 <style>
     #homeCarousel {
         width: 100%;
-        height: 1600px; /* 添加单位px */
         overflow: hidden;
         border: solid rgba(0, 0, 0, 0.1);
-        position: relative;
+        position: relative
         margin: 0 auto; /* 水平居中 */
     }
     #homeCarouselWrap {
