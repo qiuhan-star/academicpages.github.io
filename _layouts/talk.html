@@ -40,13 +40,6 @@ layout: default
             <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}
 
-          {% if page.start_date %}
-            {% if page.end_date %}
-              <meta itemprop="datePublished" content="{{ page.start_date | date: "%B %d, %Y" }} - {{ page.end_date | date: "%B %d, %Y" }}">
-            {% else %}
-              <meta itemprop="datePublished" content="{{ page.start_date | date: "%B %d, %Y" }}">
-            {% endif %}
-
           {% if page.modified %}
             <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
             <!-- 显示修改日期 -->
@@ -56,7 +49,6 @@ layout: default
           {% endif %}
 
           {% if page.talk_type %}<p>{{page.talk_type}} at {{ page.venue }},  {{page.location}} {% endif %}
-          <!-- 如果设置了演讲类型、地点和位置，则显示这些信息 -->
         </header>
       {% endunless %}
 
