@@ -3,7 +3,7 @@ permalink: /experience/
 title: "Experience"
 author_profile: true
 ---
-## RESEARCH EXPERIENCE
+## Research Experience
 ### Dongting Lake “10-Year Fishing Ban” Policy Research
 **Oct. 2023 - Present**
 - **Core Member of the MPA Case Study Research Team**
