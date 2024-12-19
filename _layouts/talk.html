@@ -56,34 +56,33 @@ layout: default
         </header>
       {% endunless %}
 
-      <!--下面不显示嘻嘻
+
       <section class="page__content" itemprop="text">
-        {{ content }} <!-- 显示页面内容 -->
-      <!-- 如果页面有链接，则显示链接
+      <!--下面不显示嘻嘻
+        {{ content }}
+      -->
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
-       -->
       </section>
 
-      <footer class="page__meta"> <!-- 页面元数据部分 -->
+      <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
           <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
-          <!-- 显示元数据标题 -->
+
         {% endif %}
-        {% include page__taxonomy.html %} <!-- 包含页面分类信息 -->
+        {% include page__taxonomy.html %}
       </footer>
 
       {% if page.share %}{% include social-share.html %}{% endif %}
-      <!-- 如果页面设置了分享，则包含社交分享链接 -->
 
-      {% include post_pagination.html %} <!-- 包含帖子分页 -->
+      {% include post_pagination.html %}
     </div>
 
     {% if site.comments.provider and page.comments %}
-      {% include comments.html %} <!-- 如果启用了评论，则包含-->
+      {% include comments.html %}
       {% endif %}
   </article>
 
-  {% comment %}<!-- only show related on a post page when not disabled -->{% endcomment %}
+  {% comment %} {% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
     <div class="page__related">
       {% if site.data.ui-text[site.locale].related_label %}
