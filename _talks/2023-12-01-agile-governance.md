@@ -38,7 +38,7 @@ Captured in the moment, sharing insights at a recent research event. 📸
 <style>
     #homeCarousel {
         width: 100%;
-        max-width: 1400px;
+        max-width: 1400px
         overflow: hidden;
         border: solid rgba(0, 0, 0, 0.1);
         position: relative;
