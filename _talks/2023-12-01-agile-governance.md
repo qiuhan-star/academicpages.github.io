@@ -37,7 +37,7 @@ Captured in the moment, sharing insights at a recent research event. 📸
 
 <style>
     #homeCarousel {
-        width: 1400px; /* 添加单位px */
+        width: 100%;
         height: 1400px; /* 添加单位px */
         overflow: hidden;
         border: solid rgba(0, 0, 0, 0.1);
@@ -52,16 +52,18 @@ Captured in the moment, sharing insights at a recent research event. 📸
     }
     #homeCarouselWrap img {
         flex-shrink: 0; /* 防止图片缩小 */
-        width: 100%; /* 确保图片宽度与轮播容器相同 */
+        max-width: 100%; /* 确保图片宽度不超过容器宽度 */
+        max-height: 100%; /* 确保图片高度不超过容器高度 */
         height: auto; /* 高度自适应 */
         cursor: pointer;
+        object-fit: contain; /* 保持图片比例，完整显示在容器内 */
     }
     @keyframes move {
         0% {
             transform: translateX(0);
         }
         100% {
-            transform: translateX(-200%); /* 调整为两张图片的总宽度 */
+            transform: translateX(-100%); /* 调整为两张图片的总宽度 */
         }
     }
     #homeCarouselWrap:hover {
@@ -85,6 +87,7 @@ Captured in the moment, sharing insights at a recent research event. 📸
         max-height: 80%;
         display: block;
         margin: 0 auto;
+        object-fit: contain; /* 保持图片比例，完整显示在模态框内 */
     }
     #closeBtn {
         position: absolute;
