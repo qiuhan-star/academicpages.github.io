@@ -6,11 +6,13 @@
   {% assign teaser = site.teaser %} <!-- 否则使用站点默认的teaser -->
 {% endif %}
 
-{% if post.id %} <!-- 如果文章有ID -->
-  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %} <!-- 将文章标题转换为Markdown格式，并移除<p>标签 -->
+<!--隐藏下面
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
 {% else %}
-  {% assign title = post.title %} <!-- 否则直接使用文章标题 -->
+  {% assign title = post.title %}
 {% endif %}
+-->
 
 <div class="{{ include.type | default: "list" }}__item"> <!-- 创建一个列表项，类型可以是传入的参数或默认为"list" -->
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork"> <!-- 创建一个文章项，并设置schema.org的CreativeWork类型 -->
@@ -38,6 +40,8 @@
     {% endif %}
     {% if post.date %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %} <!-- 显示文章日期 -->
     {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }},  {{post.location}}</p>{% endif %} <!-- 显示文章类型、地点和位置 -->
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %} <!-- 显示文章摘要 -->
+    <!--
+    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
+    显示文章摘要 -->
   </article>
 </div>
