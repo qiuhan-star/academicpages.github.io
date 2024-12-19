@@ -31,11 +31,11 @@ As I was weighing the decision to pursue a PhD, I stumbled upon a phenomenal gam
 ======
 <span style="color: #888888;">**[DEC. 2024]**</span> 📚 **Proud to be Invited to Review** AI & Public Affairs Education Article. Acknowledged as an 🌟 **“Excellent Reviewer”** 🌟. >> [**View Details**](https://www.webofscience.com/wos/author/record/LTM-0273-2024)
 
+<span style="color: #888888;">**[NOV. 2024]**</span> 🎉 **Academic Achievement:** *My Research Paper Earns College Acclaim!* >> [**Read More**](https://mp.weixin.qq.com/s/2TYL9l8GGay93hLLRQBzYw)
+
 <span style="color: #888888;">**[DEC. 2024]**</span> 🎤 **Academic Engagement:** *Delighted to be attending the 20th Cross-Strait and Hong Kong-Macao Public Administration Academic Seminar at the Chinese University of Hong Kong.* >> [**Conference Details**](https://qiuhan-star.github.io/hanrachelqiu.github.io//talks/2024-05-09-just-transition)
 
 <span style="color: #888888;">**[DEC. 2024]**</span> 🎤 **Academic Engagement:** *Thrilled to be participating in the International Conference on Comparative Public Policy at Tsinghua University, Beijing.* >> [**Conference Details**](https://qiuhan-star.github.io/hanrachelqiu.github.io//talks/2024-04-19-just-transition)
-
-<span style="color: #888888;">**[NOV. 2024]**</span> 🎉 **Academic Achievement:** *My Research Paper Earns College Acclaim!* >> [**Read More**](https://mp.weixin.qq.com/s/2TYL9l8GGay93hLLRQBzYw)
 
 <span style="color: #888888;">**[DEC. 2023]**</span> 🚀 **Academic Milestone:** *Making My Debut at the International Academic Conference, Featured in College Broadcast!* >> [**Conference Details**](https://qiuhan-star.github.io/hanrachelqiu.github.io//talks/2023-12-01-agile-governance) >> [**Read More**](https://mp.weixin.qq.com/s/EuHTxNFZpdGGEOrvOj-RPg)
 
