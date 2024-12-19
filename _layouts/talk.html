@@ -54,6 +54,7 @@ layout: default
         </header>
       {% endunless %}
 
+      <!--下面不显示嘻嘻，要显示就去掉这行
       <section class="page__content" itemprop="text">
         {{ content }} <!-- 显示页面内容 -->
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
