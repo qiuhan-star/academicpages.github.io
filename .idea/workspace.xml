@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28ed89aa-cbd9-4763-b1bd-c9ac8a875645" name="更改" comment="Merge remote-tracking branch 'origin/master'">
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/talk.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/talk.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/experience.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/experience.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,15 +139,7 @@
       <workItem from="1734575140660" duration="7104000" />
       <workItem from="1734584722972" duration="8681000" />
       <workItem from="1734598911823" duration="9932000" />
-      <workItem from="1734611363966" duration="249000" />
-    </task>
-    <task id="LOCAL-00462" summary="Merge remote-tracking branch 'origin/master'">
-      <option name="closed" value="true" />
-      <created>1734601738842</created>
-      <option name="number" value="00462" />
-      <option name="presentableId" value="LOCAL-00462" />
-      <option name="project" value="LOCAL" />
-      <updated>1734601738842</updated>
+      <workItem from="1734611363966" duration="1276000" />
     </task>
     <task id="LOCAL-00463" summary="Merge remote-tracking branch 'origin/master'">
       <option name="closed" value="true" />
@@ -531,7 +525,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734611442629</updated>
     </task>
-    <option name="localTasksCounter" value="511" />
+    <task id="LOCAL-00511" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1734611616705</created>
+      <option name="number" value="00511" />
+      <option name="presentableId" value="LOCAL-00511" />
+      <option name="project" value="LOCAL" />
+      <updated>1734611616705</updated>
+    </task>
+    <option name="localTasksCounter" value="512" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
