@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-## Who Am I?
+## Who Am I?f
 Hello there! I’m Han Qiu (邱涵), also known as Rachel. Occasionally, I step out of my usual zone to engage in meetings and share insights at various [talks](https://qiuhan-star.github.io/hanrachelqiu.github.io//talks/).
 
 I am a rigorously trained Master’s student in Public Administration at the [School of Public Affairs](https://spa.xmu.edu.cn/), [Xiamen University](https://www.xmu.edu.cn/), fortunate to be guided by [Professor Wenxuan Yu](https://spa.xmu.edu.cn/info/1237/3095.htm).

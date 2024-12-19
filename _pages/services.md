@@ -28,10 +28,8 @@ author_profile: true
 - High School Sunshine Volunteer Federation, Oct. 2016 - Jun. 2018
 
 ## Community Service
-- **COVID-19 Community Response**: **Led initiatives** for the distribution of personal protective equipment (PPE), organized **daily temperature screenings**, and managed health code verifications to ensure community safety. **Raised funds** and donated essential supplies, including masks, to support at-risk populations and front-line workers. Conducted vaccination awareness campaigns to promote community health and immunity.
 - **Environmental Protection**: Engaged in the **Haikou Mother River Project**, with a primary focus on the conservation of wetlands and the preservation of **mangrove ecosystems**. Delivered **environmental education sessions** and initiated community-driven programs for waste sorting and recycling to advance sustainable waste management.
+- **Elderly Outreach:** Regularly visited elderly residents in the local community, offering companionship, assistance with daily tasks, and organizing activities to enhance their quality of life.
 - **Business Assistance for Free Trade Zone Merchants**: Provided **English language assistance** to merchants in the free trade zone, enhancing their ability to communicate with foreign visitors and contribute to the development of **multicultural marketing strategies**.
 - **Education and Mentorship**: Offered **targeted Chinese language education** to children in **Mengman Town, Xishuangbanna**, tailored to overcome the challenges of Mandarin acquisition among native speakers. **Provided in-depth tutoring** and **academic guidance** within the community, with a focus on college preparation and specialized subject coaching to support educational development.
-
-
-
+- **COVID-19 Community Response**: **Led initiatives** for the distribution of personal protective equipment (PPE), organized **daily temperature screenings**, and managed health code verifications to ensure community safety. **Raised funds** and donated essential supplies, including masks, to support at-risk populations and front-line workers. Conducted vaccination awareness campaigns to promote community health and immunity.
