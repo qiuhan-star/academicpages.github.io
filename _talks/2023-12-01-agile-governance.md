@@ -12,10 +12,6 @@ News
 -
 [>Read More](https://mp.weixin.qq.com/s/EuHTxNFZpdGGEOrvOj-RPg)
 
-Thoughts
--
-
-
 <style>
   /* 样式定义 */
   #reflections-content {
