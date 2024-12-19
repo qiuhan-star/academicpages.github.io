@@ -29,6 +29,7 @@ Captured in the moment, sharing insights at a recent research event. 📸
     <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/talks/Talk-2023-12-01-3.PNG">
   </div>
 </div>
+
 <div id="modal">
   <span id="closeBtn">×</span>
   <img id="img2">
@@ -36,16 +37,18 @@ Captured in the moment, sharing insights at a recent research event. 📸
 
 <style>
     #homeCarousel {
-        width: 400px;
+        width: 100%;
+        max-width: 600px; /* 限制最大宽度，以保持图片质量 */
         height: 300px; /* Adjusted height */
         overflow: hidden;
         border: solid rgba(0, 0, 0, 0.1);
         position: relative;
+        margin: 0 auto; /* 水平居中 */
     }
     #homeCarousel #homeCarouselWrap {
         display: flex;
         position: absolute;
-        animation: move 55s linear infinite;
+        animation: move 6s linear infinite;
     }
     #homeCarousel #homeCarouselWrap>img {
         flex-shrink: 0;
@@ -56,7 +59,7 @@ Captured in the moment, sharing insights at a recent research event. 📸
             transform: translateX(0);
         }
         100% {
-            transform: translateX(-2400px); /* 6 images * 400px width */
+            transform: translateX(-100%); /* 调整为容器宽度的百分比 */
         }
     }
     #homeCarousel #homeCarouselWrap:hover {
