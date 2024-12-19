@@ -30,6 +30,7 @@
   </div>
 </div>
 
+
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap">
 <style>
   * { box-sizing: border-box; }
@@ -61,12 +62,6 @@
     align-items: center;
   }
 
-  /* 当屏幕尺寸较小时，可能需要调整样式 */
-  @media (max-width: 768px) {
-    .theme-toggle {
-      position: static; /* 在小屏幕上可能需要移除绝对定位 */
-    }
-
   .fa-moon {
     color: #f1c40f;
     position: absolute;
@@ -93,12 +88,6 @@
 
   .checkbox:checked + .checkbox-label .ball {
     transform: translateX(26px);
-  }
-
-  .theme-toggle {
-    position: absolute;
-    right: 0; /* 将按钮定位到右边 */
-    top: 0; /* 根据需要调整垂直位置 */
   }
 </style>
 
