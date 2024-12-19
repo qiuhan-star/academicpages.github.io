@@ -37,20 +37,23 @@ Captured in the moment, sharing insights at a recent research event. 📸
 
 <style>
     #homeCarousel {
-        width: 1400;
-        height: 1400
+        width: 1400px; /* 添加单位px */
+        height: 1400px; /* 添加单位px */
         overflow: hidden;
         border: solid rgba(0, 0, 0, 0.1);
         position: relative;
         margin: 0 auto; /* 水平居中 */
     }
-    #homeCarousel #homeCarouselWrap {
+    #homeCarouselWrap {
         display: flex;
+        width: 100%; /* 确保宽度与父容器相同 */
         position: absolute;
-        animation: move 6s linear infinite;
+        animation: move 55s linear infinite;
     }
-    #homeCarousel #homeCarouselWrap>img {
-        flex-shrink: 0;
+    #homeCarouselWrap img {
+        flex-shrink: 0; /* 防止图片缩小 */
+        width: 100%; /* 确保图片宽度与轮播容器相同 */
+        height: auto; /* 高度自适应 */
         cursor: pointer;
     }
     @keyframes move {
@@ -58,17 +61,18 @@ Captured in the moment, sharing insights at a recent research event. 📸
             transform: translateX(0);
         }
         100% {
-            transform: translateX(-100%); /* 调整为容器宽度的百分比 */
+            transform: translateX(-200%); /* 调整为两张图片的总宽度 */
         }
     }
-    #homeCarousel #homeCarouselWrap:hover {
+    #homeCarouselWrap:hover {
         animation-play-state: paused;
     }
     #modal {
+        display: none; /* 默认不显示模态框 */
         position: fixed;
         z-index: 1;
         left: 0;
-        top: -100%;
+        top: 0; /* 初始状态不应该是 top: -100% */
         width: 100%;
         height: 100%;
         overflow: auto;
@@ -76,7 +80,7 @@ Captured in the moment, sharing insights at a recent research event. 📸
         transition-duration: 0.4s;
         text-align: center;
     }
-    #img2 {
+    #modal img {
         width: 75%;
         max-height: 80%;
         display: block;
@@ -97,6 +101,9 @@ Captured in the moment, sharing insights at a recent research event. 📸
         }
     }
 </style>
+
+第一张和第二张照片的图片尺寸是1080 × 1449
+第三张照片1135 × 2016
 
 <script>
     document.getElementById('homeCarousel').addEventListener('click', function(e) {
