@@ -29,6 +29,7 @@ layout: default
       {% else %}
         <meta itemprop="datePublished" content="{{ page.start_date | date: '%B %d, %Y' }}">
       {% endif %}
+
     {% elsif page.date %}
       <meta itemprop="datePublished" content="{{ page.date | date: '%B %d, %Y' }}">
     {% endif %}
@@ -45,6 +46,13 @@ layout: default
           {% if page.read_time %}
             <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}
+
+          {% if page.start_date %}
+            {% if page.end_date %}
+              <meta itemprop="datePublished" content="{{ page.start_date | date: '%B %d, %Y' }} - {{ page.end_date | date: '%B %d, %Y' }}">
+            {% else %}
+              <meta itemprop="datePublished" content="{{ page.start_date | date: '%B %d, %Y' }}">
+            {% endif %}
 
           {% if page.modified %}
             <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
