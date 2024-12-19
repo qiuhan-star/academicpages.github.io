@@ -33,7 +33,7 @@ As I was weighing the decision to pursue a PhD, I stumbled upon a phenomenal gam
 
 <span style="color: #888888;">**[DEC. 2024]**</span> 🚀 **Academic Engagement:** *Delighted to participate in a distinguished conference at Tsinghua University, Beijing.* >> [**Conference Details**](https://qiuhan-star.github.io/hanrachelqiu.github.io//talks/2024-04-19-just-transition)"
 
-<span style="color: #888888;">**[DEC. 2024]**</span> 🚀 **Academic Engagement:** *Delighted to participate in ICCPP at Tsinghua University, Beijing.* >> [**Conference Details**](https://qiuhan-star.github.io/hanrachelqiu.github.io//talks/2024-04-19-just-transition)"
+<span style="color: #888888;">**[DEC. 2024]**</span> 🚀 **Academic Engagement:** *Thrilled to be participating in the International Conference on Comparative Public Policy at Tsinghua University, Beijing.* >> [**Conference Details**](https://qiuhan-star.github.io/hanrachelqiu.github.io//talks/2024-04-19-just-transition)
 
 <span style="color: #888888;">**[NOV. 2024]**</span> 🎉 **Academic Achievement:** *My Research Paper Earns College Acclaim!* >> [**Read More**](https://mp.weixin.qq.com/s/2TYL9l8GGay93hLLRQBzYw)
 
