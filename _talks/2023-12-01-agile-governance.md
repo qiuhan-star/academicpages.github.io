@@ -17,9 +17,13 @@ Captured in the moment, sharing insights at a recent research event. 📸
 
 <div id="homeCarousel">
   <div id="homeCarouselWrap">
-    <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/Talk-2023-12-01-1.PNG">
-    <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/Talk-2023-12-01-2.PNG">
-    <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/Talk-2023-12-01-3.PNG">
+    <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/talks/Talk-2023-12-01-1.PNG">
+    <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/talks/Talk-2023-12-01-2.PNG">
+    <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/talks/Talk-2023-12-01-3.PNG">
+    <!-- Duplicate the images to create an infinite loop -->
+    <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/talks/Talk-2023-12-01-1.PNG">
+    <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/talks/Talk-2023-12-01-2.PNG">
+    <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/talks/Talk-2023-12-01-3.PNG">
   </div>
 </div>
 <div id="modal">
@@ -40,14 +44,16 @@ Captured in the moment, sharing insights at a recent research event. 📸
         height: 240px;
         overflow: hidden;
         border: solid rgba(0, 0, 0, 0.1);
+        position: relative;
     }
     #homeCarousel #homeCarouselWrap {
         display: flex;
+        position: absolute;
         animation: move 6s linear infinite;
     }
     #homeCarousel #homeCarouselWrap>img {
         flex-shrink: 0;
-        width: 100%;
+        width: 400px;
         height: 240px;
         cursor: pointer;
     }
@@ -56,7 +62,7 @@ Captured in the moment, sharing insights at a recent research event. 📸
             transform: translateX(0);
         }
         100% {
-            transform: translateX(-1200px); /* 3 images * 400px width */
+            transform: translateX(-2400px); /* 6 images * 400px width */
         }
     }
     #homeCarousel #homeCarouselWrap:hover {
@@ -77,8 +83,8 @@ Captured in the moment, sharing insights at a recent research event. 📸
     #img2 {
         width: 75%;
         max-height: 80%;
-        display: block; /* Add this to remove bottom space */
-        margin: 0 auto; /* Center the image */
+        display: block;
+        margin: 0 auto;
     }
     #closeBtn {
         position: absolute;
@@ -99,12 +105,16 @@ Captured in the moment, sharing insights at a recent research event. 📸
 <script>
     document.getElementById('homeCarousel').addEventListener('click', function(e) {
       if(e.target.tagName === 'IMG') {
-        document.getElementById('modal').style.top = '0';
+        var modal = document.getElementById('modal');
+        modal.style.top = '0';
+        modal.style.paddingTop = '12%';
         document.getElementById('img2').src = e.target.src;
       }
     });
     
     document.getElementById('closeBtn').addEventListener('click', function() {
-      document.getElementById('modal').style.top = '-100%';
+      var modal = document.getElementById('modal');
+      modal.style.top = '-100%';
+      modal.style.paddingTop = '0';
     });
 </script>
