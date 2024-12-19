@@ -16,13 +16,13 @@ main:
 
   - title: "CV"
     url: /cv/
-    
-  - title: "Guide"
-    url: /markdown/    
 
   - title: "Portfolio"
     url: /portfolio/
-        
+
+  - title: "Guide"
+    url: /markdown/
+
   - title: "Blog Posts"
     url: /year-archive/
 
