@@ -87,22 +87,18 @@ Captured in the moment, sharing insights at a recent research event. 📸
   <span class="close cursor" onclick="closeModal()">&times;</span>
   <div class="modal-content">
 
-    <!-- 第一张图片的幻灯片 -->
     <div class="mySlides">
       <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/Talk-2023-12-01-1.PNG">
     </div>
 
-    <!-- 第二张图片的幻灯片 -->
     <div class="mySlides">
       <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/Talk-2023-12-01-2.PNG">
     </div>
 
-    <!-- 第三张图片的幻灯片 -->
     <div class="mySlides">
       <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/Talk-2023-12-01-3.PNG">
     </div>
 
-    <!-- 下一张/上一张 控件 -->
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
   </div>
