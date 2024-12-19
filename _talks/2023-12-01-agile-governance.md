@@ -15,6 +15,9 @@ Captured in the moment, sharing insights at a recent research event. 📸
 
 [News Report](https://mp.weixin.qq.com/s/EuHTxNFZpdGGEOrvOj-RPg)
 
+
+
+
 <div id="homeCarousel">
   <div id="homeCarouselWrap">
     <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/talks/Talk-2023-12-01-1.PNG">
@@ -40,8 +43,8 @@ Captured in the moment, sharing insights at a recent research event. 📸
         overflow: hidden;
     }
     #homeCarousel {
-        width: 400px;
-        height: 240px;
+        width: 300px;
+        height: 1800px; /* Adjusted height */
         overflow: hidden;
         border: solid rgba(0, 0, 0, 0.1);
         position: relative;
@@ -49,12 +52,12 @@ Captured in the moment, sharing insights at a recent research event. 📸
     #homeCarousel #homeCarouselWrap {
         display: flex;
         position: absolute;
-        animation: move 6s linear infinite;
+        animation: move 55s linear infinite;
     }
     #homeCarousel #homeCarouselWrap>img {
         flex-shrink: 0;
         width: 400px;
-        height: 240px;
+        height: 300px; /* Adjusted height */
         cursor: pointer;
     }
     @keyframes move {
