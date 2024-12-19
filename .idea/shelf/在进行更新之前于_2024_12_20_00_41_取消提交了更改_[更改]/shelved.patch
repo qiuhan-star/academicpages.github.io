@@ -1,0 +1,18 @@
+Index: _pages/portfolio.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>---\nlayout: archive\ntitle: \"Portfolio\"\npermalink: /portfolio/\nauthor_profile: true\n---\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Upcoming Event</title>\n    <style>\n        body {\n            font-family: Arial, sans-serif;\n            text-align: center;\n            padding: 50px;\n        }\n        .announcement {\n            font-size: 24px;\n            margin-bottom: 20px;\n        }\n        .date {\n            font-size: 30px;\n            font-weight: bold;\n            margin-bottom: 10px;\n        }\n        .message {\n            font-size: 20px;\n        }\n    </style>\n</head>\n<body>\n    <div class=\"announcement\">\n        \uD83D\uDCC5 **Coming Soon**\n        <hr>\n        <div class=\"date\">======</div>\n        The narrative continues. ✨ **Mark your calendars for December 28** when the full story unfolds. \uD83C\uDF1F Your patience is greatly appreciated!\n    </div>\n</body>\n</html>\n\n\n\n\n#{% include base_path %}\n\n\n#{% for post in site.portfolio %}\n  #{% include archive-single.html %}\n#{% endfor %}\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/_pages/portfolio.html b/_pages/portfolio.html
+--- a/_pages/portfolio.html	(revision cce7f975512126d414f575ae9be7149539c99ffd)
++++ b/_pages/portfolio.html	(date 1734626475229)
+@@ -4,7 +4,6 @@
+ permalink: /portfolio/
+ author_profile: true
+ ---
+-<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
