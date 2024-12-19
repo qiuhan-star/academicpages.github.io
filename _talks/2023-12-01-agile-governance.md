@@ -37,7 +37,7 @@ Captured in the moment, sharing insights at a recent research event. 📸
 
 <style>
     #homeCarousel {
-        width: 100%;
+        width: 1400;
         height: 1400
         overflow: hidden;
         border: solid rgba(0, 0, 0, 0.1);
@@ -51,8 +51,6 @@ Captured in the moment, sharing insights at a recent research event. 📸
     }
     #homeCarousel #homeCarouselWrap>img {
         flex-shrink: 0;
-        width: 100%; /* 图片宽度调整为100%，以适应容器 */
-        height: auto; /* 高度自适应，保持图片比例 */
         cursor: pointer;
     }
     @keyframes move {
