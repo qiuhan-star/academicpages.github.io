@@ -61,7 +61,7 @@ Captured in the moment, sharing insights at a recent research event. 📸
     #homeCarouselWrap img {
         flex-shrink: 0; /* 防止图片缩小 */
         max-width: 100%; /* 确保图片宽度不超过容器宽度 */
-   5     max-height: 100%; /* 确保图片高度不超过容器高度 */
+        max-height: 100%; /* 确保图片高度不超过容器高度 */
         height: auto; /* 高度自适应 */
         cursor: pointer;
         object-fit: contain; /* 保持图片比例，完整显示在容器内 */
