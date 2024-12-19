@@ -7,13 +7,9 @@ venue: "The Hong Kong University of Science and Technology (HKUST)"
 date: 2023-12-01
 location: "Hong Kong, China"
 ---
-Captured in the moment, sharing insights at a recent research event. 📸
-<img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/talks/Talk-2023-12-01-1.PNG" alt="Talk 2023-12-01-1" title="Talk 2023-12-01-1">
-#Talk #AcademicLife
-
 [News Report](https://mp.weixin.qq.com/s/EuHTxNFZpdGGEOrvOj-RPg)
 
-
+Captured in the moment, sharing insights at a recent research event. 📸
 <div id="homeCarousel">
   <div id="homeCarouselWrap">
     <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/talks/Talk-2023-12-01-1.PNG">
@@ -25,12 +21,10 @@ Captured in the moment, sharing insights at a recent research event. 📸
     <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/talks/Talk-2023-12-01-3.PNG">
   </div>
 </div>
-
 <div id="modal">
   <span id="closeBtn">×</span>
   <img id="img2">
 </div>
-
 <style>
     #homeCarousel {
         width: 100%;
@@ -100,7 +94,6 @@ Captured in the moment, sharing insights at a recent research event. 📸
         }
     }
 </style>
-
 <script>
     document.getElementById('homeCarousel').addEventListener('click', function(e) {
       if(e.target.tagName === 'IMG') {
@@ -117,3 +110,4 @@ Captured in the moment, sharing insights at a recent research event. 📸
       modal.style.paddingTop = '0';
     });
 </script>
+#Talk #AcademicLife
