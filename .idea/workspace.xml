@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28ed89aa-cbd9-4763-b1bd-c9ac8a875645" name="更改" comment="Merge remote-tracking branch 'origin/master'" />
+    <list default="true" id="28ed89aa-cbd9-4763-b1bd-c9ac8a875645" name="更改" comment="Merge remote-tracking branch 'origin/master'">
+      <change afterPath="$PROJECT_DIR$/_pages/news-2022.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/news/2022-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/news/2022-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/news/2022-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,6 +88,7 @@
       <recent name="$PROJECT_DIR$/_game" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images/news" />
       <recent name="$PROJECT_DIR$/images/talks" />
       <recent name="$PROJECT_DIR$/game" />
       <recent name="$PROJECT_DIR$/_includes/footer" />
@@ -133,7 +140,7 @@
       <workItem from="1734523022678" duration="19914000" />
       <workItem from="1734575140660" duration="7104000" />
       <workItem from="1734584722972" duration="8681000" />
-      <workItem from="1734598911823" duration="6892000" />
+      <workItem from="1734598911823" duration="7205000" />
     </task>
     <task id="LOCAL-00429" summary="Merge remote-tracking branch 'origin/master'">
       <option name="closed" value="true" />
