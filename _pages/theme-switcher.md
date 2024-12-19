@@ -9,26 +9,19 @@ author_profile: true
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Theme Switcher</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 <style>
   * { box-sizing: border-box; }
 
   body {
     font-family: "Montserrat", sans-serif;
     background-color: #fff;
+    justify-content: center;
     transition: background 0.2s linear;
   }
 
   body.dark { background-color: #292c35; }
 
   body.dark h1, body.dark .support a { color: #fff; }
-
-  .theme-switcher {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    z-index: 1000;
-  }
 
   .checkbox {
     opacity: 0;
@@ -43,9 +36,6 @@ author_profile: true
     position: relative;
     padding: 5px;
     cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
   }
 
   .fa-moon { color: #f1c40f; }
@@ -72,7 +62,7 @@ author_profile: true
 
 <h1>Light/Dark Toggle<br>Button</h1>
 
-<div class="theme-switcher">
+<div>
   <input type="checkbox" class="checkbox" id="checkbox">
   <label for="checkbox" class="checkbox-label">
     <i class="fas fa-moon"></i>
