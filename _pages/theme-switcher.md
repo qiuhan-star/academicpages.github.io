@@ -3,7 +3,6 @@ permalink: /theme-switcher/
 title: "Theme Switcher"
 author_profile: true
 ---
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
