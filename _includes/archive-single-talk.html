@@ -1,3 +1,14 @@
+{% if page %}
+  <pre>
+    <code>
+      Start Date: {{ page.start_date }}
+      End Date: {{ page.end_date }}
+      Date: {{ page.date }}
+      Modified: {{ page.modified }}
+    </code>
+  </pre>
+{% endif %}
+
 {% include base_path %} <!-- 包含基础路径，用于设置URLs的根路径 -->
 
 {% if post.header.teaser %} <!-- 如果文章有自定义的teaser（预告图） -->
@@ -45,3 +56,6 @@
     显示文章摘要 -->
   </article>
 </div>
+
+
+
