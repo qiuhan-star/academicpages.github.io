@@ -8,9 +8,8 @@ date: 2024-04-19
 location: "Beijing, China"
 ---
 About the Conference
-==
+-
 The International Conference on Comparative Public Policy was jointly organized by the School of Public Policy and Management at Tsinghua University, the Journal of Comparative Policy Analysis (JCPA), and the International Comparative Policy Analysis Forum (ICPA-Forum).
-
 
 <style>
   /* 样式定义 */
@@ -27,7 +26,6 @@ The International Conference on Comparative Public Policy was jointly organized 
     text-decoration: underline;
   }
 </style>
-
 <script>
   function toggleReflections() {
     var content = document.getElementById('reflections-content');
@@ -38,12 +36,8 @@ The International Conference on Comparative Public Policy was jointly organized 
     }
   }
 </script>
-
-<!-- 标题和折叠内容的链接 -->
 <h2>Personal Insights</h2>
 <a href="#" onclick="toggleReflections()">Expand for Insights</a>
-
-<!-- 折叠内容 -->
 <div id="reflections-content" style="display:none;">
     <p>🇨🇳 Academic Journey at Tsinghua University～</p>
     <p>清华参会，收获满满！🌟</p>
@@ -75,7 +69,7 @@ Captured in the moment! 📸
 <style>
     #homeCarousel {
         width: 100%;
-        height: 1000px; /* 添加单位px */
+        height: 800px; /* 添加单位px */
         overflow: hidden;
         border: solid rgba(0, 0, 0, 0.1);
         position: relative;
