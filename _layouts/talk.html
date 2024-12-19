@@ -1,15 +1,15 @@
 ---
 layout: default
 ---
-{% include base_path %} <!-- 包含基础路径，通常用于设置URLs的根路径 -->
+{% include base_path %}
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
-  {% include page__hero.html %} <!-- 如果页面头部设置了覆盖颜色、覆盖图像或图像，则包含一个页面英雄部分（通常是页面的头部横幅） -->
+  {% include page__hero.html %}
 {% endif %}
 
 {% if page.url != "/" and site.breadcrumbs %}
   {% unless paginator %}
-    {% include breadcrumbs.html %} <!-- 如果页面不是首页并且启用了面包屑导航，则包含面包屑导航 -->
+    {% include breadcrumbs.html %}
   {% endunless %}
 {% endif %}
 
@@ -23,10 +23,9 @@ layout: default
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     <!-- 如果页面有摘要，则设置元数据，包含页面摘要 -->
 
-    {% elsif page.date %}
+    {% if page.date %}
       <meta itemprop="datePublished" content="{{ page.date | date: '%B %d, %Y' }}">
     {% endif %}
-
     {% if page.modified %}
       <meta itemprop="dateModified" content="{{ page.modified | date: '%B %d, %Y' }}">
     {% endif %}
@@ -41,16 +40,18 @@ layout: default
           {% endif %}
 
           {% if page.modified %}
-            <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.modified | date: '%Y-%m-%d' }}">{{ page.modified | date: '%B %d, %Y' }}</time></p>
+            <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.modified | date: '%Y-%m-%d' }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
             <!-- 显示修改日期 -->
           {% elsif page.date %}
-            <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %d, %Y' }}</time></p>
+            <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
             <!-- 显示发布日期 -->
           {% endif %}
 
-          {% if page.talk_type %}<p>{{page.talk_type}} at {{ page.venue }},  {{page.location}} {% endif %}</p>
+          {% if page.talk_type %}<p>{{page.talk_type}} at {{ page.venue }},  {{page.location}} {% endif %}
+          <!-- 如果设置了演讲类型、地点和位置，则显示这些信息 -->
         </header>
       {% endunless %}
+
 
       <section class="page__content" itemprop="text">
         {{ content }}
