@@ -1,27 +1,27 @@
----
-permalink: /theme-switcher/
-title: "Theme Switcher"
-author_profile: true
----
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Theme Switcher</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 <style>
   * { box-sizing: border-box; }
 
   body {
     font-family: "Montserrat", sans-serif;
     background-color: #fff;
-    justify-content: center;
     transition: background 0.2s linear;
   }
 
-  body.dark { background-color: #292c35; }
+  body.dark {
+    background-color: #292c35;
+  }
 
-  body.dark h1, body.dark .support a { color: #fff; }
+  body.dark h1, body.dark .support a {
+    color: #fff;
+  }
 
   .checkbox {
     opacity: 0;
@@ -33,14 +33,33 @@ author_profile: true
     width: 50px;
     height: 26px;
     border-radius: 50px;
-    position: relative;
+    position: fixed;
+    top: 20px;
+    right: 20px;
     padding: 5px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
   }
 
-  .fa-moon { color: #f1c40f; }
+  .fa-moon, .fa-sun {
+    color: #f1c40f;
+    position: absolute;
+    left: 5px;
+  }
 
-  .fa-sun { color: #f39c12; }
+  .fa-sun {
+    left: unset;
+    right: 5px;
+  }
+
+  .checkbox:checked + .checkbox-label .fa-moon {
+    display: none;
+  }
+
+  .checkbox:not(:checked) + .checkbox-label .fa-sun {
+    display: none;
+  }
 
   .checkbox-label .ball {
     background-color: #fff;
