@@ -74,7 +74,7 @@ Captured in the moment! 📸
     }
     #homeCarouselWrap {
         display: flex;
-        width: 75%; /* 确保宽度与父容器相同 */
+        width: 100%; /* 确保宽度与父容器相同 */
         position: absolute;
         animation: move 30s linear infinite;
     }
