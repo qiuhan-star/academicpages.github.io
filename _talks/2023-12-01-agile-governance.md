@@ -114,7 +114,7 @@ Captured in the moment, sharing insights at a recent research event. 📸
         document.getElementById('img2').src = e.target.src;
       }
     });
-    
+
     document.getElementById('closeBtn').addEventListener('click', function() {
       var modal = document.getElementById('modal');
       modal.style.top = '-100%';
