@@ -72,6 +72,7 @@ author_profile: true
 ### Social Service and Elderly Care Research  
 **Dec. 2019 - May. 2021**  
 **Research Team Leader | Second Prize in 2020 Map the System Competition, China Division (hosted by Oxford University); Third Prize in 17th “Challenge Cup” National College Students’ Extracurricular Academic Science and Technology Contest | “Social Service Construction for Southbound ‘Migrant Birds’: a ‘heartwarming’ design for the elderly migratory bird population”**  
+
 **Overview:** The project sought to evaluate the satisfaction of elderly ‘migratory birds’ in Hainan with public service facilities and to investigate the future trajectory of migratory elderly care services.  
 **My Contributions:**  
 - Led comprehensive field research in Haikou, Wenchang, and Sanya, regions in Hainan, China with a high concentration of elderly migrants, to study the living conditions and service needs of this population.  
