@@ -66,10 +66,13 @@ Photos
 Captured in the moment! 📸
 <div id="homeCarousel">
   <div id="homeCarouselWrap">
-    <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/talks/Talk-2023-12-01-1.PNG">
-    <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/talks/Talk-2023-12-01-2.PNG">
-    <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/talks/Talk-2023-12-01-3.PNG">
-    <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/talks/Talk-2023-12-01-4.PNG">
+    <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/talks/Talk-2024-04-19-1.JPG">
+    <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/talks/Talk-2024-04-19-2.JPG">
+    <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/talks/Talk-2024-04-19-3.JPG">
+    <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/talks/Talk-2024-04-19-4.JPG">
+    <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/talks/Talk-2024-04-19-5.JPG">
+    <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/talks/Talk-2024-04-19-6.JPG">
+    <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/talks/Talk-2024-04-19-7.JPG">
   </div>
 </div>
 <div id="modal">
@@ -79,7 +82,7 @@ Captured in the moment! 📸
 <style>
     #homeCarousel {
         width: 100%;
-        height: 1100px; /* 添加单位px */
+        height: 1000px; /* 添加单位px */
         overflow: hidden;
         border: solid rgba(0, 0, 0, 0.1);
         position: relative;
@@ -104,7 +107,7 @@ Captured in the moment! 📸
             transform: translateX(0);
         }
         100% {
-            transform: translateX(-300%); /* 调整为两张图片的总宽度 */
+            transform: translateX(-700%); /* 调整为两张图片的总宽度 */
         }
     }
     #homeCarouselWrap:hover {
