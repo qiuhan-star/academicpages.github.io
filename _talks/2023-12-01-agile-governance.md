@@ -63,7 +63,7 @@ News
 
 Photos
 -
-Captured in the moment, sharing insights at a recent research event. 📸
+Captured in the moment! 📸
 <div id="homeCarousel">
   <div id="homeCarouselWrap">
     <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/talks/Talk-2023-12-01-1.PNG">
