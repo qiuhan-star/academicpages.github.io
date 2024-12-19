@@ -23,13 +23,6 @@ layout: default
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     <!-- 如果页面有摘要，则设置元数据，包含页面摘要 -->
 
-    {% if page.start_date %}
-      {% if page.end_date %}
-        <meta itemprop="datePublished" content="{{ page.start_date | date: '%B %d, %Y' }} - {{ page.end_date | date: '%B %d, %Y' }}">
-      {% else %}
-        <meta itemprop="datePublished" content="{{ page.start_date | date: '%B %d, %Y' }}">
-      {% endif %}
-
     {% elsif page.date %}
       <meta itemprop="datePublished" content="{{ page.date | date: '%B %d, %Y' }}">
     {% endif %}
