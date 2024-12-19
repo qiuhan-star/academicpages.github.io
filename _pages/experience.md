@@ -4,15 +4,6 @@ title: "Experience"
 author_profile: true
 ---
 
-## Extracurricular Experience
-- **Class President**, 2024
-- **Volunteer**, Xiamen University Volunteers Association, Apr. 2023 - Present
-- **Member**, Student Union, Hainan University, 2018 - 2021
-- **Member**, Comprehensive Department, Independent Management Committee, Hainan University, 2018 - 2020
-- **Deputy Minister**, Practice Department, College Youth League Committee, 2019 - 2021
-- **Volunteer**, Youth Volunteers Association, Haikou City, Hainan Province, May. 2019 - Jan. 2020
-- **Volunteer**, Youth Volunteers Association, Hainan University, Mar. 2019 - Mar. 2020
-- **Volunteer**, High School Sunshine Volunteer Federation, Oct. 2016 - Jun. 2018
 
 ## RESEARCH EXPERIENCE
 ### Dongting Lake “10-Year Fishing Ban” Policy Research
@@ -153,8 +144,12 @@ author_profile: true
 - Effectively engaged with a diverse range of respondents, employing communication strategies to overcome objections and secure valuable insights for high-impact studies.
 - Utilized quantitative methods to ensure the representativeness and generalizability of the collected data.
 
-
-
-📅 **Coming Soon**
-======
-The narrative continues. ✨ **Mark your calendars for December 22** when the full story unfolds. 🌟 Your patience is greatly appreciated!
+## Extracurricular Experience
+- **Class President**, 2024
+- **Volunteer**, Xiamen University Volunteers Association, Apr. 2023 - Present
+- **Member**, Student Union, Hainan University, 2018 - 2021
+- **Member**, Comprehensive Department, Independent Management Committee, Hainan University, 2018 - 2020
+- **Deputy Minister**, Practice Department, College Youth League Committee, 2019 - 2021
+- **Volunteer**, Youth Volunteers Association, Haikou City, Hainan Province, May. 2019 - Jan. 2020
+- **Volunteer**, Youth Volunteers Association, Hainan University, Mar. 2019 - Mar. 2020
+- **Volunteer**, High School Sunshine Volunteer Federation, Oct. 2016 - Jun. 2018
