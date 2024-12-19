@@ -25,15 +25,13 @@ layout: default
 
     {% if page.start_date %}
       {% if page.end_date %}
-        <meta itemprop="datePublished" content="{{ page.start_date | date: "%B %d, %Y" }} - {{ page.end_date | date: "%B %d, %Y" }}">
-      {% else %}
-        <meta itemprop="datePublished" content="{{ page.start_date | date: "%B %d, %Y" }}">
+        <meta itemprop="datePublished" content="{{ page.start_date | date: '%B %d, %Y' }} - {{ page.end_date | date: '%B %d, %Y' }}">
       {% endif %}
-    {% elsif page.date %}
-      <meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">
+    {% if page.date %}
+      <meta itemprop="datePublished" content="{{ page.date | date: '%B %d, %Y' }}">
     {% endif %}
     {% if page.modified %}
-      <meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">
+      <meta itemprop="dateModified" content="{{ page.modified | date: '%B %d, %Y' }}">
     {% endif %}
 
     <div class="page__inner-wrap">
@@ -46,7 +44,7 @@ layout: default
           {% endif %}
 
           {% if page.modified %}
-            <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
+            <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.modified | date: '%Y-%m-%d' }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
             <!-- 显示修改日期 -->
           {% elsif page.date %}
             <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
