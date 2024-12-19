@@ -5,7 +5,6 @@ author_profile: true
 ---
 
 ## Extracurricular Experience
-
 - **Class President**, 2024
 - **Volunteer**, Xiamen University Volunteers Association, Apr. 2023 - Present
 - **Member**, Student Union, Hainan University, 2018 - 2021
@@ -17,7 +16,6 @@ author_profile: true
 
 
 ## RESEARCH EXPERIENCE
-
 ### Dongting Lake “10-Year Fishing Ban” Policy Research
 **Oct. 2023 - Present**
 - **Core Member of the MPA Case Study Research Team**
