@@ -67,7 +67,7 @@ Captured in the moment! 📸
 <style>
     #homeCarousel {
         width: 100%;
-        height: 800px; /* 添加单位px */
+        height: 400px; /* 添加单位px */
         overflow: hidden;
         border: solid rgba(0, 0, 0, 0.1);
         position: relative;
@@ -77,7 +77,7 @@ Captured in the moment! 📸
         display: flex;
         width: 75%; /* 确保宽度与父容器相同 */
         position: absolute;
-        animation: move 20s linear infinite;
+        animation: move 30s linear infinite;
     }
     #homeCarouselWrap img {
         flex-shrink: 0; /* 防止图片缩小 */
