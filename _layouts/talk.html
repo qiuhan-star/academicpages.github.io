@@ -25,13 +25,16 @@ layout: default
 
     {% if page.start_date %}
       {% if page.end_date %}
-        <meta itemprop="datePublished" content="{{ page.start_date | date: "%B %d, %Y" }} - {{ page.end_date | date: "%B %d, %Y" }}">
+        <meta itemprop="datePublished" content="{{ page.start_date | date: '%B %d, %Y' }} - {{ page.end_date | date: '%B %d, %Y' }}">
+      {% else %}
+        <meta itemprop="datePublished" content="{{ page.start_date | date: '%B %d, %Y' }}">
       {% endif %}
-    {% if page.date %}
-      <meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">
+    {% elsif page.date %}
+      <meta itemprop="datePublished" content="{{ page.date | date: '%B %d, %Y' }}">
     {% endif %}
+
     {% if page.modified %}
-      <meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">
+      <meta itemprop="dateModified" content="{{ page.modified | date: '%B %d, %Y' }}">
     {% endif %}
 
     <div class="page__inner-wrap">
