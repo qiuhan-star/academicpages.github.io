@@ -11,11 +11,7 @@ Captured in the moment, sharing insights at a recent research event. 📸
 <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/talks/Talk-2023-12-01-1.PNG" alt="Talk 2023-12-01-1" title="Talk 2023-12-01-1">
 #Talk #AcademicLife
 
-
-
 [News Report](https://mp.weixin.qq.com/s/EuHTxNFZpdGGEOrvOj-RPg)
-
-
 
 
 <div id="homeCarousel">
