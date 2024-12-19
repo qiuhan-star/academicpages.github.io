@@ -24,8 +24,7 @@
   }
 
   .checkbox {
-    opacity: 0;
-    position: absolute;
+    display: none;
   }
 
   .checkbox-label {
@@ -40,40 +39,44 @@
     cursor: pointer;
     display: flex;
     align-items: center;
+    justify-content: space-between;
   }
 
   .fa-moon, .fa-sun {
     color: #f1c40f;
+    transition: transform 0.2s linear;
+  }
+
+  .fa-moon {
     position: absolute;
-    left: 5px;
+    left: 2px;
   }
 
   .fa-sun {
-    left: unset;
-    right: 5px;
+    position: absolute;
+    right: 2px;
   }
 
   .checkbox:checked + .checkbox-label .fa-moon {
-    display: none;
+    transform: translateX(-100%);
   }
 
   .checkbox:not(:checked) + .checkbox-label .fa-sun {
-    display: none;
+    transform: translateX(100%);
   }
 
-  .checkbox-label .ball {
+  .ball {
     background-color: #fff;
     width: 22px;
     height: 22px;
-    position: absolute;
-    left: 2px;
-    top: 2px;
     border-radius: 50%;
+    position: absolute;
+    top: 2px;
     transition: transform 0.2s linear;
   }
 
   .checkbox:checked + .checkbox-label .ball {
-    transform: translateX(24px);
+    transform: translateX(26px);
   }
 </style>
 </head>
@@ -86,7 +89,7 @@
   <label for="checkbox" class="checkbox-label">
     <i class="fas fa-moon"></i>
     <i class="fas fa-sun"></i>
-    <span class="ball"></span>
+    <div class="ball"></div>
   </label>
 </div>
 
