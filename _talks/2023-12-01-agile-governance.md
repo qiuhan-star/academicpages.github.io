@@ -54,14 +54,14 @@ Captured in the moment, sharing insights at a recent research event. 📸
     }
     #homeCarouselWrap {
         display: flex;
-        width: 50%; /* 确保宽度与父容器相同 */
+        width: 75%; /* 确保宽度与父容器相同 */
         position: absolute;
         animation: move 10s linear infinite;
     }
     #homeCarouselWrap img {
         flex-shrink: 0; /* 防止图片缩小 */
         max-width: 100%; /* 确保图片宽度不超过容器宽度 */
-        max-height: 100%; /* 确保图片高度不超过容器高度 */
+   5     max-height: 100%; /* 确保图片高度不超过容器高度 */
         height: auto; /* 高度自适应 */
         cursor: pointer;
         object-fit: contain; /* 保持图片比例，完整显示在容器内 */
