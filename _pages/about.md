@@ -12,7 +12,8 @@ Hello there! I’m Han Qiu (邱涵), also known as Rachel. Occasionally, I step 
 I am a rigorously trained Master’s student in Public Administration at the [School of Public Affairs](https://spa.xmu.edu.cn/), [Xiamen University](https://www.xmu.edu.cn/), fortunate to be guided by [Professor Wenxuan Yu](https://spa.xmu.edu.cn/info/1237/3095.htm).
 
 I hold a B.S. degree in Public Service & Public Policy from [Arizona State University](https://www.asu.edu/) (2022) and a B.A. degree in Public Administration from [Hainan University](https://www.hainanu.edu.cn/) (2022), where I was fortunate to be mentored by [Professor Haiying Lin](https://haitc.hainanu.edu.cn/cslm/jzyg/szdw/xzgl.htm).
-My research interests broadly lie in the areas of public finance, public and nonprofit management, digital government, government transparency, information technology and politics, and environmental policy.
+
+My research interests broadly lie in the areas of public finance, public and nonprofit management, digital government, government transparency, information technology and politics, and environmental policy. [**Read More**](https://qiuhan-star.github.io/hanrachelqiu.github.io//protfolio/protfolio-1)
 
 I am actively seeking research opportunities and PhD positions for Fall 2025. If you are looking for a dedicated and self-motivated candidate, I’d be thrilled to connect. Please feel free to reach out to me at rachel.hanqiu@gmail.com!
 
