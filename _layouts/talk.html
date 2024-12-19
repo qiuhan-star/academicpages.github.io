@@ -54,11 +54,12 @@ layout: default
         </header>
       {% endunless %}
 
-      <!--下面不显示嘻嘻，要显示就去掉这行
+      <!--下面不显示嘻嘻
       <section class="page__content" itemprop="text">
         {{ content }} <!-- 显示页面内容 -->
+      <!-- 如果页面有链接，则显示链接
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
-        <!-- 如果页面有链接，则显示链接 -->
+       -->
       </section>
 
       <footer class="page__meta"> <!-- 页面元数据部分 -->
