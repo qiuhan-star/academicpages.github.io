@@ -17,38 +17,84 @@
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>
-        <!-- 在这里添加主题切换按钮 -->
-        <div class="theme-toggle">
-          <button id="light-toggle-dark">Dark Theme</button>
-          <button id="light-toggle-light">Light Theme</button>
-        </div>
       </nav>
     </div>
   </div>
 </div>
 
-<script>
-  function toggleTheme(theme) {
-  document.documentElement.setAttribute('data-theme', theme);
-  localStorage.setItem('theme', theme); // 保存用户选择的主题到本地存储
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap">
+<style>
+  * { box-sizing: border-box; }
+
+  body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #fff;
+    transition: background 0.2s linear;
   }
 
-  // 切换到深色主题
-  document.getElementById('light-toggle-dark').addEventListener('click', function() {
-    toggleTheme('dark');
-  });
+  body.dark { background-color: #292c35; }
 
-  // 切换到浅色主题
-  document.getElementById('light-toggle-light').addEventListener('click', function() {
-    toggleTheme('light');
-  });
+  body.dark h1, body.dark .support a { color: #fff; }
 
-  // 页面加载时，尝试从本地存储中恢复主题
-  document.addEventListener('DOMContentLoaded', function() {
-    var savedTheme = localStorage.getItem('theme');
-    if (savedTheme) {
-      toggleTheme(savedTheme);
-    }
-  });
+  .checkbox {
+    opacity: 0;
+  }
 
-  </script>
+  .checkbox-label {
+    background-color: #111;
+    width: 50px;
+    height: 26px;
+    border-radius: 50px;
+    position: relative;
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .fa-moon {
+    color: #f1c40f;
+    position: absolute;
+    left: 2px;
+    transition: transform 0.2s linear;
+  }
+
+  .fa-sun {
+    color: #f39c12;
+    position: absolute;
+    right: 2px;
+    transition: transform 0.2s linear;
+  }
+
+  .checkbox-label .ball {
+    background-color: #fff;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 2px;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+  }
+
+  .checkbox:checked + .checkbox-label .ball {
+    transform: translateX(26px);
+  }
+</style>
+
+<div>
+  <input type="checkbox" class="checkbox" id="checkbox">
+  <label for="checkbox" class="checkbox-label">
+    <i class="fas fa-moon"></i>
+    <i class="fas fa-sun"></i>
+    <span class="ball"></span>
+  </label>
+</div>
+
+<script type="text/javascript">
+  const checkbox = document.getElementById("checkbox");
+  checkbox.addEventListener("change", () => {
+    document.body.classList.toggle("dark");
+  });
+</script>
