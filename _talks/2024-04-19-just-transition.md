@@ -6,7 +6,6 @@ permalink: /talks/2024-04-19-just-transition
 venue: "Tsinghua University" #演讲地点
 location: "Beijing, China" #演讲地点
 start_date - end_date: 2024-04-19 - 2024-04-21
-modified: 2024-12-19
 ---
 
 
