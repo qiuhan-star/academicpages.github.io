@@ -15,9 +15,11 @@ author_profile: true
 - **Member**, Student Union, Hainan University, 2018 - 2021
 - **Member**, Comprehensive Department, Independent Management Committee, Hainan University, 2018 - 2020
 - **Deputy Minister**, Practice Department, College Youth League Committee, HAITC, 2019 - 2021
+
 ## Club Service
 - **Member and Project Organizer**, English Club, Hainan University, 2019 - 2022
 - **Member**, Photography Club, Hainan University, 2018 - 2019
+
 ## Volunteer Service
 - **Volunteer**, Volunteers Association, Xiamen University, Apr. 2023
 - **Volunteer**, Volunteers Association, School of Public Affairs, Xiamen University, Apr. 2023 - Present
