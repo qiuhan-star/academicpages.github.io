@@ -1,26 +1,20 @@
----
-permalink: /news-2022.html/
----
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>I've graduated!</title>
-</head>
 <body>
     <h1>I've graduated!</h1>
     <h2>Captured in the moment! 📸</h2>
     <div id="homeCarousel">
       <div id="homeCarouselWrap">
-        <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/news/2024-1.jpg" alt="Graduation photo 1">
-        <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/news/2024-2.jpg" alt="Graduation photo 2">
-        <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/news/2024-3.jpg" alt="Graduation photo 3">
-        <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/news/2024-4.jpg" alt="Graduation photo 4">
+        <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/news/2022-1.jpg" alt="Graduation photo 1">
+        <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/news/2022-2.jpg" alt="Graduation photo 2">
+        <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/news/2022-3.jpg" alt="Graduation photo 3">
+        <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/news/2022-4.jpg" alt="Graduation photo 4">
       </div>
     </div>
 <div id="modal">
   <span id="closeBtn">×</span>
   <img id="img2">
 </div>
+</body>
+
 <style>
     #homeCarousel {
         width: 100%;
@@ -28,40 +22,27 @@ permalink: /news-2022.html/
         overflow: hidden;
         border: solid rgba(0, 0, 0, 0.1);
         position: relative;
-        margin: 0 auto; /* 水平居中 */
-    }
+        margin: 0 auto; /* 水平居中 */    }
     #homeCarouselWrap {
         display: flex;
-        width: 75%; /* 确保宽度与父容器相同 */
-        position: absolute;
+        width: 400%; /* 确保宽度与父容器相同 */        position: absolute;
         animation: move 30s linear infinite;
     }
     #homeCarouselWrap img {
-        flex-shrink: 0; /* 防止图片缩小 */
-        max-width: 100%; /* 确保图片宽度不超过容器宽度 */
-        max-height: 100%; /* 确保图片高度不超过容器高度 */
-        height: auto; /* 高度自适应 */
-        cursor: pointer;
-        object-fit: contain; /* 保持图片比例，完整显示在容器内 */
-    }
+        flex-shrink: 0; /* 防止图片缩小 */        max-width: 100%; /* 确保图片宽度不超过容器宽度 */        max-height: 100%; /* 确保图片高度不超过容器高度 */        height: auto; /* 高度自适应 */        cursor: pointer;
+        object-fit: contain; /* 保持图片比例，完整显示在容器内 */    }
     @keyframes move {
         0% {
             transform: translateX(0);
         }
         100% {
-            transform: translateX(-400%); /* 调整为两张图片的总宽度 */
-        }
-    }
-    #homeCarouselWrap:hover {
-        animation-play-state: paused;
+            transform: translateX(-400%); /* 调整为四张图片的总宽度 */        }
     }
     #modal {
-        display: none; /* 默认不显示模态框 */
-        position: fixed;
+        display: none; /* 默认不显示模态框 */        position: fixed;
         z-index: 1;
         left: 0;
-        top: 0; /* 初始状态不应该是 top: -100% */
-        width: 100%;
+        top: 0; /* 初始状态不应该是 top: -100% */        width: 100%;
         height: 100%;
         overflow: auto;
         background-color: rgba(0, 0, 0, 0.9);
@@ -73,8 +54,7 @@ permalink: /news-2022.html/
         max-height: 80%;
         display: block;
         margin: 0 auto;
-        object-fit: contain; /* 保持图片比例，完整显示在模态框内 */
-    }
+        object-fit: contain; /* 保持图片比例，完整显示在模态框内 */    }
     #closeBtn {
         position: absolute;
         top: 5%;
@@ -90,6 +70,7 @@ permalink: /news-2022.html/
         }
     }
 </style>
+
 <script>
     document.getElementById('homeCarousel').addEventListener('click', function(e) {
       if(e.target.tagName === 'IMG') {
@@ -107,7 +88,3 @@ permalink: /news-2022.html/
     });
 </script>
 #Talk #AcademicLife
-
-
-</body>
-</html>
