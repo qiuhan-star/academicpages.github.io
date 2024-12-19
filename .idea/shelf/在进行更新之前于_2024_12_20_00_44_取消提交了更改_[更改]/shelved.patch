@@ -1,0 +1,24 @@
+Index: _pages/portfolio.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>---\nlayout: archive\ntitle: \"Portfolio\"\npermalink: /portfolio/\nauthor_profile: true\n---\n    <div class=\"announcement\">\n        \uD83D\uDCC5 **Coming Soon**\n        <hr>\n        <div class=\"date\">======</div>\n        The narrative continues. ✨\uD83C\uDF1F Your patience is greatly appreciated!\n    </div>\n\n\n#{% include base_path %}\n\n\n#{% for post in site.portfolio %}\n  #{% include archive-single.html %}\n#{% endfor %}\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/_pages/portfolio.html b/_pages/portfolio.html
+--- a/_pages/portfolio.html	(revision 64572fe3895fbd701293338350e949a721fc6265)
++++ b/_pages/portfolio.html	(date 1734626659415)
+@@ -10,7 +10,12 @@
+         <div class="date">======</div>
+         The narrative continues. ✨🌟 Your patience is greatly appreciated!
+     </div>
+-
++<div class="announcement">
++        📅 **Coming Soon**
++        <hr>
++        <div class="date">======</div>
++        The narrative continues. ✨🌟 Your patience is greatly appreciated!
++    </div>
+ 
+ #{% include base_path %}
+ 
