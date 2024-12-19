@@ -26,3 +26,22 @@
     </div>
   </div>
 </div>
+
+
+<script>
+    function toggleTheme(theme) {
+      if (theme === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'light');
+        localStorage.setItem('theme', 'light');
+      }
+    }
+
+    // 初始化主题
+    document.addEventListener('DOMContentLoaded', (event) => {
+      const currentTheme = localStorage.getItem('theme') || 'light';
+      toggleTheme(currentTheme);
+    });
+  </script>
