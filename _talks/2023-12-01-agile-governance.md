@@ -59,9 +59,9 @@ Captured in the moment, sharing insights at a recent research event. 📸
     }
     #homeCarouselWrap {
         display: flex;
-        width: 100%; /* 确保宽度与父容器相同 */
+        width: 25%; /* 确保宽度与父容器相同 */
         position: absolute;
-        animation: move 6s linear infinite;
+        animation: move 10s linear infinite;
     }
     #homeCarouselWrap img {
         flex-shrink: 0; /* 防止图片缩小 */
