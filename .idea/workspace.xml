@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28ed89aa-cbd9-4763-b1bd-c9ac8a875645" name="更改" comment="Merge remote-tracking branch 'origin/master'">
-      <change beforePath="$PROJECT_DIR$/_pages/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/portfolio.html" afterDir="false" />
-    </list>
+    <list default="true" id="28ed89aa-cbd9-4763-b1bd-c9ac8a875645" name="更改" comment="Merge remote-tracking branch 'origin/master'" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,32 +49,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript 调试.footer.html.executor&quot;: &quot;Run&quot;,
-    &quot;Python.scratch.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/qiuhan/PycharmProjects/hanrachelqiu.github.io/_experience&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;/Users/qiuhan/Library/Application Support/JetBrains/PyCharm2024.3/node/versions/22.12.0/bin/node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.29124236&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript 调试.footer.html.executor": "Run",
+    "Python.scratch.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/qiuhan/PycharmProjects/hanrachelqiu.github.io/_portfolio",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "/Users/qiuhan/Library/Application Support/JetBrains/PyCharm2024.3/node/versions/22.12.0/bin/node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.splitter.proportion": "0.29124236",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/新建临时文件&quot;: [
-      &quot;Python&quot;,
-      &quot;GitIgnore&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/新建临时文件": [
+      "Python",
+      "GitIgnore"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_experience" />
@@ -138,23 +136,7 @@
       <workItem from="1734584722972" duration="8681000" />
       <workItem from="1734598911823" duration="9932000" />
       <workItem from="1734611363966" duration="12912000" />
-      <workItem from="1734627594533" duration="305000" />
-    </task>
-    <task id="LOCAL-00543" summary="Merge remote-tracking branch 'origin/master'">
-      <option name="closed" value="true" />
-      <created>1734622626888</created>
-      <option name="number" value="00543" />
-      <option name="presentableId" value="LOCAL-00543" />
-      <option name="project" value="LOCAL" />
-      <updated>1734622626888</updated>
-    </task>
-    <task id="LOCAL-00544" summary="Merge remote-tracking branch 'origin/master'">
-      <option name="closed" value="true" />
-      <created>1734622742926</created>
-      <option name="number" value="00544" />
-      <option name="presentableId" value="LOCAL-00544" />
-      <option name="project" value="LOCAL" />
-      <updated>1734622742926</updated>
+      <workItem from="1734627594533" duration="628000" />
     </task>
     <task id="LOCAL-00545" summary="Merge remote-tracking branch 'origin/master'">
       <option name="closed" value="true" />
@@ -532,7 +514,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734627876074</updated>
     </task>
-    <option name="localTasksCounter" value="592" />
+    <task id="LOCAL-00592" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1734628124873</created>
+      <option name="number" value="00592" />
+      <option name="presentableId" value="LOCAL-00592" />
+      <option name="project" value="LOCAL" />
+      <updated>1734628124873</updated>
+    </task>
+    <task id="LOCAL-00593" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1734628214548</created>
+      <option name="number" value="00593" />
+      <option name="presentableId" value="LOCAL-00593" />
+      <option name="project" value="LOCAL" />
+      <updated>1734628214548</updated>
+    </task>
+    <option name="localTasksCounter" value="594" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
