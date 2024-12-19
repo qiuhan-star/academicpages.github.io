@@ -19,29 +19,36 @@
         <ul class="hidden-links hidden"></ul>
         <!-- 在这里添加主题切换按钮 -->
         <div class="theme-toggle">
-          <button id="light-toggle-dark" onclick="toggleTheme('dark')">Dark Mode</button>
-          <button id="light-toggle-light" onclick="toggleTheme('light')">Light Mode</button>
+          <button id="light-toggle-dark">Dark Theme</button>
+          <button id="light-toggle-light">Light Theme</button>
         </div>
       </nav>
     </div>
   </div>
 </div>
 
-
 <script>
-    function toggleTheme(theme) {
-      if (theme === 'dark') {
-        document.documentElement.setAttribute('data-theme', 'dark');
-        localStorage.setItem('theme', 'dark');
-      } else {
-        document.documentElement.setAttribute('data-theme', 'light');
-        localStorage.setItem('theme', 'light');
-      }
-    }
+  function toggleTheme(theme) {
+  document.documentElement.setAttribute('data-theme', theme);
+  localStorage.setItem('theme', theme); // 保存用户选择的主题到本地存储
+  }
 
-    // 初始化主题
-    document.addEventListener('DOMContentLoaded', (event) => {
-      const currentTheme = localStorage.getItem('theme') || 'light';
-      toggleTheme(currentTheme);
-    });
+  // 切换到深色主题
+  document.getElementById('light-toggle-dark').addEventListener('click', function() {
+    toggleTheme('dark');
+  });
+
+  // 切换到浅色主题
+  document.getElementById('light-toggle-light').addEventListener('click', function() {
+    toggleTheme('light');
+  });
+
+  // 页面加载时，尝试从本地存储中恢复主题
+  document.addEventListener('DOMContentLoaded', function() {
+    var savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+      toggleTheme(savedTheme);
+    }
+  });
+
   </script>
