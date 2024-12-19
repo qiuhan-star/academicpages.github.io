@@ -1,3 +1,8 @@
+---
+permalink: /theme-switcher/
+title: "Theme Switcher"
+author_profile: true
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
