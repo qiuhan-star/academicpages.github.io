@@ -12,39 +12,8 @@ News
 -
 [>Read More](https://mp.weixin.qq.com/s/EuHTxNFZpdGGEOrvOj-RPg)
 
-Thoughts
+Personal Insights
 -
-
-
-<style>
-  /* 样式定义 */
-  #reflections-content {
-    display: none; /* 默认不显示 */
-    padding: 15px;
-    border-left: 3px solid #ccc;
-    margin-left: 20px;
-  }
-  
-  /* 鼠标悬停在链接上时的样式 */
-  a:hover {
-    color: #007bff;
-    text-decoration: underline;
-  }
-</style>
-
-<script>
-  // JavaScript 函数来切换内容的显示和隐藏
-  function toggleReflections() {
-    var content = document.getElementById('reflections-content');
-    if (content.style.display === 'none') {
-      content.style.display = 'block';
-    } else {
-      content.style.display = 'none';
-    }
-  }
-</script>
-
-<h2>Personal Insights</h2>
 <a href="#" onclick="toggleReflections()">Expand for Insights</a>
 
 <div id="reflections-content" style="display: none;">
@@ -63,7 +32,23 @@ Thoughts
     Continue fighting![加油]💪💪</p>
 </div>
 
+<style>
+  #reflections-content {
+    display: none; /* 默认不显示 */
+    padding: 15px;
+    border-left: 3px solid #ccc;
+    margin-left: 20px;
+  }
+  
+  /* 鼠标悬停在链接上时的样式 */
+  a:hover {
+    color: #007bff;
+    text-decoration: underline;
+  }
+</style>
+
 <script>
+  // JavaScript 函数来切换内容的显示和隐藏
   function toggleReflections() {
     var content = document.getElementById('reflections-content');
     if (content.style.display === 'none') {
