@@ -7,7 +7,7 @@ venue: "Tsinghua University"
 date: 2024-04-19
 location: "Beijing, China"
 ---
-About the conference
+About the Conference
 ==
 The International Conference on Comparative Public Policy was jointly organized by the School of Public Policy and Management at Tsinghua University, the Journal of Comparative Policy Analysis (JCPA), and the International Comparative Policy Analysis Forum (ICPA-Forum).
 
@@ -29,7 +29,6 @@ The International Conference on Comparative Public Policy was jointly organized 
 </style>
 
 <script>
-  // JavaScript 函数来切换内容的显示和隐藏
   function toggleReflections() {
     var content = document.getElementById('reflections-content');
     if (content.style.display === 'none') {
@@ -45,20 +44,14 @@ The International Conference on Comparative Public Policy was jointly organized 
 <a href="#" onclick="toggleReflections()">Expand for Insights</a>
 
 <!-- 折叠内容 -->
-<div id="reflections-content">
-    <p>🇭🇰 Academic Journey at HKUST ~</p>
-    <p>作为硕士生，第一次参加学术会议！
-    我和我的合作者很幸运地以全场唯一的学生身份入选并参会～
-    非常感谢评审专家对我们的研究给予的肯定和宝贵机会[Salute]。</p>
-    <p>这次会议汇聚了来自世界不同地区的顶尖专家和学者，
-    他们带来了他们的智慧和独特见解，让人受益匪浅！
-    另外还结识了许多志同道合的小伙伴们💕～</p>
-    <p>感谢主办方的热情招待，
-    每一个细节都透露着温馨和专业，让人难以忘怀。
-    第二天自己参观了一下港科大校园，
-    饱览了校内融合的山海美景[哇]～</p>
-    <p>It marks both an ending and a beginning!
-    Continue fighting![加油]💪💪</p>
+<div id="reflections-content" style="display:none;">
+    <p>🇨🇳 Academic Journey at Tsinghua University～</p>
+    <p>清华参会，收获满满！🌟</p>
+    <p>🙌 衷心感谢讨论嘉宾的精彩点评和宝贵建议 - Truly Enlightening! 🤝🤝</p>
+    <p>👥 遇见了很多热情和有想法的小伙伴们，东道主的热情款待令人倍感温馨。</p>
+    <p>🍰 还品尝到了美味的茶歇小食～</p>
+    <p>🍰 还品尝到了美味的茶歇小食～</p>
+    <p>Homeward bound with passion and knowledge, ready to hustle! 💪✨</p>
 </div>
 
 Photos
@@ -92,7 +85,7 @@ Captured in the moment! 📸
         display: flex;
         width: 75%; /* 确保宽度与父容器相同 */
         position: absolute;
-        animation: move 10s linear infinite;
+        animation: move 20s linear infinite;
     }
     #homeCarouselWrap img {
         flex-shrink: 0; /* 防止图片缩小 */
