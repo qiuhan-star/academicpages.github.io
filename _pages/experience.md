@@ -3,8 +3,6 @@ permalink: /experience/
 title: "Experience"
 author_profile: true
 ---
-
-
 ## RESEARCH EXPERIENCE
 ### Dongting Lake “10-Year Fishing Ban” Policy Research
 **Oct. 2023 - Present**
