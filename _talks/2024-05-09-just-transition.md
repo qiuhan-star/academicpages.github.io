@@ -66,7 +66,7 @@ Captured in the moment! 📸
 <style>
     #homeCarousel {
         width: 100%;
-        height: 500px; /* 添加单位px */
+        height: 600px; /* 添加单位px */
         overflow: hidden;
         border: solid rgba(0, 0, 0, 0.1);
         position: relative;
