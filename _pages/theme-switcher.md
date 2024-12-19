@@ -3,33 +3,34 @@ permalink: /theme-switcher/
 title: "Theme Switcher"
 author_profile: true
 ---
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Theme Switcher</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 <style>
   * { box-sizing: border-box; }
 
   body {
     font-family: "Montserrat", sans-serif;
     background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    min-height: 100vh;
+    margin: 0;
     transition: background 0.2s linear;
   }
 
-  body.dark {
-    background-color: #292c35;
-  }
+  body.dark { background-color: #292c35; }
 
-  body.dark h1, body.dark .support a {
-    color: #fff;
-  }
+  body.dark h1, body.dark .support a { color: #fff; }
 
   .checkbox {
-    display: none;
+    opacity: 0;
   }
 
   .checkbox-label {
@@ -37,46 +38,35 @@ author_profile: true
     width: 50px;
     height: 26px;
     border-radius: 50px;
-    position: fixed;
-    top: 20px;
-    right: 20px;
+    position: relative;
     padding: 5px;
     cursor: pointer;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-  }
-
-  .fa-moon, .fa-sun {
-    color: #f1c40f;
-    transition: transform 0.2s linear;
+    align-items: center;
   }
 
   .fa-moon {
+    color: #f1c40f;
     position: absolute;
     left: 2px;
+    transition: transform 0.2s linear;
   }
 
   .fa-sun {
+    color: #f39c12; 
     position: absolute;
     right: 2px;
+    transition: transform 0.2s linear;
   }
 
-  .checkbox:checked + .checkbox-label .fa-moon {
-    transform: translateX(-100%);
-  }
-
-  .checkbox:not(:checked) + .checkbox-label .fa-sun {
-    transform: translateX(100%);
-  }
-
-  .ball {
+  .checkbox-label .ball {
     background-color: #fff;
     width: 22px;
     height: 22px;
-    border-radius: 50%;
     position: absolute;
     top: 2px;
+    border-radius: 50%;
     transition: transform 0.2s linear;
   }
 
@@ -94,7 +84,7 @@ author_profile: true
   <label for="checkbox" class="checkbox-label">
     <i class="fas fa-moon"></i>
     <i class="fas fa-sun"></i>
-    <div class="ball"></div>
+    <span class="ball"></span>
   </label>
 </div>
 
