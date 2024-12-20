@@ -44,8 +44,6 @@ As I was weighing the decision to pursue a PhD, I stumbled upon a phenomenal gam
 
 <span style="color: #888888;">**[May 2022]**</span> 🎓 **I've graduated!** *Summa Cum Laude Achievement with Heartfelt Thanks to My Supporters!* 🌟👩‍🎓>> [**View More**](https://qiuhan-star.github.io/hanrachelqiu.github.io//news-2022.html)
 
-
-
 **Show more...**
 <br><br>
 
