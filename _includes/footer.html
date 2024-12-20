@@ -137,10 +137,9 @@
   }
 </style>
 
-<!-- var startTime = new Date('2024-12-13T00:00:00Z').getTime(); -->
 <script>
 function updateUptime() {
-  var startTime = new Date('2024-12-19T00:00:00Z').getTime();
+  var startTime = new Date('2024-12-19T00:00:00Z').getTime(); /* var startTime = new Date('2024-12-13T00:00:00Z').getTime(); */
   var currentTime = new Date().getTime();
   var timeDiff = currentTime - startTime;
   var days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
