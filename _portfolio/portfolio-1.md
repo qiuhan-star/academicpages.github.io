@@ -5,6 +5,10 @@ collection: portfolio
 permalink: /protfolio/protfolio-1
 ---
 ## **The Evolution of My Research Interests**
+<img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/portfolio/My Research Interests.jpg">
+
+
+
 Reflecting on my previous academic journey, it may seem broad in scope, but I see it as a natural evolution of my interests within the field of public policy and administration. My passion for exploration has been the compass guiding my studies, and the experiences I’ve gathered have greatly enriched my understanding and perspectives. Therefore, I would like to offer a more detailed account of how my research interests have evolved, in the hope that this will help you know me better.
 
 **During my undergraduate studies**, my focus was on <u>local government responsiveness, transparency, and message strategy</u>. My role as a <u>research assistant</u> allowed me to delve into the realms of <u>collaborative governance and public service provision</u>. It was also during this time that my passion for <u>environmental and sustainability policies</u>, particularly in the area of <u>river and water governance</u>, was ignited through my participation in extracurricular activities and volunteer work. Furthermore, my undergraduate experience was enriched by social practice research, which cultivated a strong interest in services designed for the elderly. This research underscored the importance of tailoring public policies to meet the unique needs of this demographic. Through these diverse experiences, I learned the importance of aligning public policy with the specific needs of different community segments, a lesson that has been central to my academic and professional growth.
