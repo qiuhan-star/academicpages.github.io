@@ -9,6 +9,14 @@ permalink: /protfolio/protfolio-2
 
 The narrative continues. ✨🌟 Your patience is greatly appreciated!
 
+<details>
+  <summary>中文请点击这里查看内容</summary>
+
+  这里是折叠的内容，你可以写上你想要隐藏或展示的信息。当读者点击“点击这里查看内容”时，这部分内容就会展开。
+
+  折叠部分可以包含文字、图片、代码块甚至是列表等Markdown支持的内容。
+</details>
+
 
 
 
