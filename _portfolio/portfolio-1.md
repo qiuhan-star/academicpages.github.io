@@ -27,8 +27,9 @@ permalink: /protfolio/protfolio-1
 
 <script>
 function goBack() {
-  window.location.href = 'https://qiuhan-star.github.io/hanrachelqiu.github.io//portfolio/'; // 替换成你想要重定向的URL
+  window.history.back(); // 使用这个方法来返回到浏览器的上一页
 }
 </script>
 
 </body>
+

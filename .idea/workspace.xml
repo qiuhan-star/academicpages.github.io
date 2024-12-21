@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28ed89aa-cbd9-4763-b1bd-c9ac8a875645" name="更改" comment="Merge remote-tracking branch 'origin/master'">
-      <change beforePath="$PROJECT_DIR$/_portfolio/portfolio-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/_portfolio/portfolio-1.md" afterDir="false" />
-    </list>
+    <list default="true" id="28ed89aa-cbd9-4763-b1bd-c9ac8a875645" name="更改" comment="Merge remote-tracking branch 'origin/master'" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -154,31 +152,7 @@
       <workItem from="1734764250863" duration="1306000" />
       <workItem from="1734767910052" duration="1106000" />
       <workItem from="1734770147919" duration="282000" />
-      <workItem from="1734784491304" duration="356000" />
-    </task>
-    <task id="LOCAL-00596" summary="Merge remote-tracking branch 'origin/master'">
-      <option name="closed" value="true" />
-      <created>1734628422571</created>
-      <option name="number" value="00596" />
-      <option name="presentableId" value="LOCAL-00596" />
-      <option name="project" value="LOCAL" />
-      <updated>1734628422571</updated>
-    </task>
-    <task id="LOCAL-00597" summary="Merge remote-tracking branch 'origin/master'">
-      <option name="closed" value="true" />
-      <created>1734628484568</created>
-      <option name="number" value="00597" />
-      <option name="presentableId" value="LOCAL-00597" />
-      <option name="project" value="LOCAL" />
-      <updated>1734628484568</updated>
-    </task>
-    <task id="LOCAL-00598" summary="Merge remote-tracking branch 'origin/master'">
-      <option name="closed" value="true" />
-      <created>1734628581747</created>
-      <option name="number" value="00598" />
-      <option name="presentableId" value="LOCAL-00598" />
-      <option name="project" value="LOCAL" />
-      <updated>1734628581747</updated>
+      <workItem from="1734784491304" duration="717000" />
     </task>
     <task id="LOCAL-00599" summary="Merge remote-tracking branch 'origin/master'">
       <option name="closed" value="true" />
@@ -548,7 +522,31 @@
       <option name="project" value="LOCAL" />
       <updated>1734784592882</updated>
     </task>
-    <option name="localTasksCounter" value="645" />
+    <task id="LOCAL-00645" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1734784865264</created>
+      <option name="number" value="00645" />
+      <option name="presentableId" value="LOCAL-00645" />
+      <option name="project" value="LOCAL" />
+      <updated>1734784865264</updated>
+    </task>
+    <task id="LOCAL-00646" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1734784879481</created>
+      <option name="number" value="00646" />
+      <option name="presentableId" value="LOCAL-00646" />
+      <option name="project" value="LOCAL" />
+      <updated>1734784879481</updated>
+    </task>
+    <task id="LOCAL-00647" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1734785050612</created>
+      <option name="number" value="00647" />
+      <option name="presentableId" value="LOCAL-00647" />
+      <option name="project" value="LOCAL" />
+      <updated>1734785050612</updated>
+    </task>
+    <option name="localTasksCounter" value="648" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
