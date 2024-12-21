@@ -10,7 +10,7 @@ permalink: /protfolio/protfolio-1
 <style>
   .back-button {
     position: absolute;
-    right: 20px; /* 将按钮放置在页面的右侧 */
+    right: 10px; /* 将按钮放置在页面的右侧 */
     padding: 8px 15px;
     font-size: 14px;
     cursor: pointer;
