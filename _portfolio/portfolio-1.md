@@ -23,15 +23,10 @@ permalink: /protfolio/protfolio-1
   }
 </style>
 
-<body>
-
 <button class="back-button" onclick="goBack()">Back</button>
 
 <script>
-// JavaScript函数，用于返回上一页
 function goBack() {
-  window.history.back();
+  window.location.href = 'https://qiuhan-star.github.io/hanrachelqiu.github.io//portfolio/'; // 替换成你想要重定向的URL
 }
 </script>
-
-</body>
