@@ -73,14 +73,49 @@ You can access Rachel's latest C.V. [here](https://raw.githubusercontent.com/qiu
 
 <button class="collapsible">Service and leadership</button>
 <div class="content">
-  <!-- Service and leadership content here -->
-  <ul>
-    {% for service in site.services reversed %}
-      {% include service.content_path %}
-    {% endfor %}
-  </ul>
-</div>
 
+<h2 class="section-title">Journal Services</h2>
+<h3 class="sub-section-title">Reviewing Activities for Journal</h3>
+<ul>
+    <li><span class="role">Reviewer</span>: Journal of Computer Sciences and Informatics (2024)</li>
+</ul>
+
+<h2 class="section-title">Memberships</h2>
+<ul>
+    <li>Student member, ICPA-Forum Membership - JCPA & Scholarly Society for ICPA, Beijing, CN, 2023-02-22 to 2024-02-02.</li>
+</ul>
+
+<h2 class="section-title">Student Organization Service</h2>
+<ul>
+    <li><span class="role">Class President</span>, 2024 - 2025</li>
+    <li><span class="role">Member</span>, Student Union, Hainan University, 2018 - 2021</li>
+    <li><span class="role">Member</span>, Comprehensive Department, Independent Management Committee, Hainan University, 2018 - 2020</li>
+    <li><span class="role">Deputy Minister</span>, Practice Department, College Youth League Committee, HAITC, 2019 - 2021</li>
+</ul>
+
+<h2 class="section-title">Club Service</h2>
+<ul>
+    <li><span class="role">Member and Project Organizer</span>, English Club, Hainan University, 2019 - 2022</li>
+    <li><span class="role">Member</span>, Photography Club, Hainan University, 2018 - 2019</li>
+</ul>
+
+<h2 class="section-title">Volunteer Service</h2>
+<ul>
+    <li>Volunteers Association, Xiamen University, Apr. 2023</li>
+    <li>Volunteers Association, School of Public Affairs, Xiamen University, Apr. 2023 - Present</li>
+    <li>Youth Volunteers Association, Haikou City, Hainan Province, May 2019 - Jan. 2020</li>
+    <li>Youth Volunteers Association, Hainan University, Mar. 2019 - Mar. 2020</li>
+    <li>High School Sunshine Volunteer Federation, Oct. 2016 - Jun. 2018</li>
+</ul>
+
+<h2 class="section-title">Community Service</h2>
+<ul>
+    <li><span class="role">Environmental Protection</span>: Engaged in the <span class="role">Haikou Mother River Project</span>, with a primary focus on the conservation of wetlands and the preservation of <span class="role">mangrove ecosystems</span>. Delivered <span class="role">environmental education sessions</span> and initiated community-driven programs for waste sorting and recycling to advance sustainable waste management.</li>
+    <li><span class="role">Elderly Outreach</span>: Regularly visited elderly residents in the local community, offering companionship, assistance with daily tasks, and organizing activities to enhance their quality of life.</li>
+    <li><span class="role">Business Assistance for Free Trade Zone Merchants</span>: Provided <span class="role">English language assistance</span> to merchants in the free trade zone, enhancing their ability to communicate with foreign visitors and contribute to the development of <span class="role">multicultural marketing strategies</span>.</li>
+    <li><span class="role">Education and Mentorship</span>: Offered <span class="role">targeted Chinese language education</span> to children in <span class="role">Mengman Town, Xishuangbanna</span>, tailored to overcome the challenges of Mandarin acquisition among native speakers. <span class="role">Provided in-depth tutoring</span> and <span class="role">academic guidance</span> within the community, with a focus on college preparation and specialized subject coaching to support educational development.</li>
+    <li><span class="role">COVID-19 Community Response</span>: <strong>Led initiatives</strong> for the distribution of personal protective equipment (PPE), organized <strong>daily temperature screenings</strong>, and managed health code verifications to ensure community safety. <strong>Raised funds</strong> and donated essential supplies, including masks, to support at-risk populations and front-line workers. Conducted vaccination awareness campaigns to promote community health and immunity.</li>
+</ul>
 </div>
 
 <button class="collapsible">Work experience</button>
