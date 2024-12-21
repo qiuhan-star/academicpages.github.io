@@ -6,6 +6,10 @@ permalink: /protfolio/protfolio-1
 ---
 <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/portfolio/My Research Interests.jpg">
 
+
+<br>
+<br>
+
 <style>
   .container {
     position: relative; /* 父元素设置为相对定位 */
@@ -15,7 +19,7 @@ permalink: /protfolio/protfolio-1
   }
   .back-button {
     position: absolute;
-    right: 10px; /* 将按钮放置在父元素的右侧 */
+    right: 5px; /* 将按钮放置在父元素的右侧 */
     padding: 8px 15px;
     font-size: 14px;
     cursor: pointer;
