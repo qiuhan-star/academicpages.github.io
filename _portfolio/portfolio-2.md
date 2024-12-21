@@ -11,7 +11,7 @@ The narrative continues. ✨🌟 Your patience is greatly appreciated!
 
 
 <details>
-  <summary>中文请点击这里查看内容</summary>
+  <summary>请点击这里查看中文内容</summary>
 
   我选择攻读博士学位，其实是我学习成长过程的一个自然延伸，也受到了周围环境和一些榜样的影响。在本科和硕士阶段，我不仅学到了很多理论知识，还通过实习和参与研究项目，获得了实际操作的经验。这些经历让我对公共政策领域有了更深的理解，同时也让我认识到，如果我想在这个领域做出真正的贡献，我需要更深入的研究和更专业的训练。<br>
 <br>
