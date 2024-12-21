@@ -6,7 +6,6 @@ permalink: /protfolio/protfolio-1
 ---
 <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/portfolio/My Research Interests.jpg">
 
-
 <style>
   /* 简单的CSS样式 */
   .back-button {
@@ -22,6 +21,7 @@ permalink: /protfolio/protfolio-1
     margin: 20px;
   }
 </style>
+<body>
 
 <button class="back-button" onclick="goBack()">Back</button>
 
@@ -30,3 +30,5 @@ function goBack() {
   window.location.href = 'https://qiuhan-star.github.io/hanrachelqiu.github.io//portfolio/'; // 替换成你想要重定向的URL
 }
 </script>
+
+</body>
