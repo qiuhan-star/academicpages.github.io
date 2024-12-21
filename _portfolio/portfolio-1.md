@@ -6,11 +6,13 @@ permalink: /protfolio/protfolio-1
 ---
 <img src="https://raw.githubusercontent.com/qiuhan-star/hanrachelqiu.github.io/master/images/portfolio/My Research Interests.jpg">
 
+
 <style>
-  /* 简单的CSS样式 */
   .back-button {
-    padding: 10px 20px;
-    font-size: 16px;
+    position: absolute;
+    right: 20px; /* 将按钮放置在页面的右侧 */
+    padding: 8px 15px;
+    font-size: 14px;
     cursor: pointer;
     background-color: #4CAF50; /* 绿色背景 */
     color: white; /* 白色文字 */
@@ -18,7 +20,6 @@ permalink: /protfolio/protfolio-1
     border-radius: 5px;
     text-align: center;
     display: inline-block;
-    margin: 20px;
   }
 </style>
 <body>
