@@ -75,7 +75,7 @@ You can access Rachel's latest C.V. [here](https://raw.githubusercontent.com/qiu
 <div class="content">
 <!-- Service and leadership content here -->
   <ul>{% for post in site.services reversed %}
-    {% include archive-single-talk-cv.html  %}
+    {% include services.md  %}
   {% endfor %}</ul>
 </div>
 
@@ -84,46 +84,44 @@ You can access Rachel's latest C.V. [here](https://raw.githubusercontent.com/qiu
 <button class="collapsible">Work experience</button>
 <div class="content">
   <p>Hello, this page is currently being updated and is expected to be ready by December 22, 2024. Thank you for your patience.</p>
+  <h2 class="company">Hangzhou Basic Interior Design & Construction Co., Ltd. (Zhejiang, China)</h2>
+  <h3 class="position">Head of Data Planning Department (Full-time)</h3>
+  <p class="duration">Duration: Jun. 2023 - Sep. 2023</p>
+  <ul>
+        <li>Spearheaded the collection and synthesis of data from internal databases and market research reports, utilizing statistical methods to ensure data accuracy and relevance.</li>
+        <li>Expertly managed and organized data using Excel, creating spreadsheets with formulas and pivot tables to streamline data analysis and improve data integrity.</li>
+        <li>Crafted comprehensive reports and infographics, and presented findings via PowerPoint to simplify complex data for team comprehension.</li>
+        <li>Delivered strategic data interpretations, leveraging statistical models to forecast trends and inform executive decision-making, resulting in more informed and data-driven strategic planning sessions.</li>
+  </ul>
 
-**Hangzhou Basic Interior Design & Construction Co., Ltd.** (Zhejiang, China)
+  <h3 class="position">Assistant to the Chief Financial Office (Full-time)</h3>
+  <p class="duration">Duration: Jun. 2022 - Aug. 2022</p>
+  <ul>
+        <li>Supported the CFO in managing the company’s financial operations, ensuring compliance with financial policies and procedures.</li>
+        <li>Analyzed financial data, identifying trends and quantifiable improvement areas within financial statements, budgets, and cash flow projections.</li>
+        <li>Contributed to monthly financial reporting, leveraging analytical skills to present clear, data-driven insights.</li>
+        <li>Assisted in the management of accounts payable and receivable, enhancing payment efficiency and cash flow through targeted quantitative strategies.</li>
+  </ul>
 
-**Head of Data Planning Department** (Full-time)
+  <h2 class="company">Zhejiang Yiming Food Co., Ltd (Zhejiang, China)</h2>
+  <h3 class="position">Executive Assistant to the COO and CFO (Full-time Intern)</h3>
+  <p class="duration">Duration: Dec. 2021 - Apr. 2022</p>
+  <ul>
+        <li>Optimized COO’s schedule by planning itineraries and coordinating meetings.</li>
+        <li>Assisted COO in strategic planning, leading to the development of public relations strategies.</li>
+        <li>Supported CFO in budgeting and cost control, analyzing financial data to inform strategic financial decisions and optimize resource allocation within the company.</li>
+        <li>Assisted the CFO in executing comprehensive market research and analysis, facilitating informed strategic financial planning and decision-making.</li>
+  </ul>
 
-**Duration:** Jun. 2023 - Sep. 2023
-- Spearheaded the collection and synthesis of data from internal databases and market research reports, utilizing statistical methods to ensure data accuracy and relevance.
-- Expertly managed and organized data using Excel, creating spreadsheets with formulas and pivot tables to streamline data analysis and improve data integrity.
-- Crafted comprehensive reports and infographics, and presented findings via PowerPoint to simplify complex data for team comprehension.
-- Delivered strategic data interpretations, leveraging statistical models to forecast trends and inform executive decision-making, resulting in more informed and data-driven strategic planning sessions.
-
-**Assistant to the Chief Financial Office** (Full-time)
-
-**Duration:** Jun. 2022 - Aug. 2022
-- Supported the CFO in managing the company’s financial operations, ensuring compliance with financial policies and procedures.
-- Analyzed financial data, identifying trends and quantifiable improvement areas within financial statements, budgets, and cash flow projections.
-- Contributed to monthly financial reporting, leveraging analytical skills to present clear, data-driven insights.
-- Assisted in the management of accounts payable and receivable, enhancing payment efficiency and cash flow through targeted quantitative strategies.
-
-**Zhejiang Yiming Food Co., Ltd**  (Zhejiang, China)
-
-**Executive Assistant to the COO and CFO** (Full-time Intern)
-
-**Duration:** Dec. 2021 - Apr. 2022
-- Optimized COO’s schedule by planning itineraries and coordinating meetings.
-- Assisted COO in strategic planning, leading to the development of public relations strategies.
-- Supported CFO in budgeting and cost control, analyzing financial data to inform strategic financial decisions and optimize resource allocation within the company.
-- Assisted the CFO in executing comprehensive market research and analysis, facilitating informed strategic financial planning and decision-making.
-
-**National Survey Research Center (NSRC) at Renmin University of China** (Online)
-
-**Telephone Interviewer** (Part-time Intern)
-
-**Duration:** Mar. 2021 - Dec. 2021
-- Conducted telephone interviews for high-impact surveys, including a national study on the comprehensive effects of the COVID-19 pandemic and a nationwide employment survey of 2021 university graduates.
-- Maintained a 98% accuracy rate in collecting over 200 detailed survey samples, contributing to the reliability of research findings.
-- Effectively engaged with a diverse range of respondents, employing communication strategies to overcome objections and secure valuable insights for high-impact studies.
-- Utilized quantitative methods to ensure the representativeness and generalizability of the collected data.
-
-
+  <h2 class="company">National Survey Research Center (NSRC) at Renmin University of China (Online)</h2>
+  <h3 class="position">Telephone Interviewer (Part-time Intern)</h3>
+  <p class="duration">Duration: Mar. 2021 - Dec. 2021</p>
+  <ul>
+        <li>Conducted telephone interviews for high-impact surveys, including a national study on the comprehensive effects of the COVID-19 pandemic and a nationwide employment survey of 2021 university graduates.</li>
+        <li>Maintained a 98% accuracy rate in collecting over 200 detailed survey samples, contributing to the reliability of research findings.</li>
+        <li>Effectively engaged with a diverse range of respondents, employing communication strategies to overcome objections and secure valuable insights for high-impact studies.</li>
+        <li>Utilized quantitative methods to ensure the representativeness and generalizability of the collected data.</li>
+  </ul>
 </div>
 
 <script>
