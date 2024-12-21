@@ -18,7 +18,6 @@ permalink: /protfolio/protfolio-1
   }
   .back-button {
     position: absolute;
-    right: 5px; /* 将按钮放置在父元素的右侧 */
     padding: 8px 15px;
     font-size: 14px;
     cursor: pointer;
