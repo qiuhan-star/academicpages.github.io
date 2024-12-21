@@ -73,17 +73,18 @@ You can access Rachel's latest C.V. [here](https://raw.githubusercontent.com/qiu
 
 <button class="collapsible">Service and leadership</button>
 <div class="content">
-<!-- Service and leadership content here -->
-  <ul>{% for post in site.services reversed %}
-    {% include services.md  %}
-  {% endfor %}</ul>
+  <!-- Service and leadership content here -->
+  <ul>
+    {% for service in site.services reversed %}
+      {% include service.content_path %}
+    {% endfor %}
+  </ul>
 </div>
 
 </div>
 
 <button class="collapsible">Work experience</button>
 <div class="content">
-  <p>Hello, this page is currently being updated and is expected to be ready by December 22, 2024. Thank you for your patience.</p>
   <h2 class="company">Hangzhou Basic Interior Design & Construction Co., Ltd. (Zhejiang, China)</h2>
   <h3 class="position">Head of Data Planning Department (Full-time)</h3>
   <p class="duration">Duration: Jun. 2023 - Sep. 2023</p>
