@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28ed89aa-cbd9-4763-b1bd-c9ac8a875645" name="更改" comment="Merge remote-tracking branch 'origin/master'" />
+    <list default="true" id="28ed89aa-cbd9-4763-b1bd-c9ac8a875645" name="更改" comment="Merge remote-tracking branch 'origin/master'">
+      <change beforePath="$PROJECT_DIR$/_portfolio/portfolio-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/_portfolio/portfolio-1.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -152,14 +154,7 @@
       <workItem from="1734764250863" duration="1306000" />
       <workItem from="1734767910052" duration="1106000" />
       <workItem from="1734770147919" duration="282000" />
-    </task>
-    <task id="LOCAL-00595" summary="Merge remote-tracking branch 'origin/master'">
-      <option name="closed" value="true" />
-      <created>1734628362872</created>
-      <option name="number" value="00595" />
-      <option name="presentableId" value="LOCAL-00595" />
-      <option name="project" value="LOCAL" />
-      <updated>1734628362872</updated>
+      <workItem from="1734784491304" duration="356000" />
     </task>
     <task id="LOCAL-00596" summary="Merge remote-tracking branch 'origin/master'">
       <option name="closed" value="true" />
@@ -545,7 +540,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734770402542</updated>
     </task>
-    <option name="localTasksCounter" value="644" />
+    <task id="LOCAL-00644" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1734784592882</created>
+      <option name="number" value="00644" />
+      <option name="presentableId" value="LOCAL-00644" />
+      <option name="project" value="LOCAL" />
+      <updated>1734784592882</updated>
+    </task>
+    <option name="localTasksCounter" value="645" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
