@@ -10,14 +10,8 @@ permalink: /protfolio/protfolio-1
 <br>
 
 <style>
-  .container {
-    position: relative; /* 父元素设置为相对定位 */
-    width: 100%; /* 父元素宽度设置为100% */
-    height: 100vh; /* 父元素高度设置为视口高度 */
-    padding-right: 40px; /* 为了防止按钮覆盖内容，可以添加一些内边距 */
-  }
+  /* 简单的CSS样式 */
   .back-button {
-    position: absolute;
     padding: 8px 15px;
     font-size: 14px;
     cursor: pointer;
@@ -27,6 +21,7 @@ permalink: /protfolio/protfolio-1
     border-radius: 5px;
     text-align: center;
     display: inline-block;
+    margin: 20px;
   }
 </style>
 
