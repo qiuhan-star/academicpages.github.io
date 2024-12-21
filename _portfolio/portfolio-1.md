@@ -27,16 +27,16 @@ permalink: /protfolio/protfolio-1
     display: inline-block;
   }
 </style>
+
 <body>
 
-<button class="back-button" onclick="goBack()">Back</button>
+<button class="back-button" onclick="goBack()">Back to Portfolio</button>
 
 <script>
 function goBack() {
   window.location.href = 'https://qiuhan-star.github.io/hanrachelqiu.github.io//portfolio/';
 }
 </script>
-
 
 </body>
 
