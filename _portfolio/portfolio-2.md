@@ -24,15 +24,8 @@ The narrative continues. ✨🌟 Your patience is greatly appreciated!
 <br>
 
 <style>
-  .container {
-    position: relative; /* 父元素设置为相对定位 */
-    width: 100%; /* 父元素宽度设置为100% */
-    height: 100vh; /* 父元素高度设置为视口高度 */
-    padding-right: 40px; /* 为了防止按钮覆盖内容，可以添加一些内边距 */
-  }
+  /* 简单的CSS样式 */
   .back-button {
-    position: absolute;
-    right: 10px; /* 将按钮放置在父元素的右侧 */
     padding: 8px 15px;
     font-size: 14px;
     cursor: pointer;
@@ -42,6 +35,7 @@ The narrative continues. ✨🌟 Your patience is greatly appreciated!
     border-radius: 5px;
     text-align: center;
     display: inline-block;
+    margin: 20px;
   }
 </style>
 
