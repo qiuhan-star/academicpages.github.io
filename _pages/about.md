@@ -49,7 +49,7 @@ As I was weighing the decision to pursue a PhD, I stumbled upon a phenomenal gam
 
 📅 **Coming Soon**
 ======
-The narrative continues. ✨ **Mark your calendars for December 28** when the full story unfolds. 🌟 Your patience is greatly appreciated!
+The narrative continues. ✨ **Mark your calendars for January 10** when the full story unfolds. 🌟 Your patience is greatly appreciated!
 
 
 
